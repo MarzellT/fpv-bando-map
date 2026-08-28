@@ -1,5 +1,7 @@
 # FPV Bando Map — Germany
 
+**→ [marzellt.github.io/fpv-bando-map](https://marzellt.github.io/fpv-bando-map/)**
+
 An interactive map of FPV **bando** (abandoned-building / lost-place) flying spots across Germany,
 with a **high-resolution, dynamically-tiled satellite layer**. Built as a proper web app so the
 satellite streams real map tiles on demand — something a sandboxed artifact can't do.
@@ -15,7 +17,7 @@ straight into a maps app.
 
 ## Run
 
-Needs Node 20+ and npm.
+Needs Node 22.12+ and npm.
 
 ```bash
 npm install
@@ -30,6 +32,29 @@ npm run preview    # serve the built bundle
 ```
 
 `dist/` is self-contained static files — host it anywhere (GitHub Pages, Netlify, an S3 bucket…).
+
+## Quality gates
+
+```bash
+npm run check        # format:check + lint + typecheck, the same three CI runs
+npm run format       # Prettier, write
+npm run lint:fix     # ESLint, autofix
+```
+
+- **Prettier** for formatting, checked in CI so style never becomes a review topic.
+- **ESLint** with `typescript-eslint`'s **type-aware** `strictTypeChecked` + `stylisticTypeChecked`
+  — it reads the type checker, so it catches unsound casts and dead conditionals, not just syntax.
+- **`tsc --noEmit`** under `strict`, plus `noUncheckedIndexedAccess` and
+  `exactOptionalPropertyTypes`.
+
+## CI/CD
+
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs format, lint, types and build on every
+push and PR. On `main` the same job hands its `dist/` to a Pages deploy, so the site is built once
+and published from the exact artifact that was checked. PR runs skip the upload and cancel
+themselves when superseded.
+
+Actions is unmetered on public repositories, so this pipeline costs no minutes.
 
 ## How it works
 
