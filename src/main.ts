@@ -19,12 +19,6 @@ const CAT_ORDER: Category[] = ['go', 'club', 'ask', 'hot', 'zone'];
 const DARMSTADT = { lat: 49.8728, lon: 8.6512 };
 const GERMANY_BOUNDS: [number, number, number, number] = [5.87, 47.27, 15.04, 55.06];
 
-// Read before the map is constructed: with `hash: true` MapLibre starts writing
-// the camera into the URL as soon as it initialises, well before `load` fires,
-// so checking `location.hash` later would always find one and never frame the
-// country on a cold open.
-const arrivedWithHash = location.hash.length > 1;
-
 // Free, key-less raster tile sources. All four are Esri's public ArcGIS Online
 // services: no API key, and — unlike CARTO's key-less CDN — no watermark.
 const esri = (service: string) =>
@@ -118,8 +112,13 @@ const map = new MapLibreMap({
       },
     ],
   },
-  center: [10.3, 51.1],
-  zoom: 5.1,
+  // Frame the country at construction rather than in a `load` handler. MapLibre
+  // applies `bounds` before it starts mirroring the camera into the URL, so the
+  // hash a visitor ends up sharing is the framed view — where the spots are —
+  // instead of some wider default. A hash already in the URL still wins, so
+  // deep links are unaffected.
+  bounds: GERMANY_BOUNDS,
+  fitBoundsOptions: { padding: 24 },
   minZoom: 4,
   maxZoom: SAT_MAXZOOM,
   // Keeps #zoom/lat/lng in the URL, so a view of a specific site is shareable.
@@ -143,7 +142,9 @@ map.on('load', () => {
     type: 'circle',
     source: 'bandos',
     paint: {
-      'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 3, 7, 5, 12, 7, 16, 10],
+      // At country zoom the whole point of the map is "where are the spots", so
+      // keep them clearly readable rather than hairline dots.
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 4, 6, 5.5, 9, 6.5, 12, 8, 16, 11],
       'circle-color': [
         'match',
         ['get', 'cat'],
@@ -159,9 +160,10 @@ map.on('load', () => {
         CATEGORIES.zone.color,
         '#9aa5b1',
       ],
+      // Dark ring keeps overlapping dots separable where spots cluster.
       'circle-stroke-width': 1.4,
-      'circle-stroke-color': 'rgba(6,10,16,0.7)',
-      'circle-opacity': 0.95,
+      'circle-stroke-color': 'rgba(6,10,16,0.85)',
+      'circle-opacity': 1,
     },
   });
 
@@ -175,10 +177,6 @@ map.on('load', () => {
   map.on('mouseleave', 'bando-dots', () => {
     map.getCanvas().style.cursor = '';
   });
-
-  // Only frame the whole country on a cold open — a URL hash means the visitor
-  // was sent to a specific view, so leave their camera alone.
-  if (!arrivedWithHash) map.fitBounds(GERMANY_BOUNDS, { padding: 24, duration: 0 });
 });
 
 function applyFilter(): void {
