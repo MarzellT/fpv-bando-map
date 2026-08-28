@@ -1,0 +1,4 @@
+dist
+# 287 KB of generated spot data on one line — reformatting it would bloat the diff
+# of every data update to the whole file.
+src/data/bandos.json

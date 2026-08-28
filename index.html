@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Interactive map of FPV bando (abandoned-building) flying spots across Germany with a high-resolution satellite layer."
+    />
+    <title>FPV Bando Map — Germany</title>
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <div class="brand">
+          <h1>FPV&nbsp;Bando&nbsp;Map <span>· Germany</span></h1>
+          <p class="sub" id="count"></p>
+        </div>
+        <div id="filters" class="filters" role="group" aria-label="Filter by access"></div>
+        <div id="basetoggle" class="basetoggle" role="group" aria-label="Base layer">
+          <button data-base="map" class="active" aria-pressed="true">Map</button>
+          <button data-base="sat" aria-pressed="false">Satellite</button>
+        </div>
+      </header>
+      <div id="main">
+        <div id="map" aria-label="Map of FPV bando spots in Germany"></div>
+        <aside id="sidebar" aria-live="polite">
+          <div class="empty">
+            <p>
+              <strong>Select a spot</strong> on the map to see what it is, how derelict it is, who
+              to ask, and coordinates you can paste into a maps app.
+            </p>
+            <p>
+              Colour is access: <em>green</em> open · <em>magenta</em> model-flight club ·
+              <em>amber</em> ask the owner · <em>red</em> standing ruin ·
+              <em>indigo</em> restricted. Switch to <strong>Satellite</strong> for high-resolution
+              aerial imagery.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
