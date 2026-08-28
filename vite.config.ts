@@ -4,12 +4,19 @@ import { defineConfig } from 'vite';
 // or opened via a static file host.
 export default defineConfig({
   base: './',
-  // MapLibre spawns its worker via `new Worker(new URL('./maplibre-gl-worker.mjs',
-  // import.meta.url))`. Dep pre-bundling rewrites that URL but never emits the
-  // worker chunk, so in dev the worker 404s and the map renders blank. Serving
-  // MapLibre unbundled keeps the URL resolving against its own dist/ directory.
+  // MapLibre resolves its worker against its own `import.meta.url`. Dep
+  // pre-bundling rewrites that URL but never emits the worker chunk, so in dev
+  // the worker 404s and the map renders blank. Serving MapLibre unbundled keeps
+  // the URL resolving against its own dist/ directory. (The production build
+  // has the same problem for a different reason — see `setWorkerUrl` in
+  // src/main.ts, which is what actually fixes it there.)
   optimizeDeps: {
     exclude: ['maplibre-gl'],
+  },
+  // MapLibre loads its worker with `{ type: 'module' }`, so emit a real ES
+  // module worker rather than Vite's default IIFE.
+  worker: {
+    format: 'es',
   },
   build: {
     target: 'es2022',

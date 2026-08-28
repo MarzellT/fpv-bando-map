@@ -1,9 +1,22 @@
-import { MapLibreMap, NavigationControl, ScaleControl } from 'maplibre-gl';
+import { MapLibreMap, NavigationControl, ScaleControl, setWorkerUrl } from 'maplibre-gl';
+import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import bandosData from './data/bandos.json';
 import type { FeatureCollection, Point } from 'geojson';
 import type { Bando, Category, CategoryMeta } from './types';
+
+// MapLibre derives its worker URL at runtime from `import.meta.url` with a
+// filename it computes on the spot:
+//
+//   const file = url.endsWith('-dev.mjs') ? 'maplibre-gl-worker-dev.mjs' : 'maplibre-gl-worker.mjs'
+//
+// No bundler can statically follow that, so the worker chunk is never emitted
+// and the URL 404s as soon as the app is served from a hashed asset directory.
+// Raster tiles are decoded on the main thread and kept working, but GeoJSON
+// sources are parsed in the worker — so the basemap rendered fine while every
+// spot silently vanished. Hand MapLibre a URL Vite actually emits.
+setWorkerUrl(maplibreWorkerUrl);
 
 const bandos = bandosData as Bando[];
 
