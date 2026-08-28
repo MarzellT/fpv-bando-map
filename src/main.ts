@@ -19,6 +19,12 @@ const CAT_ORDER: Category[] = ['go', 'club', 'ask', 'hot', 'zone'];
 const DARMSTADT = { lat: 49.8728, lon: 8.6512 };
 const GERMANY_BOUNDS: [number, number, number, number] = [5.87, 47.27, 15.04, 55.06];
 
+// Read before the map is constructed: with `hash: true` MapLibre starts writing
+// the camera into the URL as soon as it initialises, well before `load` fires,
+// so checking `location.hash` later would always find one and never frame the
+// country on a cold open.
+const arrivedWithHash = location.hash.length > 1;
+
 // Free, key-less raster tile sources. All four are Esri's public ArcGIS Online
 // services: no API key, and — unlike CARTO's key-less CDN — no watermark.
 const esri = (service: string) =>
@@ -172,7 +178,7 @@ map.on('load', () => {
 
   // Only frame the whole country on a cold open — a URL hash means the visitor
   // was sent to a specific view, so leave their camera alone.
-  if (!location.hash) map.fitBounds(GERMANY_BOUNDS, { padding: 24, duration: 0 });
+  if (!arrivedWithHash) map.fitBounds(GERMANY_BOUNDS, { padding: 24, duration: 0 });
 });
 
 function applyFilter(): void {
@@ -213,6 +219,13 @@ function showDetail(idx: number): void {
         <a href="${gmaps}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a></p>
     </article>`;
   map.flyTo({ center: [b.lon, b.lat], zoom: Math.max(map.getZoom(), 12), speed: 0.9 });
+}
+
+// Dev-only console handle for poking at the map (`__map.getZoom()`, layer state,
+// queryRenderedFeatures). `import.meta.env.DEV` is statically false in a
+// production build, so this block is dropped from the bundle.
+if (import.meta.env.DEV) {
+  Object.assign(window, { __map: map, __bandos: bandos });
 }
 
 /* ---- filter chips ---- */
