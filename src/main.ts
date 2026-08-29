@@ -29,7 +29,6 @@ const CATEGORIES: Record<Category, CategoryMeta> = {
 };
 const CAT_ORDER: Category[] = ['go', 'club', 'ask', 'hot', 'zone'];
 
-const DARMSTADT = { lat: 49.8728, lon: 8.6512 };
 const GERMANY_BOUNDS: [number, number, number, number] = [5.87, 47.27, 15.04, 55.06];
 
 // Free, key-less raster tile sources. All four are Esri's public ArcGIS Online
@@ -47,17 +46,6 @@ const DARK_MAXZOOM = 16;
 const SAT_MAXZOOM = 19;
 
 const activeCats = new Set<Category>(CAT_ORDER);
-
-function haversineKm(aLat: number, aLon: number, bLat: number, bLon: number): number {
-  const R = 6371;
-  const toRad = (d: number) => (d * Math.PI) / 180;
-  const dLat = toRad(bLat - aLat);
-  const dLon = toRad(bLon - aLon);
-  const s =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(toRad(aLat)) * Math.cos(toRad(bLat)) * Math.sin(dLon / 2) ** 2;
-  return 2 * R * Math.asin(Math.sqrt(s));
-}
 
 function escapeHtml(s: string): string {
   return s.replace(
@@ -210,7 +198,6 @@ function showDetail(idx: number): void {
   const b = bandos[idx];
   if (!b) return;
   const meta = CATEGORIES[b.cat];
-  const km = Math.round(haversineKm(DARMSTADT.lat, DARMSTADT.lon, b.lat, b.lon));
   const coord = `${b.lat.toFixed(5)}, ${b.lon.toFixed(5)}`;
   const gmaps = `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lon}`;
   const sidebar = document.getElementById('sidebar');
@@ -221,7 +208,6 @@ function showDetail(idx: number): void {
       <p class="town">${escapeHtml(b.town)}</p>
       <p class="cat" style="color:${meta.color};border-color:${meta.color}">${meta.label}</p>
       <div class="kv">
-        <span><b>From Darmstadt</b> ~${km} km</span>
         ${b.status ? `<span><b>Status</b> ${escapeHtml(b.status)}</span>` : ''}
       </div>
       <div class="body">${b.body}</div>
