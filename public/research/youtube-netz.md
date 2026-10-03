@@ -6,4 +6,12 @@ Die Zuordnung unterscheidet benannte oder visuell abgeglichene Orte, wahrscheinl
 
 Die Kartenpositionen dienen der Orientierung; ungefähre Positionen sind gekennzeichnet. Sie bezeichnen keine Eingänge oder Startplätze.
 
+## Ergänzungen vom 03.10.2026
+
+Die [Muna Dünsen](../atlas/?spot=muna-duensen) ist neu im Atlas. [Kurbelix](https://www.youtube.com/watch?v=LVC_Tc4NYxM&t=45s) und [Flying Fischkopp](https://www.youtube.com/watch?v=X89n0loMQ10&t=30s) nennen den Komplex unabhängig voneinander. Geprüfte Videobilder zeigen Lagerhäuser und Bunker; die [benannte historische Dokumentation](https://www.relikte.com/duensen/index.htm) und die [Gemeinde Kirchseelte](https://www.kirchseelte.de/800-jahre) stützen die Ortsidentität. Der Orientierungspunkt verortet weder einen bestimmten gefilmten Bunker noch einen Startplatz. Die beiden Kanäle verbindet im Netz ausschließlich „gleicher Spot“.
+
+Der [Betreiber Nukebase](https://nukebase-airsoft.de/about/) beschreibt eine genutzte Airsoft-Teilfläche. Das gesamte Areal wird deshalb nicht als verlassen oder frei zugänglich eingestuft. Veröffentlichungstage der Filme: 27.04.2026 und 26.06.2020 in Europe/Berlin; Aufnahmetage unbekannt.
+
+Bei der bereits erfassten [Lore-Bauer-Halle](../atlas/?spot=lore-bauer-halle) kam [Labingers Trainingsfilm vom 24.08.2018](https://www.youtube.com/watch?v=fVezNdlGYzw&t=22s) hinzu. Das geschwungene Betonschalendach, die Glasraster und drei blaue Elemente stimmen mit [offiziellen Denkmalfotos vom Januar 2023](https://denkxweb.denkmalpflege-hessen.de/167902/) überein. Diese Ortszuordnung aktualisiert weder den heutigen Innenzustand noch eine Flugfreigabe. Auch die neue Verbindung zu fpv_ B.P. bezeichnet nur denselben Spot.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

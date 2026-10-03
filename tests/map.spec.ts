@@ -158,5 +158,5 @@ test('mobile navigation keeps the map usable without horizontal overflow', async
   expect(bounds?.height).toBeGreaterThanOrEqual(180);
   await page.getByRole('navigation').getByRole('link', { name: 'Pilotennetz' }).click();
   await expect(page).toHaveURL(/\/fpv-bando-map\/netzwerk\//);
-  await expect(page.locator('.network-summary')).toContainText('89');
+  await expect(page.locator('.network-summary')).toContainText(String(atlas.pilots.length));
 });

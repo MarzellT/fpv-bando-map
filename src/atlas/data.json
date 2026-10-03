@@ -1369,6 +1369,15 @@
           "match": "named",
           "timestampSeconds": 0,
           "note": "Beschreibung berichtet ausdrücklich vom Training der Rotorholics in der Lore-Bauer-Halle in Idstein."
+        },
+        {
+          "id": "fVezNdlGYzw",
+          "title": "TH-Bando Training-Day1",
+          "pilotId": "labinger-fpv",
+          "publishedAt": "2018-08-24",
+          "match": "visual",
+          "timestampSeconds": 22,
+          "note": "Beschreibung nennt Idstein und den 24.08.2018. Tatsächlich geprüfte Vorschauen von 0–48 s: Das markante Betonschalendach, die Glasraster und drei blaue freistehende Elemente bei 22 s stimmen mit benannten Denkmalfotos vom Januar 2023 überein. Historischer Beleg für die Lore-Bauer-Halle; keine neue Zustands- oder Zugangsauskunft."
         }
       ],
       "sources": [
@@ -3181,6 +3190,88 @@
           "type": "community"
         }
       ]
+    },
+    {
+      "id": "muna-duensen",
+      "name": "Luftmunitionsanstalt Dünsen / Muna Harpstedt",
+      "city": "Dünsen / Groß Ippener / Kirchseelte",
+      "region": "Niedersachsen",
+      "type": "Militär",
+      "lat": 52.940176,
+      "lon": 8.642543,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Ehemaliger Munitionskomplex im Wald mit erdüberdeckten Bunkern, Lagerhäusern und befestigten Wegen. Zwei unabhängige FPV-Kanäle nennen ausdrücklich die Muna Dünsen. Die geprüften Bilder zeigen Außen- und Innenflüge; einzelne gefilmte Bunker sind noch nicht genau verortet.",
+      "features": [
+        "Erdüberdeckte Bunker",
+        "Lagerhäuser im Wald",
+        "Innenflüge dokumentiert",
+        "Teilflächen für Airsoft genutzt"
+      ],
+      "status": {
+        "label": "Teilflächen genutzt · Freigabe offen",
+        "tone": "caution",
+        "note": "Ein Pressebericht vom 02.04.2026 beschreibt Bunkerreste und eine genutzte Airsoft-Teilfläche. Kurbelix veröffentlichte am 27.04.2026 einen FPV-Film; der Aufnahmetag ist unbekannt. Nukebase bietet auf einer 65.000 m² großen Teilfläche Airsoft an; die Betreiberseite nennt auch geplante Termine im Oktober 2026. Die Lage der gefilmten Bunker zu dieser Teilfläche ist ungeklärt. Keine belegte aktuelle Betretungs- oder Flugfreigabe. Der ungefähre Kartenpunkt bezeichnet den Komplex, keinen Eingang, Startplatz oder bestimmten Bunker.",
+        "lastEvidence": "2026-04-27"
+      },
+      "videos": [
+        {
+          "id": "LVC_Tc4NYxM",
+          "title": "FPV in der Muna Dünsen",
+          "pilotId": "kurbelix",
+          "publishedAt": "2026-04-27",
+          "match": "named",
+          "timestampSeconds": 45,
+          "note": "Titel nennt den Komplex ausdrücklich. Geprüfte Vorschauen von 0–85 s zeigen Waldwege, bei 45 s einen bewachsenen Eingang und bei 50/55 s den Flug durch ein Lagerhaus. Benannte historische Fotos passen zur Bauart, erlauben aber keine eindeutige Zuordnung dieses einzelnen Gebäudes. Veröffentlichungsdatum, Flugtag unbekannt."
+        },
+        {
+          "id": "X89n0loMQ10",
+          "title": "Muna DÜNSEN FPV",
+          "pilotId": "flying-fischkopp",
+          "publishedAt": "2020-06-26",
+          "match": "named",
+          "timestampSeconds": 30,
+          "note": "Titel nennt Dünsen. Geprüfte Vorschauen von 0–48 s zeigen Wege, einen erdüberdeckten Eingang und bei 34 s einen gewölbten Innenraum. Benannte Ortsfotos sind mit dem Ensemble vereinbar; der genaue Bunker bleibt offen. Veröffentlichung am 26.06.2020 in Europe/Berlin, Aufnahmedatum unbekannt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gemeinde Kirchseelte: Ortsgeschichte und Lage der Luftmunitionsanstalt im Baßmerhoop",
+          "url": "https://www.kirchseelte.de/800-jahre",
+          "type": "official"
+        },
+        {
+          "title": "Relikte: Luftmunitionsanstalt Dünsen, benannte Gebäude- und Innenraumfotos; undatierte Zustandsangaben",
+          "url": "https://www.relikte.com/duensen/index.htm",
+          "type": "history"
+        },
+        {
+          "title": "Relikte: Sondermunitionslager Dünsen, benannte Bunkerfotos; keine aktuelle Zugangsauskunft",
+          "url": "https://www.relikte.com/duensen_sw/index.htm",
+          "type": "history"
+        },
+        {
+          "title": "Kreiszeitung, 02.04.2026: Bunkerreste und Airsoft-Teilnutzung; Fotodatum nicht angegeben",
+          "url": "https://www.kreiszeitung.de/lokales/niedersachsen/grosser-militaer-lost-place-hier-wurden-einst-atomsprengkoepfe-in-niedersachsen-gelagert-94247494.html",
+          "type": "news",
+          "date": "2026-04-02"
+        },
+        {
+          "title": "Nukebase: Betreiberangaben zur 65.000 m² großen Airsoft-Teilfläche, undatierte Seite",
+          "url": "https://nukebase-airsoft.de/about/",
+          "type": "operator"
+        },
+        {
+          "title": "Nukebase: geplante Spieltermine im Oktober 2026; keine FPV-Freigabe",
+          "url": "https://nukebase-airsoft.de/",
+          "type": "operator"
+        },
+        {
+          "title": "DOATRIP: benannter Orientierungspunkt 52.940176, 8.642543; Zugangstext nicht als aktuelle Freigabe übernommen",
+          "url": "https://www.doatrip.de/de/deutschland/niedersachsen/harpstedt-duensen/luftmunitionsanstalt-duensen.html?limit=all",
+          "type": "community"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3397,9 +3488,9 @@
     {
       "id": "labinger-fpv",
       "name": "Labinger FPV",
-      "handle": "UCXkUIiNgRPZFO312tqUZNzA",
+      "handle": "@labingerfpv1247",
       "url": "https://www.youtube.com/channel/UCXkUIiNgRPZFO312tqUZNzA",
-      "description": "Vom Rotorholics-Team 2018 als Pilot vorgestellt; sein Video von 2019 zeigt die Grube Amalienhöhe in Waldalgesheim."
+      "description": "Vom Rotorholics-Team 2018 als Pilot vorgestellt. Sein Trainingsfilm vom August 2018 ist anhand des Betonschalendachs und dreier blauer Elemente der Lore-Bauer-Halle zugeordnet; sein Video von 2019 zeigt die Grube Amalienhöhe in Waldalgesheim. Datumsangaben bezeichnen Veröffentlichungen."
     },
     {
       "id": "sebastian-fpv-ger",
@@ -3807,6 +3898,20 @@
       "handle": "@Pekmen",
       "url": "https://www.youtube.com/channel/UCHU3Z2u8rgINeSz22c-BCkw",
       "description": "Kanonischer Kanal durch den ausdrücklich verlinkten Begleitfilm bestätigt. aTh3IsT und PGK belegen eine gemeinsame Bando-Session; allgemeine Kanalempfehlungen werden davon getrennt. Kein genauer Ort allein aus der Crewzugehörigkeit abgeleitet."
+    },
+    {
+      "id": "kurbelix",
+      "name": "Kurbelix",
+      "handle": "@Kurbelix785",
+      "url": "https://www.youtube.com/channel/UC2cEtxIb8kK3pe5PrFoFIHQ",
+      "description": "Öffentlicher FPV-Kanal. Sein am 27.04.2026 veröffentlichter Film benennt die Muna Dünsen und zeigt Waldwege sowie einen Lagerhaus-Innenflug. Der tatsächliche Flugtag und der genaue Bunker sind nicht unabhängig bestätigt."
+    },
+    {
+      "id": "flying-fischkopp",
+      "name": "Flying Fischkopp",
+      "handle": "@flyingfischkopp4504",
+      "url": "https://www.youtube.com/channel/UCDi4Mo5PEoYDgpBa5HMGDbw",
+      "description": "Öffentlicher FPV- und Urbex-Kanal. Ein am 26.06.2020 in Europe/Berlin veröffentlichter Film dokumentiert den benannten Komplex Muna Dünsen. Weitere Brandenburg-Aufnahmen zeigen Industriegebäude, deren genauer Ort noch offen ist."
     }
   ],
   "edges": [
@@ -4489,6 +4594,22 @@
       "url": "https://www.youtube.com/watch?v=pT3Pgjw9EAY",
       "date": "2022-06-10",
       "label": "aTh3IsT verlinkt KaDes kanonischen Kanal in der Brandenburg-Roadtrip-Beschreibung. Empfehlung allein belegt keine bestimmte gemeinsame Session; Datum bezeichnet den Upload."
+    },
+    {
+      "sourceId": "kurbelix",
+      "targetId": "flying-fischkopp",
+      "type": "same-spot",
+      "url": "https://www.youtube.com/watch?v=LVC_Tc4NYxM",
+      "date": "2026-04-27",
+      "label": "Beide benennen den Komplex Muna Dünsen in unabhängig veröffentlichten Flugfilmen (Kurbelix 27.04.2026, Flying Fischkopp 26.06.2020). Einzelne Bunker nicht gleichgesetzt; keine gemeinsame Session belegt. Kantendatum ist die jüngere Veröffentlichung."
+    },
+    {
+      "sourceId": "labinger-fpv",
+      "targetId": "fpv-b-p",
+      "type": "same-spot",
+      "url": "https://www.youtube.com/watch?v=fVezNdlGYzw",
+      "date": "2018-08-24",
+      "label": "Labingers anhand von Denkmalfotos zugeordneter Trainingsfilm und fpv_ B.P.s benannter Film zeigen die Lore-Bauer-Halle. Getrennte Veröffentlichungen am 24.08.2018 und 18.05.2018; keine gemeinsame Session daraus abgeleitet."
     }
   ]
 }
