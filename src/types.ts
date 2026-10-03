@@ -1,5 +1,5 @@
 /** Access category for a spot. Colour on the map encodes access, not quality. */
-export type Category = 'go' | 'club' | 'ask' | 'hot' | 'zone';
+export type Category = 'go' | 'club' | 'ask' | 'hot' | 'zone' | 'research';
 
 /** A single FPV "bando" / lost-place record. */
 export interface Bando {

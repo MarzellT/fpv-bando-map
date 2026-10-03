@@ -9,21 +9,28 @@
   "description": "Interactive map of FPV 'bando' (abandoned-building) flying spots across Germany, with a high-resolution, dynamically-tiled satellite layer.",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && npm run check:data && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check": "npm run format:check && npm run lint && npm run typecheck"
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run check:data",
+    "check:data": "node scripts/check-data.mjs",
+    "test": "playwright test",
+    "test:automation": "node --test tests/weekly-runner.test.mjs"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "maplibre-gl": "^6.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.58.2",
     "@types/geojson": "^7946.0.14",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^24.19.1",
     "eslint": "^10.9.1",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.11.0",

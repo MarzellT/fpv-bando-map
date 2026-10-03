@@ -19,6 +19,14 @@ export default defineConfig({
     format: 'es',
   },
   build: {
+    rollupOptions: {
+      input: {
+        map: 'index.html',
+        atlas: 'atlas/index.html',
+        network: 'netzwerk/index.html',
+        selection: 'auswahl/index.html',
+      },
+    },
     target: 'es2022',
     sourcemap: false,
     // The bundle is dominated by MapLibre itself, which is needed before

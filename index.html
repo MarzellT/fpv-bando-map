@@ -1,14 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Interactive map of FPV bando (abandoned-building) flying spots across Germany with a high-resolution satellite layer."
+      content="FPV-Spots in Deutschland: Satellitenkarte, recherchierte Ortsdossiers, Flugvideos und Pilotennetz in 2D und 3D."
     />
     <title>FPV Bando Map — Germany</title>
   </head>
@@ -19,27 +16,30 @@
           <h1>FPV&nbsp;Bando&nbsp;Map <span>· Germany</span></h1>
           <p class="sub" id="count"></p>
         </div>
-        <div id="filters" class="filters" role="group" aria-label="Filter by access"></div>
+        <nav class="site-links" aria-label="Hauptnavigation">
+          <a href="./" aria-current="page">Karte</a>
+          <a href="./atlas/">Atlas & Videos</a>
+          <a href="./netzwerk/">Pilotennetz</a>
+          <a href="./auswahl/">Auswahl 03.10.</a>
+        </nav>
+        <div id="filters" class="filters" role="group" aria-label="Kategorien filtern"></div>
         <div id="basetoggle" class="basetoggle" role="group" aria-label="Base layer">
-          <button data-base="map" class="active" aria-pressed="true">Map</button>
-          <button data-base="sat" aria-pressed="false">Satellite</button>
+          <button data-base="map" class="active" aria-pressed="true" disabled>Karte</button>
+          <button data-base="sat" aria-pressed="false" disabled>Satellit</button>
         </div>
       </header>
       <div id="main">
         <div id="map" aria-label="Map of FPV bando spots in Germany"></div>
-        <aside id="sidebar" aria-live="polite">
-          <div class="empty">
-            <p>
-              <strong>Select a spot</strong> on the map to see what it is, how derelict it is, who
-              to ask, and coordinates you can paste into a maps app.
-            </p>
-            <p>
-              Colour is access: <em>green</em> open · <em>magenta</em> model-flight club ·
-              <em>amber</em> ask the owner · <em>red</em> standing ruin ·
-              <em>indigo</em> restricted. Switch to <strong>Satellite</strong> for high-resolution
-              aerial imagery.
-            </p>
+        <aside id="sidebar" aria-label="Spots und Belege">
+          <div class="search-controls">
+            <label for="spot-search" class="mini-label">SPOT, ORT ODER PILOT</label>
+            <input id="spot-search" type="search" placeholder="Deutschlandweit suchen …" />
+            <label class="research-filter"
+              ><input id="research-only" type="checkbox" /> Nur mit Atlas-Belegen</label
+            >
+            <div id="origin-control"></div>
           </div>
+          <div id="sidebar-content"></div>
         </aside>
       </div>
     </div>

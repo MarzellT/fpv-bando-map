@@ -39,6 +39,18 @@ jobs:
       - name: Types
         run: npm run typecheck
 
+      - name: Data and merge integrity
+        run: npm run check:data
+
+      - name: Local research runner tests
+        run: npm run test:automation
+
+      - name: Install test browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser integration tests
+        run: npm test
+
       # `npm run build` type-checks again; call Vite directly since the step above
       # already covered it.
       - name: Build

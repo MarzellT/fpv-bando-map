@@ -1,101 +1,62 @@
 # FPV Bando Map — Germany
 
-**→ [marzellt.github.io/fpv-bando-map](https://marzellt.github.io/fpv-bando-map/)**
+**[Open the map](https://marzellt.github.io/fpv-bando-map/)** · [Atlas & videos](https://marzellt.github.io/fpv-bando-map/atlas/) · [Pilot network](https://marzellt.github.io/fpv-bando-map/netzwerk/)
 
-An interactive map of FPV **bando** (abandoned-building / lost-place) flying spots across Germany,
-with a **high-resolution, dynamically-tiled satellite layer**. Built as a proper web app so the
-satellite streams real map tiles on demand — something a sandboxed artifact can't do.
+A Germany-wide FPV spot map with high-resolution satellite tiles, sourced spot dossiers, public flight videos and an interactive pilot network in 2D and 3D.
 
-Each spot carries what it is, how derelict it is, who to ask, and coordinates you can paste
-straight into a maps app.
+The map and Bando Atlas now live in this repository. The initial combined dataset contains **568 map points**: 549 existing records plus 19 new sites. **33 existing records** are linked to Atlas evidence instead of duplicated. The Atlas retains all 55 dossiers, including three unresolved locations without pins, 89 channels, 85 sourced relationships and 100 distinct videos.
 
-## Stack
+## Explore
 
-- **[Vite](https://vitejs.dev/)** + **TypeScript** (strict)
-- **[MapLibre GL JS](https://maplibre.org/)** — WebGL map, dynamic raster tiles, data-driven styling
-- No API keys, no backend. Free, key-less tile sources.
+- **Main map:** MapLibre raster map and satellite layers, wheel zoom, category filters, spot/pilot search and a searchable list. Selecting a place in “Entfernung ab” sorts the list by straight-line distance; it never moves the map or removes pins. No starting place is selected by default.
+- **Atlas (`/atlas/`):** detailed sources, publication dates, video timestamps, confidence, bookmarks and a Leaflet map. Unlocated research remains searchable without invented coordinates.
+- **Pilot network (`/netzwerk/`):** interactive 2D/3D views distinguish joint sessions, separate visits to the same place and public references. Links lead to supporting evidence and dossiers.
+- **Historical selection (`/auswahl/`):** the dated selection from 3 October 2026 remains a snapshot.
 
-## Run
+Google Maps links open a place search, not a preconfigured route. Main-map views remain shareable as `#zoom/lat/lng`; `?spot=ID` opens a detail card. Atlas dossiers use `/atlas/?spot=ID`.
 
-Needs Node 22.12+ and npm.
+## Run and verify
 
-```bash
-npm install
-npm run dev        # http://localhost:5173
-```
-
-Build a static bundle:
+Node 22.12+ and npm are required.
 
 ```bash
-npm run build      # type-checks, then outputs to dist/
-npm run preview    # serve the built bundle
+npm ci
+npm run dev
+npm run check   # format, strict lint/types, data and merge integrity
+npm run build
+npm test        # Chromium integration tests under /fpv-bando-map/
+npm run test:automation # runner tests with a fake model and local Git remote
 ```
 
-`dist/` is self-contained static files — host it anywhere (GitHub Pages, Netlify, an S3 bucket…).
+Tests use installed Chromium when available, or Playwright's browser (`npx playwright install chromium`). `CHROMIUM_PATH` can select another executable. Tile and place-search requests are mocked in tests.
 
-## Quality gates
+Vite builds all four entry pages. Relative asset and navigation paths support GitHub Pages project URLs. CI checks formatting, lint, types, data, browser behavior and the build before deploying `main` to Pages.
 
-```bash
-npm run check        # format:check + lint + typecheck, the same three CI runs
-npm run format       # Prettier, write
-npm run lint:fix     # ESLint, autofix
-```
+## Data and merge rules
 
-- **Prettier** for formatting, checked in CI so style never becomes a review topic.
-- **ESLint** with `typescript-eslint`'s **type-aware** `strictTypeChecked` + `stylisticTypeChecked`
-  — it reads the type checker, so it catches unsound casts and dead conditionals, not just syntax.
-- **`tsc --noEmit`** under `strict`, plus `noUncheckedIndexedAccess` and
-  `exactOptionalPropertyTypes`.
+- [`src/data/bandos.json`](src/data/bandos.json): original map records, retained unchanged.
+- [`src/atlas/data.json`](src/atlas/data.json): shared structured Atlas dataset for dossiers, the pilot graph and map evidence. Add future sourced Atlas research here.
+- [`src/data/atlas-links.json`](src/data/atlas-links.json): reviewed site-identity matches to original record names. No proximity-based deduplication.
+- [`src/data/merged.ts`](src/data/merged.ts): combines these inputs at build time without maintaining a second copy of the research.
 
-## CI/CD
+Existing pins retain their original coordinates. When Atlas coordinates differ, both are attributed in the detail card. New pins use Atlas coordinates with their recorded precision. Linked records and additions use the cyan **Atlas-Belege** category; their original descriptions and categories remain available in the older-record disclosure. A flight video or a historical access label does not establish current permission.
 
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs format, lint, types and build on every
-push and PR. On `main` the same job hands its `dist/` to a Pages deploy, so the site is built once
-and published from the exact artifact that was checked. PR runs skip the upload and cancel
-themselves when superseded.
+The original categories remain green (open to fly), magenta (club), amber (ask owner), red (ruin), and indigo (restricted) for records without Atlas evidence. They are inherited classifications, not a fresh review of all sites.
 
-Actions is unmetered on public repositories, so this pipeline costs no minutes.
+See [merge provenance and limitations](docs/atlas-merge.md). Only curated place and public creator information is published. Private work logs and browser caches were not imported. The existing weekly runner now updates the merged dataset; it runs locally, separately from the website.
 
-## How it works
+## Stack and map attribution
 
-- **Map base:** Esri Dark Gray Canvas, blended over the app background so the coloured spot
-  markers carry the contrast.
-- **Satellite base:** Esri World Imagery — sub-metre aerial in built-up areas, tiled and loaded
-  on demand as you zoom/pan to z19 (this is the "dynamic" high-res satellite).
-- **Place labels** overlay in both modes (Esri Dark Gray Reference / World Boundaries and Places).
-- **Spots:** loaded from [`src/data/bandos.json`](src/data/bandos.json) into a GeoJSON source and
-  drawn as a data-driven circle layer; click a dot for its detail card, filter by access category,
-  and follow the per-spot **Open in Google Maps** link for building-level aerial.
-- **Shareable views:** the camera is mirrored into the URL as `#zoom/lat/lng`, so a link points at
-  the exact view you were looking at.
+Vite + strict TypeScript, MapLibre GL JS for the main map, Leaflet for Atlas, and Canvas/SVG for the network. No backend or map API keys.
 
-All four tile services are public ArcGIS Online endpoints — no API key, no watermark.
+Main-map tiles use Esri Dark Gray Canvas, World Imagery and reference labels; Atlas uses OpenStreetMap. Optional place search uses Photon / OpenStreetMap. Attribution is shown in the corresponding views.
 
-Colour encodes **access, not quality**:
-green = open to fly · magenta = model-flight club · amber = ask the owner ·
-red = standing ruin (no permission route) · indigo = legally restricted.
+Map © Esri, HERE, Garmin, OpenStreetMap contributors. Imagery © Esri, Maxar, Earthstar Geographics. Sources, dates and uncertainty are recorded per dossier; conditions and access can change.
 
-## Data
+## Weekly local research
 
-`src/data/bandos.json` — an array of `Bando` records (see [`src/types.ts`](src/types.ts)).
-Coordinates are from public sources (OpenStreetMap, Wikipedia) and satellite-verified. To add or
-edit spots, append to that file and reload — no build step for data.
+The existing systemd timer remains Monday at 09:00 Europe/Berlin. Its service now targets this repository. `scripts/weekly-research.sh --check` checks prerequisites without calling a model. The script uses an isolated worktree, skips a dirty main checkout, limits permitted output files, validates formatting/data/build, and advances main only after a successful push.
 
-### Provenance & guardrails
+The bounded prompt in `automation/weekly-prompt.md` checks at most six public channels and three candidates per run, with a 20-minute model timeout. Logs remain in the user's local state directory; the committed protocol must contain only public evidence. The application itself does not schedule or perform searches.
 
-Every pin was located from **public information about the place** (OSM/Wikipedia/heritage records,
-creators' own published footage) and confirmed on satellite. Deliberately-hidden spots that could
-only be found by profiling a private individual were left out, as were sites adjacent to active
-military/intelligence installations and in restricted airspace.
-
-## Attribution
-
-- Basemap © Esri, HERE, Garmin, © OpenStreetMap contributors.
-- Imagery © Esri, Maxar, Earthstar Geographics.
-
-## Safety & legality
-
-Entering a derelict building in Germany is normally **Hausfriedensbruch** (trespass) without the
-owner's permission; many sites carry asbestos, collapse, and other hazards. Each card names the
-most realistic next step — the amber ("ask the owner") sites are where a _yes_ is achievable.
-Always check drone/airspace rules before flying.
+The runner uses [Codex non-interactive execution](https://learn.chatgpt.com/docs/non-interactive-mode). The systemd unit files are examples for an already configured local Codex installation; they do not run on GitHub Pages.

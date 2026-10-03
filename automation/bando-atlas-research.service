@@ -1,0 +1,10 @@
+[Unit]
+Description=Research new FPV spots and pilot connections for FPV Bando Map
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Documents/Projects/fpv-bando-map
+Environment=PATH=%h/.nvm/versions/node/v24.11.0/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/bin/bash %h/Documents/Projects/fpv-bando-map/scripts/weekly-research.sh
+TimeoutStartSec=25min

@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ed" />
+    <meta
+      name="description"
+      content="Geprüfte FPV-Auswahl mit Schwerpunkt Aachen–Bonn. Fester Recherchestand 03.10.2026, Videobelege und datierte Zustandsquellen."
+    />
+    <title>Morgenauswahl 03.10.2026 — Bando Atlas</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f5f3ed;
+        --white: #fffcf7;
+        --ink: #23312e;
+        --muted: #5e6861;
+        --line: #dcded4;
+        --orange: #b63d19;
+        --accent: #e45b34;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+        font-synthesis: none;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      a {
+        color: inherit;
+        text-underline-offset: 0.2em;
+        text-decoration-thickness: 1px;
+      }
+      a:hover {
+        color: var(--orange);
+      }
+      a:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 5px;
+        border-radius: 2px;
+      }
+      ::selection {
+        background: #f6c3aa;
+      }
+      .skip {
+        position: absolute;
+        left: 16px;
+        top: -80px;
+        background: var(--ink);
+        color: white;
+        padding: 12px;
+        z-index: 3;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+      .wrap {
+        width: min(1160px, calc(100% - 48px));
+        margin: auto;
+      }
+      header {
+        border-bottom: 1px solid var(--line);
+      }
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 24px 0;
+      }
+      .brand {
+        text-decoration: none;
+        font-weight: 750;
+        letter-spacing: -0.04em;
+        font-size: 22px;
+      }
+      .brand span {
+        color: var(--orange);
+      }
+      nav {
+        display: flex;
+        gap: 24px;
+        font-size: 14px;
+      }
+      nav a {
+        text-decoration: none;
+      }
+      main {
+        padding-bottom: 64px;
+      }
+      .hero {
+        padding: 65px 0 38px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 750;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+      .hero .eyebrow {
+        color: var(--orange);
+      }
+      h1 {
+        font-size: clamp(38px, 6vw, 76px);
+        line-height: 1.03;
+        letter-spacing: -0.055em;
+        margin: 20px 0 24px;
+        max-width: 920px;
+        font-weight: 750;
+      }
+      h1 span {
+        display: block;
+      }
+      .lead {
+        font-size: clamp(18px, 2vw, 22px);
+        line-height: 1.6;
+        max-width: 820px;
+        margin: 0;
+      }
+      .lead strong {
+        font-weight: 700;
+      }
+      .notice {
+        margin: 28px 0 0;
+        border-left: 4px solid var(--accent);
+        padding: 14px 20px;
+        background: #eeeae1;
+        font-size: 14px;
+        line-height: 1.6;
+        max-width: 820px;
+      }
+      .notice p {
+        margin: 0;
+      }
+      .section {
+        margin-top: 40px;
+      }
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 24px;
+        border-top: 1px solid var(--ink);
+        padding-top: 20px;
+        margin-bottom: 22px;
+      }
+      h2 {
+        font-size: 28px;
+        letter-spacing: -0.035em;
+        margin: 0;
+      }
+      .section-head p {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 0;
+        max-width: 370px;
+        line-height: 1.5;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+      .card {
+        background: var(--white);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+      .card.featured {
+        border-color: var(--accent);
+        box-shadow: inset 0 4px 0 var(--accent);
+      }
+      .card.featured .eyebrow {
+        color: var(--orange);
+      }
+      .card.open {
+        background: #eeeee7;
+      }
+      h3 {
+        font-size: 26px;
+        line-height: 1.14;
+        letter-spacing: -0.03em;
+        margin: 13px 0 9px;
+      }
+      .place {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 0 0 19px;
+      }
+      .description {
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0 0 18px;
+      }
+      .evidence {
+        font-size: 14px;
+        line-height: 1.65;
+        border-top: 1px solid var(--line);
+        padding-top: 17px;
+        margin-bottom: 20px;
+      }
+      .evidence p {
+        margin: 0;
+      }
+      .video-meta {
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--muted);
+        margin: auto 0 12px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+      }
+      .actions a {
+        font-size: 13px;
+        font-weight: 700;
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .actions a:first-child {
+        color: var(--orange);
+      }
+      .map-link {
+        font-size: 12px;
+        color: var(--muted);
+        margin: 10px 0 0;
+        line-height: 1.5;
+      }
+      .map-link a {
+        display: inline-block;
+        padding: 4px 0;
+      }
+      .footnote {
+        margin: 34px 0 0;
+        font-size: 13px;
+        line-height: 1.65;
+        color: var(--muted);
+        max-width: 850px;
+      }
+      footer {
+        background: var(--ink);
+        color: var(--paper);
+        padding: 26px 0;
+        font-size: 13px;
+      }
+      .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        line-height: 1.6;
+      }
+      footer p {
+        margin: 0;
+      }
+      footer a:hover {
+        color: #ffb69d;
+      }
+      @media (max-width: 680px) {
+        .wrap {
+          width: calc(100% - 32px);
+        }
+        .topbar {
+          padding: 20px 0;
+          gap: 18px;
+        }
+        nav {
+          gap: 15px;
+          font-size: 13px;
+        }
+        .hero {
+          padding-top: 42px;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .section-head {
+          display: block;
+        }
+        .section-head p {
+          margin-top: 10px;
+        }
+        .card {
+          padding: 24px;
+        }
+        h2 {
+          font-size: 25px;
+        }
+        .footer-inner {
+          display: block;
+        }
+        .footer-inner p + p {
+          margin-top: 10px;
+        }
+      }
+      @media print {
+        header nav,
+        .actions,
+        .map-link {
+          display: none;
+        }
+        .grid {
+          display: block;
+        }
+        .card {
+          break-inside: avoid;
+          margin-bottom: 15px;
+        }
+        h1 {
+          font-size: 38px;
+        }
+        .hero {
+          padding-top: 20px;
+        }
+        footer {
+          background: white;
+          color: var(--ink);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Zum Inhalt</a>
+    <header>
+      <div class="wrap topbar">
+        <a class="brand" href="../atlas/">Bando<span> Atlas</span></a>
+        <nav aria-label="Hauptnavigation">
+          <a href="../">Hauptkarte</a><a href="../atlas/">Zum Atlas</a
+          ><a href="../netzwerk/">Pilotennetz</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <div class="hero">
+        <div class="eyebrow">
+          Morgenauswahl · Stand <time datetime="2026-10-03">03.10.2026</time>
+        </div>
+        <h1>Aachen bis Bonn.<span>Die geprüfte Auswahl.</span></h1>
+        <p class="lead">
+          <strong>Kein verlässlich spontan nutzbares Hallenziel im Korridor bestätigt.</strong>
+          Hitfeld hat die stärkste belegte Hallenidentität. Die folgenden Orte zeigen, was im Video
+          belegt ist und welche Zustandsfragen für einen Besuch offen bleiben.
+        </p>
+        <aside class="notice" aria-label="So sind die Belege zu lesen">
+          <p>
+            <strong>Ein Upload datiert den Film, nicht den Flug.</strong> Die angegebenen Videodaten
+            sind Veröffentlichungen in deutscher Ortszeit. Zustandsberichte und Aufnahmedaten werden
+            getrennt genannt. Kein Eintrag bestätigt Zugang oder Flugfreigabe für den Seitenstand.
+          </p>
+        </aside>
+      </div>
+      <section class="section" aria-labelledby="region">
+        <div class="section-head">
+          <h2 id="region">Kernregion Aachen–Bonn</h2>
+          <p>
+            Die regionale Priorität. Hallenidentität, Außenalternative und offene Spur bleiben klar
+            unterschieden.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card featured">
+            <div class="eyebrow">01 · Stärkste Hallenidentität</div>
+            <h3>Camp Hitfeld</h3>
+            <p class="place">Aachen · Militär</p>
+            <p class="description">
+              Lange Betonhallen, geteilte Dachöffnungen und überwachsene Höfe. Mehrere benannte und
+              visuell abgeglichene Flüge.
+            </p>
+            <div class="evidence">
+              <p>
+                Am 15. und 23.07.2026 wurde
+                <a href="https://www.lostplaceclub.de/place2.php?id=1867">Bewachung berichtet</a>;
+                der zweite Beitrag nennt Sicherheitsdienst mit Hunden am 22.07. Ein
+                <a href="https://pinholeday.org/gallery/2026/index.php?id=307">neues Foto</a> zeigt
+                einen Restbau; der Aufnahmetag 26.04.2026 folgt aus den selbst gemeldeten
+                <a href="https://pinholeday.org/">Galeriebedingungen</a>. Zustand aller Hallen und
+                erlaubter Zugang am Seitenstand bleiben offen.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-09-30">30.09.2026</time> · Einstieg 3:00
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=Mg-_Mp552rk&amp;t=180s"
+                >FPV-Video ab 3:00 ↗</a
+              ><a href="../atlas/?spot=camp-hitfeld">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=50.73164%2C6.1305"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card">
+            <div class="eyebrow">02 · Keine Empfehlung zum Hallenbetreten</div>
+            <h3>Pleistalwerk</h3>
+            <p class="place">Sankt Augustin · Fabrik</p>
+            <p class="description">
+              Bewachsene Ziegelwerksruine mit offenen Stahlkonstruktionen und mehreren
+              Geschossebenen.
+            </p>
+            <div class="evidence">
+              <p>
+                Am <strong>08.04.2026 brach ein Vordach</strong>; ein Jugendlicher stürzte sechs
+                Meter. Der
+                <a
+                  href="https://www.rundschau-online.de/region/rhein-sieg/sankt-augustin/sankt-augustin-17-jaehriger-bei-sturz-in-lost-place-schwer-verletzt-1260557"
+                  >Bericht erschien am 09.04.2026</a
+                >. Ein
+                <a href="https://www.lostplaceclub.de/place2.php?id=2774"
+                  >Besucherbeitrag vom 05.09.2026</a
+                >
+                nennt weitere eingestürzte Geschossflächen.
+                <strong>Für eine Hallenbesichtigung fällt die Ruine aus.</strong>
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-05-06">06.05.2026</time> · Einstieg 0:00
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=t2JZi8v8MrA&amp;t=0s">FPV-Video ab 0:00 ↗</a
+              ><a href="../atlas/?spot=pleistalwerk">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=50.7547%2C7.2143"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card">
+            <div class="eyebrow">03 · Nur Außenalternative</div>
+            <h3>Manheim-Alt</h3>
+            <p class="place">Kerpen · Kirche</p>
+            <p class="description">
+              Freistehende neugotische Kirche, hoher Turm und weite Außenlinien. Der zugeordnete
+              Film zeigt einen Außenflug.
+            </p>
+            <div class="evidence">
+              <p>
+                Die
+                <a href="https://www.neuland-hambach.de/planung/projekte"
+                  >Projektplanung mit Stand März 2026</a
+                >
+                sieht Erhalt und spätere Kulturnutzung vor. Das
+                <a
+                  href="https://www.neuland-hambach.de/fileadmin/03_Downloads/NEULAND-HAMBACH-Aktuelles-Manheimer-Kirche-Bausubstanzgutachten.pdf"
+                  >Bausubstanzgutachten mit Ortsterminen 2023</a
+                >
+                dokumentiert versperrte Öffnungen. Die Planung bestätigt keine Nutzung oder
+                Flugfreigabe am 03.10.2026.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2023-07-09">09.07.2023</time> · Einstieg 0:27
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=9JsPy6rGgQU&amp;t=27s">FPV-Video ab 0:27 ↗</a
+              ><a href="../atlas/?spot=st-albanus-manheim-alt">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=50.880845%2C6.601313"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card open">
+            <div class="eyebrow">04 · Offene Ortsspur</div>
+            <h3>Industriehalle Düren</h3>
+            <p class="place">Düren · Fabrik</p>
+            <p class="description">
+              Hohe Hallenschiffe, verglastes Dach, farbige Fensterbänder und markanter blauer
+              Durchlass.
+            </p>
+            <div class="evidence">
+              <p>
+                Der
+                <a
+                  href="https://www.youtube.com/watch?v=EpKNk_2uJko&amp;lc=Ugxloq6etpIU0_yT4jZ4AaABAg.9_P7wSnPqRh9_P9jso50Os"
+                  >bestätigte Urheber nennt ausdrücklich Düren</a
+                >; das genaue Datum der Antwort ist nicht verfügbar. Fabrikname, Adresse,
+                Gebäudebestand und Nutzung am Seitenstand bleiben ungeklärt.
+                <strong>Kein belastbares Ausflugsziel.</strong>
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2022-04-03">03.04.2022</time> · Einstieg 1:42
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=EpKNk_2uJko&amp;t=102s"
+                >FPV-Video ab 1:42 ↗</a
+              ><a href="../atlas/?spot=industriehalle-dueren-vengance">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">Kein genauer Kartenpunkt: Fabrik und Adresse bleiben offen.</p>
+          </article>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="nrw">
+        <div class="section-head">
+          <h2 id="nrw">Erweiterter NRW-Radius</h2>
+          <p>Solingen und Hagen liegen außerhalb des Aachen–Bonn-Korridors.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="eyebrow">Solingen-Gräfrath · Außerhalb des Korridors</div>
+            <h3>Silag / Seidenweberei Niepmann</h3>
+            <p class="place">Solingen-Gräfrath · Fabrik</p>
+            <p class="description">
+              Mehrgeschossige Backsteinfabrik mit Innenhof und markanter Gebäudebrücke.
+            </p>
+            <div class="evidence">
+              <p>
+                Ein
+                <a
+                  href="https://www.radiorsg.de/artikel/polizei-und-feuerwehr-suchen-jugendliche-auf-silag-dach-2626622"
+                  >Polizei- und Feuerwehreinsatz am Dach vom 18.04.2026</a
+                >
+                dokumentiert Zugangsprobleme. Der August-Upload bestätigt keinen Flugtag; Bestand,
+                Zugang und Flugfreigabe am Seitenstand sind nicht gesichert.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-08-12">12.08.2026</time> · Einstieg 0:00
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=f2I3RY7oIk4&amp;t=0s">FPV-Video ab 0:00 ↗</a
+              ><a href="../atlas/?spot=silag-solingen">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.2147933%2C7.0710259"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card">
+            <div class="eyebrow">Hagen · Außerhalb des Korridors</div>
+            <h3>Gießerei Geweke</h3>
+            <p class="place">Hagen · Fabrik</p>
+            <p class="description">
+              Hohe Stahlhallen, Kranbahnen und mehrere parallele Hallendächer.
+            </p>
+            <div class="evidence">
+              <p>
+                Der
+                <a href="https://lostplaceclub.de/place2.php?id=2364">Beitrag vom 27.09.2026</a>
+                schildert einen früheren Besuch; andere Septemberberichte nennen Hallen, Schäden und
+                Bodenöffnungen.
+                <a href="https://nrw-urban.de/projekte/hagen-ehemalige-eisenwerke-geweke/"
+                  >NRW.URBAN</a
+                >
+                beschreibt untersuchte Wohnbaupläne, keinen vollzogenen Abriss. Zugang und
+                Flugfreigabe bleiben offen.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-08-17">17.08.2026</time> · Einstieg 2:56
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=0N-EnjRDbtc&amp;t=176s"
+                >FPV-Video ab 2:56 ↗</a
+              ><a href="../atlas/?spot=geweke-hagen">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.356822%2C7.424564"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="national">
+        <div class="section-head">
+          <h2 id="national">Bemerkenswerte Orte in Deutschland</h2>
+          <p>
+            Belegte Architektur und Flüge für die weitere Recherche. Keine Zusage für eine spontane
+            Reise.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="eyebrow">Wismar · Mecklenburg-Vorpommern</div>
+            <h3>Wismaria</h3>
+            <p class="place">Wismar · Fabrik</p>
+            <p class="description">
+              Ehemalige Malzfabrik mit Backsteinhallen, Lüftungstürmen und mehreren Ebenen.
+            </p>
+            <div class="evidence">
+              <p>
+                Ein
+                <a
+                  href="https://www.kreiszeitung.de/lokales/mecklenburg-vorpommern/fast-130-jahre-alt-riesiger-lost-place-war-einst-eine-wirtschaftliche-wucht-94161524.html"
+                  >Pressebericht vom 09.02.2026</a
+                >
+                beschreibt Leerstand; der Beobachtungstag ist nicht angegeben. Ein
+                <a href="https://www.wismar.de/media/custom/2634_9209_1.PDF?1697961099="
+                  >städtischer Bericht von 2023</a
+                >
+                dokumentiert einen positiven Bauvorbescheid für Wohnnutzung. Ein abgeschlossener
+                Umbau oder aktueller Zugang ist damit nicht belegt.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-02-24">24.02.2026</time> · Einstieg 2:05
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=BMY3cgbhGp0&amp;t=125s"
+                >FPV-Video ab 2:05 ↗</a
+              ><a href="../atlas/?spot=wismaria-wismar">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=53.891763%2C11.475166"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card">
+            <div class="eyebrow">Magdeburg · Sachsen-Anhalt</div>
+            <h3>Fahlberg-List</h3>
+            <p class="place">Magdeburg-Salbke · Fabrik</p>
+            <p class="description">
+              Hoher offener Betonskelettbau und ein weitläufiges Rechteck aus Rohrbrücken direkt an
+              der Elbe.
+            </p>
+            <div class="evidence">
+              <p>
+                Der gezeigte Außenkomplex passt zum
+                <a
+                  href="https://www.aerialphotosearch.com/info/aerial-photos/industrial-area-riverbank-elbe-former-compound-fahlberg-list-magdeburg-state-saxony-anhaltthe-historic-buildings-former-sugar-factory-with-elongated-hall-three-silos-riverbank-are-listed-protected-buildings-area-belongs-wusterhuesen-salbke-parts-south-magdeburg-238631.html"
+                  >benannten Luftbild vom 04.06.2015</a
+                >. Der
+                <a href="https://ratsinfo.magdeburg.de/getfile.asp?id=700561&amp;type=do"
+                  >kommunale Entwurf von Juli 2024</a
+                >
+                plant eine Umnutzung. Die
+                <a href="https://www.magdeburger-news.de/?c=20240614215222"
+                  >2024 gemeldeten Abrissvorbereitungen an separaten Hochsilos</a
+                >
+                belegen keinen Abriss dieses Prozessblocks. Sein Erhalt am Seitenstand ist offen;
+                weitere Filmabschnitte sind nicht zugeordnet.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-05-24">24.05.2026</time> · Einstieg 13:10
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=sNHKlKlouyo&amp;t=790s"
+                >FPV-Video ab 13:10 ↗</a
+              ><a href="../atlas/?spot=fahlberg-list-magdeburg">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=52.0746%2C11.674003"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card">
+            <div class="eyebrow">Schönwalde-Glien · Brandenburg</div>
+            <h3>Fliegerhorst Schönwalde</h3>
+            <p class="place">Schönwalde-Glien · Militär</p>
+            <p class="description">
+              Backsteinkasernen, Betonblöcke, große Höfe und ein separates Heizwerk. Belegt ist ein
+              Außenflug.
+            </p>
+            <div class="evidence">
+              <p>
+                Das
+                <a
+                  href="https://ratsinfo-online.net/schoenwaldeglien-bi/oparl/1.0/download.asp?dtyp=130&amp;id=146681"
+                  >Gemeindekonzept vom 31.01.2025</a
+                >
+                plant Erhalt und Umbau; südliche Hangars haben eine Abbruchgenehmigung. Ein
+                <a href="https://www.lostplace.club/place2.php?id=2175">Beitrag vom 20.09.2026</a>
+                nennt teils stark zerstörte Gebäude, ohne Besuchsdatum. Keine bestimmte Innenhalle
+                oder aktuelle Zugänglichkeit bestätigt.
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2022-11-07">07.11.2022</time> · Einstieg 2:24
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=JFH89-QIL6U&amp;t=144s"
+                >FPV-Video ab 2:24 ↗</a
+              ><a href="../atlas/?spot=fliegerhorst-schoenwalde">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=52.6245%2C13.1543"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+          <article class="card">
+            <div class="eyebrow">Schleswig · Historischer Flugbeleg</div>
+            <h3>Butterwerk / Nordbutter</h3>
+            <p class="place">Schleswig · Fabrik</p>
+            <p class="description">
+              Trockenturm, Backsteinschornstein und mehrteiliger Hallenkomplex.
+            </p>
+            <div class="evidence">
+              <p>
+                Der
+                <a
+                  href="https://www.foerde.news/blaulicht/brand-im-alten-butterwerk-feuerwehr-erneut-im-einsatz.html?page_n864=280"
+                  >Bericht vom 09.09.2025</a
+                >
+                nennt den Beginn des Fahrzeughallen-Abrisses Ende August; am
+                <a
+                  href="https://foerde.news/blaulicht/wieder-feuer-im-alten-butterwerk-fuenfter-brand-innerhalb-von-18-monaten.html"
+                  >11.11.2025 wurde ein weiterer Brand berichtet</a
+                >. Welche gefilmten Abschnitte erhalten sind, bleibt offen.
+                <strong>Keine vorrangige Reiseempfehlung.</strong>
+              </p>
+            </div>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2025-03-12">12.03.2025</time> · Einstieg 1:54
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=1fIGLDqnEuE&amp;t=114s"
+                >FPV-Video ab 1:54 ↗</a
+              ><a href="../atlas/?spot=butterwerk-schleswig">Im Atlas ansehen →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=54.530903%2C9.578278"
+                >Ort auf Google Maps ↗</a
+              >
+            </p>
+          </article>
+        </div>
+      </section>
+      <p class="footnote">
+        Die Kartenlinks öffnen eine normale Google-Maps-Suche zur Orientierung. Sie bezeichnen den
+        Ort oder eine ungefähre Arealposition, keinen Eingang oder Startplatz. Für Düren gibt es
+        bewusst keinen Kartenpunkt. Dieser feste Recherchestand wird nicht automatisch aktualisiert.
+      </p>
+    </main>
+    <footer>
+      <div class="wrap footer-inner">
+        <p>Bando Atlas · Auswahl vom <time datetime="2026-10-03">03.10.2026</time></p>
+        <p><a href="../atlas/">Alle Spots und Quellen im Atlas →</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

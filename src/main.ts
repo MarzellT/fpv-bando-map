@@ -2,9 +2,12 @@ import { MapLibreMap, NavigationControl, ScaleControl, setWorkerUrl } from 'mapl
 import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
-import bandosData from './data/bandos.json';
+import { atlas, bandos, unmapped } from './data/merged';
+import { escapeHtml, renderSpotDetail } from './details';
+import { initOriginSearch } from './atlas/origin-search';
+import type { Origin } from './atlas/types';
 import type { FeatureCollection, Point } from 'geojson';
-import type { Bando, Category, CategoryMeta } from './types';
+import type { Category, CategoryMeta } from './types';
 
 // MapLibre derives its worker URL at runtime from `import.meta.url` with a
 // filename it computes on the spot:
@@ -18,16 +21,15 @@ import type { Bando, Category, CategoryMeta } from './types';
 // spot silently vanished. Hand MapLibre a URL Vite actually emits.
 setWorkerUrl(maplibreWorkerUrl);
 
-const bandos = bandosData as Bando[];
-
 const CATEGORIES: Record<Category, CategoryMeta> = {
   go: { label: 'Open to fly', color: '#4fd1a5' },
   club: { label: 'Model flight club', color: '#f472b6' },
   ask: { label: 'Ask the owner', color: '#f0b429' },
   hot: { label: 'Standing ruin', color: '#e5484d' },
   zone: { label: 'Restricted', color: '#8c99ff' },
+  research: { label: 'Atlas-Belege', color: '#65c7ee' },
 };
-const CAT_ORDER: Category[] = ['go', 'club', 'ask', 'hot', 'zone'];
+const CAT_ORDER: Category[] = ['research', 'go', 'club', 'ask', 'hot', 'zone'];
 
 const GERMANY_BOUNDS: [number, number, number, number] = [5.87, 47.27, 15.04, 55.06];
 
@@ -46,13 +48,11 @@ const DARK_MAXZOOM = 16;
 const SAT_MAXZOOM = 19;
 
 const activeCats = new Set<Category>(CAT_ORDER);
-
-function escapeHtml(s: string): string {
-  return s.replace(
-    /[&<>"]/g,
-    (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c] ?? c,
-  );
-}
+let query = '';
+let researchOnly = false;
+let origin: Origin | null = null;
+let selected: number | undefined;
+const pilotNames = new Map(atlas.pilots.map((pilot) => [pilot.id, pilot.name]));
 
 const featureCollection: FeatureCollection<Point, { cat: Category; idx: number }> = {
   type: 'FeatureCollection',
@@ -124,6 +124,7 @@ const map = new MapLibreMap({
   maxZoom: SAT_MAXZOOM,
   // Keeps #zoom/lat/lng in the URL, so a view of a specific site is shareable.
   hash: true,
+  scrollZoom: true,
   attributionControl: { compact: true },
 });
 
@@ -159,6 +160,8 @@ map.on('load', () => {
         CATEGORIES.hot.color,
         'zone',
         CATEGORIES.zone.color,
+        'research',
+        CATEGORIES.research.color,
         '#9aa5b1',
       ],
       // Dark ring keeps overlapping dots separable where spots cluster.
@@ -178,11 +181,37 @@ map.on('load', () => {
   map.on('mouseleave', 'bando-dots', () => {
     map.getCanvas().style.cursor = '';
   });
+  applyFilter();
+  document.querySelectorAll<HTMLButtonElement>('#basetoggle button').forEach((button) => {
+    button.disabled = false;
+  });
+  const requested = new URLSearchParams(location.search).get('spot');
+  const index = bandos.findIndex((spot) => spot.id === requested);
+  if (index >= 0) showDetail(index);
 });
+
+function matchingIndices(): number[] {
+  return bandos.flatMap((b, index) => {
+    const haystack = [
+      b.name,
+      b.town,
+      b.original?.name,
+      b.atlas?.summary,
+      ...(b.atlas?.videos.map((video) => pilotNames.get(video.pilotId)) ?? []),
+    ]
+      .join(' ')
+      .toLocaleLowerCase('de');
+    return activeCats.has(b.cat) &&
+      (!researchOnly || b.atlas) &&
+      (!query || haystack.includes(query))
+      ? [index]
+      : [];
+  });
+}
 
 function applyFilter(): void {
   if (!map.getLayer('bando-dots')) return;
-  map.setFilter('bando-dots', ['in', ['get', 'cat'], ['literal', [...activeCats]]]);
+  map.setFilter('bando-dots', ['in', ['get', 'idx'], ['literal', matchingIndices()]]);
 }
 
 function setBase(satellite: boolean): void {
@@ -197,26 +226,89 @@ function setBase(satellite: boolean): void {
 function showDetail(idx: number): void {
   const b = bandos[idx];
   if (!b) return;
-  const meta = CATEGORIES[b.cat];
-  const coord = `${b.lat.toFixed(5)}, ${b.lon.toFixed(5)}`;
-  const gmaps = `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lon}`;
-  const sidebar = document.getElementById('sidebar');
-  if (!sidebar) return;
-  sidebar.innerHTML = `
-    <article class="detail">
-      <h2>${escapeHtml(b.name)}</h2>
-      <p class="town">${escapeHtml(b.town)}</p>
-      <p class="cat" style="color:${meta.color};border-color:${meta.color}">${meta.label}</p>
-      <div class="kv">
-        ${b.status ? `<span><b>Status</b> ${escapeHtml(b.status)}</span>` : ''}
-      </div>
-      <div class="body">${b.body}</div>
-      ${b.next ? `<p class="next"><span>Next step</span>${escapeHtml(b.next)}</p>` : ''}
-      <p class="coord"><code>${coord}</code>
-        <a href="${gmaps}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a></p>
-    </article>`;
+  selected = idx;
+  renderSidebar();
+  document.getElementById('sidebar')?.scrollTo({ top: 0 });
+  const url = new URL(location.href);
+  url.searchParams.set('spot', b.id);
+  history.replaceState(null, '', url);
   map.flyTo({ center: [b.lon, b.lat], zoom: Math.max(map.getZoom(), 12), speed: 0.9 });
 }
+
+function kilometers(lat: number, lon: number): number | undefined {
+  if (!origin) return undefined;
+  const rad = Math.PI / 180;
+  const a =
+    Math.sin(((lat - origin.lat) * rad) / 2) ** 2 +
+    Math.cos(origin.lat * rad) *
+      Math.cos(lat * rad) *
+      Math.sin(((lon - origin.lon) * rad) / 2) ** 2;
+  return 6371 * 2 * Math.asin(Math.sqrt(Math.min(1, a)));
+}
+
+function renderSidebar(): void {
+  const content = document.getElementById('sidebar-content');
+  if (!content) return;
+  const b = selected === undefined ? undefined : bandos[selected];
+  if (b) {
+    content.innerHTML = renderSpotDetail(b, CATEGORIES);
+    return;
+  }
+  const indices = matchingIndices().sort((a, b) => {
+    const left = bandos[a],
+      right = bandos[b];
+    if (!left || !right) return 0;
+    return origin
+      ? (kilometers(left.lat, left.lon) ?? 0) - (kilometers(right.lat, right.lon) ?? 0)
+      : left.name.localeCompare(right.name, 'de');
+  });
+  content.innerHTML = `<p id="list-count" role="status">${indices.length} Kartenpunkte${origin ? ` · Luftlinie ab ${escapeHtml(origin.name)}` : ''}</p>
+    <p class="list-note">${unmapped.length} weitere Spuren ohne Kartenpin im <a href="./atlas/?confidence=open">Atlas</a>. Startpunkt und Entfernungen ändern die Karte nicht.</p>
+    <div class="spot-results">${indices
+      .map((index) => {
+        const spot = bandos[index];
+        if (!spot) return '';
+        const km = kilometers(spot.lat, spot.lon);
+        return `<button type="button" class="spot-result" data-select="${index}" data-id="${escapeHtml(spot.id)}"><span class="result-name"><i style="background:${CATEGORIES[spot.cat].color}"></i>${escapeHtml(spot.name)}</span><small>${escapeHtml(spot.town)}${km === undefined ? '' : ` · ${Math.round(km)} km`}</small>${spot.atlas ? `<small>${spot.atlas.videos.length} Videos · ${escapeHtml(spot.atlas.status.label)}</small>` : ''}</button>`;
+      })
+      .join('')}</div>`;
+}
+
+function returnToList(): void {
+  selected = undefined;
+  const url = new URL(location.href);
+  url.searchParams.delete('spot');
+  history.replaceState(null, '', url);
+  renderSidebar();
+  document.getElementById('sidebar')?.scrollTo({ top: 0 });
+}
+
+document.getElementById('sidebar-content')?.addEventListener('click', (event) => {
+  if (!(event.target instanceof Element)) return;
+  const button = event.target.closest<HTMLElement>('[data-select]');
+  if (button) showDetail(Number(button.dataset.select));
+  if (event.target.closest('#back-to-list')) returnToList();
+});
+
+document.getElementById('spot-search')?.addEventListener('input', (event) => {
+  if (!(event.target instanceof HTMLInputElement)) return;
+  query = event.target.value.trim().toLocaleLowerCase('de');
+  returnToList();
+  applyFilter();
+});
+document.getElementById('research-only')?.addEventListener('change', (event) => {
+  if (!(event.target instanceof HTMLInputElement)) return;
+  researchOnly = event.target.checked;
+  returnToList();
+  applyFilter();
+});
+const originControl = document.getElementById('origin-control');
+if (originControl)
+  initOriginSearch(originControl, null, (value) => {
+    origin = value;
+    renderSidebar();
+  });
+renderSidebar();
 
 // Dev-only console handle for poking at the map (`__map.getZoom()`, layer state,
 // queryRenderedFeatures). `import.meta.env.DEV` is statically false in a
@@ -243,6 +335,7 @@ if (filtersEl) {
       btn.classList.toggle('active', !on);
       btn.setAttribute('aria-pressed', String(!on));
       applyFilter();
+      returnToList();
     });
     filtersEl.appendChild(btn);
   }
@@ -263,4 +356,5 @@ document.querySelectorAll<HTMLButtonElement>('#basetoggle button').forEach((btn)
 
 /* ---- header count ---- */
 const countEl = document.getElementById('count');
-if (countEl) countEl.textContent = `${bandos.length} spots · OpenStreetMap & Esri imagery`;
+if (countEl)
+  countEl.textContent = `${bandos.length} Kartenpunkte · ${atlas.pilots.length} Kanäle · Deutschland`;

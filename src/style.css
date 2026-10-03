@@ -11,6 +11,14 @@
   --ask: #f0b429;
   --hot: #e5484d;
   --zone: #8c99ff;
+  --ink: #e8edf2;
+  --muted: #93a3b2;
+  --line: #22323f;
+  --paper: #14202c;
+  --orange: #65c7ee;
+  --accent: #65c7ee;
+  --white: #14202c;
+  --soft: #0e1620;
   color-scheme: dark;
 }
 
@@ -72,6 +80,8 @@ body {
   flex-wrap: wrap;
   gap: 7px;
   flex: 1;
+  order: 4;
+  flex-basis: 100%;
 }
 .chip {
   font: inherit;
@@ -134,12 +144,181 @@ body {
   min-width: 0;
 }
 #sidebar {
-  width: 380px;
+  width: 410px;
   flex-shrink: 0;
   background: var(--panel);
   border-left: 1px solid var(--rule);
   padding: 20px;
   overflow-y: auto;
+}
+
+.site-links {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+.site-links a,
+#sidebar a {
+  color: var(--focus);
+}
+.site-links a[aria-current] {
+  color: var(--text);
+}
+.mini-label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 7px;
+}
+#spot-search {
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--rule);
+  padding: 10px 12px;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 13px;
+}
+.research-filter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0 16px;
+}
+.search-controls {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 10px;
+}
+.list-note,
+.evidence-meta {
+  color: var(--text-muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+#list-count {
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+.spot-results {
+  display: grid;
+  gap: 6px;
+}
+.spot-result {
+  display: grid;
+  gap: 4px;
+  text-align: left;
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 12px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+.spot-result:hover {
+  border-color: var(--focus);
+}
+.spot-result small {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+.result-name {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.result-name i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.back-button {
+  padding: 8px 0;
+  margin-bottom: 12px;
+  border: 0;
+  background: none;
+  color: var(--focus);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+}
+.evidence {
+  font-size: 13px;
+}
+.evidence h3 {
+  margin-top: 24px;
+  font-size: 14px;
+}
+.evidence-status {
+  padding: 12px;
+  background: var(--bg);
+  border-left: 2px solid #65c7ee;
+}
+.evidence-links {
+  list-style: none;
+  padding: 0;
+}
+.evidence-links li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.evidence-links a {
+  display: block;
+}
+.evidence-links small {
+  color: var(--text-muted);
+}
+.evidence-links p {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.atlas-link {
+  display: inline-block;
+  padding: 8px 0;
+}
+.legacy-record {
+  margin-top: 20px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.legacy-record summary {
+  cursor: pointer;
+}
+.coordinate-note {
+  padding: 10px;
+  border: 1px solid var(--rule);
+  color: var(--text-muted);
+  font-size: 11px;
+}
+#origin-control .origin-place-field {
+  background: var(--bg);
+  border-color: var(--rule);
+}
+#origin-control .origin-place-field input,
+#origin-control button {
+  color: var(--text);
+}
+#origin-control .origin-place-results {
+  background: var(--panel);
+}
+#origin-control .origin-place-results button:hover,
+#origin-control .origin-place-results button[aria-selected='true'] {
+  background: var(--bg);
+}
+#origin-control .origin-place-clear,
+#origin-control .origin-place-submit {
+  background: transparent;
+}
+#origin-control .origin-place-status,
+#origin-control .origin-place-attribution {
+  color: var(--text-muted);
 }
 
 #sidebar .empty {
@@ -243,6 +422,25 @@ body {
 }
 
 @media (max-width: 820px) {
+  #topbar {
+    gap: 10px;
+    padding: 10px 12px;
+  }
+  .site-links {
+    margin-left: 0;
+    gap: 12px;
+  }
+  .brand {
+    flex: 1;
+  }
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 3px;
+  }
+  .chip {
+    flex-shrink: 0;
+  }
   #main {
     flex-direction: column;
   }
@@ -251,5 +449,9 @@ body {
     border-left: none;
     border-top: 1px solid var(--rule);
     max-height: 45%;
+    padding: 14px;
+  }
+  #map {
+    min-height: 180px;
   }
 }

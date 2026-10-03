@@ -30,7 +30,7 @@ export default tseslint.config(
   // This config file is plain JS run by ESLint itself, so it sits outside the
   // app's tsconfig and can't be type-checked against it. Kept as its own entry
   // so disableTypeChecked's parserOptions reset isn't overwritten below.
-  { files: ['**/*.js'], ...tseslint.configs.disableTypeChecked },
-  { files: ['**/*.js'], languageOptions: { globals: globals.node } },
+  { files: ['**/*.{js,mjs}'], ...tseslint.configs.disableTypeChecked },
+  { files: ['**/*.{js,mjs}'], languageOptions: { globals: globals.node } },
   prettier,
 );
