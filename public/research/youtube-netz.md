@@ -68,4 +68,10 @@ Der [Film „Former Delta Musik Park“](https://www.youtube.com/watch?v=U9nLpkL
 
 Erste Inventare von Christopher Dörner und CoSci liefern keine zusätzliche benannte deutsche Industrieanlage. CoSci ist jetzt über den verifizierten Handle `@cosciblog` suchbar. Ein Film mit der groben Angabe „südlich von Hamburg“ zeigt Treppenhäuser und Flure, aber noch keinen konkreten Gebäudenamen. Weitere süddeutsche Fabrikabfragen bleiben ohne zugeordneten FPV-Beleg. Ein erneut aufgetauchter Papierfabrikfilm wurde als bereits untersuchte offene Spur erkannt und nicht nochmals abgerufen.
 
+## 03.10.2026 – Basso-Innenflug am vorhandenen Kartenort
+
+Das [Erlebnisbad Basso in Bad Schmiedeberg](../atlas/?spot=erlebnisbad-basso) erhält ein geprüftes Dossier. Der [Cinewhoop-Film von Christopher Dörner](https://www.youtube.com/watch?v=2vZ0vbXoAb8&t=4s), veröffentlicht am 07.12.2024, zeigt tatsächlichen Flug durch die große Schwimmhalle. Dachraster, Galerie, Beckenstufen und ein individuelles Wandbild stimmen mit den [benannten Fotos von ZeitBrüche](https://www.zeitbrueche.de/sportfrei.html) überein. Deren Aufnahmeangabe lautet März 2024; der Flugtag ist unbekannt.
+
+Der [veröffentlichte Communitypunkt](https://www.fpv-spots-germany.de/spot_detail.php?id=8) stimmt mit dem bereits vorhandenen Kartenort überein. Es entsteht daher kein zusätzlicher Pin. Der Eintrag und neun Foto-Uploads vom 09.04.2026 bestätigen keine Aufnahme oder Besichtigung an diesem Tag. Eine andere Ortsseite vermischt das Bad mit dem benachbarten Ferienlager; ihre Zustands- und Zugangsangaben wurden nicht übernommen. Heutiger Bestand, Zutritt und Flugfreigabe bleiben offen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

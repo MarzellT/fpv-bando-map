@@ -55,4 +55,10 @@ FpvMr.K ergänzt das Netzwerk durch eine ausdrücklich benannte gemeinsame Sessi
 
 Stand: **62 Atlas-Orte, 58 mit Koordinaten, 95 Kanäle, 88 Verbindungen, 110 Spotvideos und 572 Kartenpunkte**. Offene Ergebnisse und die nächsten notwendigen Belege sind im Recherchearchiv gesichert.
 
+## 03.10.2026 – Basso als neues Dossier, bestehender Kartenpunkt erhalten
+
+Für das [Erlebnisbad Basso](../atlas/?spot=erlebnisbad-basso) sind Innenflug und individuelle Fotomerkmale abgeglichen. Die Fotos sind mit März 2024 bezeichnet; das Flugvideo wurde im Dezember 2024 veröffentlicht. Neuere Uploadtermine wurden nicht als Bestandsprüfung gewertet. Christopher Dörner bleibt derselbe bereits bekannte Kanal; es entsteht keine zusätzliche Netzwerkbeziehung.
+
+Stand: **63 Atlas-Orte, 59 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 111 verschiedene Spotvideos**. Die Hauptkarte bleibt bei **572 Punkten**: 549 ursprüngliche Einträge, jetzt 36 geprüfte Überschneidungen und weiterhin 23 zusätzliche Atlaspositionen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

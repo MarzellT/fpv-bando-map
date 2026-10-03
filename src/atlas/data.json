@@ -3583,6 +3583,60 @@
           "type": "photo"
         }
       ]
+    },
+    {
+      "id": "erlebnisbad-basso",
+      "name": "Erlebnisbad Basso",
+      "city": "Bad Schmiedeberg",
+      "region": "Sachsen-Anhalt",
+      "type": "Schwimmbad",
+      "lat": 51.690949,
+      "lon": 12.721052,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Ehemaliges Freizeitbad mit großer Schwimmhalle, markantem Dachtragwerk, Galerie und leeren Becken. Der Cinewhoop-Innenflug ist anhand der Hallenstruktur und individueller Wandbilder mit benannten Ortsfotos abgeglichen.",
+      "features": [
+        "Große Schwimmhalle",
+        "Dreieckiges Dachtragwerk",
+        "Galerie und Beckenstufen",
+        "Außenrutsche"
+      ],
+      "status": {
+        "label": "Fotos März 2024 · Flugvideo Dezember 2024",
+        "tone": "caution",
+        "lastEvidence": "2024-12-07",
+        "note": "Tatsächlich geprüfte Fotos mit Aufnahmeangabe März 2024 zeigen die verfallene Halle mit Dachlücken, Galerie und leeren Becken. Der am 07.12.2024 veröffentlichte Innenflug zeigt dieselbe Anlage; sein Aufnahmetag ist unbekannt. Einträge und Foto-Uploads aus April 2026 liefern ohne bestätigte Aufnahmezeiten keinen neuen Bestandsnachweis. Heutiger Gebäudezustand sowie Betretungs- und Flugfreigabe bleiben ungeklärt. Der veröffentlichte Communitypunkt dient nur zur Orientierung am Bad, nicht als geprüfter Eingang oder Startplatz."
+      },
+      "videos": [
+        {
+          "id": "2vZ0vbXoAb8",
+          "title": "Lost Place FPV - Basso",
+          "pilotId": "christopher-doerner",
+          "publishedAt": "2024-12-07",
+          "match": "visual",
+          "timestampSeconds": 4,
+          "note": "Geprüfte Bilder von 0–8 und 27–35 s zeigen tatsächlichen Flug durch die Schwimmhalle, entlang der Galerie und um die Beckenwände. Dachraster, runde Stützen, geflieste Treppen und ein individuelles schwarz-weiß-violettes Wandbild stimmen mit den benannten Fotos überein. Die Fotos zeigen zusätzlich die Außenrutsche. Veröffentlichung am 07.12.2024 Europe/Berlin, kein bestätigter Flugtag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ZeitBrüche / Ingolf Bergfeld: individuell passende Fotos von Becken, Galerie und Rutsche; Aufnahmeangabe März 2024, kein exakter Aufnahmetag bestätigt",
+          "url": "https://www.zeitbrueche.de/sportfrei.html",
+          "type": "photo"
+        },
+        {
+          "title": "Deutschlandfunk: Basso in Bad Schmiedeberg, historische Eröffnung und Schließung; Bericht vom 21.01.2010",
+          "url": "https://www.deutschlandfunk.de/kein-spass-im-bad-100.html",
+          "type": "press",
+          "date": "2010-01-21"
+        },
+        {
+          "title": "FPV Spots Germany: benanntes Basso-Hallenbad und veröffentlichter Orientierungspunkt; Eintrag und Foto-Uploads vom 09.04.2026, Aufnahmezeiten unbekannt",
+          "url": "https://www.fpv-spots-germany.de/spot_detail.php?id=8",
+          "type": "community",
+          "date": "2026-04-09"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3948,7 +4002,7 @@
       "name": "Christopher Dörner",
       "handle": "@christopherdorner2532",
       "url": "https://www.youtube.com/channel/UCDYkNDQReSAKz2UQIJ5oMkQ",
-      "description": "Dokumentiert einen ausdrücklich benannten Cinewhoop-Innenflug durch frühere RAW-Hallen in Leipzig, veröffentlicht am 3. Februar 2025."
+      "description": "Dokumentiert Cinewhoop-Innenflüge durch frühere RAW-Hallen in Leipzig und durch das Erlebnisbad Basso in Bad Schmiedeberg. Das Basso ist anhand benannter Fotos individuell zugeordnet; Veröffentlichung und Flugtag bleiben getrennt."
     },
     {
       "id": "in-love-with-flight",
