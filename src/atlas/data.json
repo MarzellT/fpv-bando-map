@@ -3747,6 +3747,113 @@
           "type": "official"
         }
       ]
+    },
+    {
+      "id": "schloss-eggersdorf-malente",
+      "name": "Schloss Eggersdorf – Villa in Malente",
+      "city": "Bad Malente-Gremsmühlen",
+      "region": "Schleswig-Holstein",
+      "type": "Villa",
+      "lat": 54.17676,
+      "lon": 10.572916,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Verfallene schlossartige Villa mit Zinnen, Turm und verwildertem Park nahe dem Kellersee. InLoveWithFlight zeigt Außenflüge durch den Park und um das markante Gebäude. Die Silhouette wurde mit benannten Ortsfotos und dem amtlichen Denkmalfoto abgeglichen.",
+      "features": [
+        "Zinnen und Turm",
+        "Historischer Park",
+        "Belegter FPV-Außenflug",
+        "Privates, eingezäuntes Gelände"
+      ],
+      "status": {
+        "label": "Verfall und Einzäunung berichtet · April 2026",
+        "tone": "caution",
+        "lastEvidence": "2026-04-13",
+        "note": "Die Kreiszeitung berichtet am 13.04.2026 über gerodeten Bewuchs und ein weiterhin verfallenes Gebäude auf privatem, eingezäuntem Gelände. Laut der dort zitierten Gemeindeverwaltung lagen damals keine konkreten Bauanträge oder Nutzungspläne vor. Das ist ein Bericht von April, keine Besichtigung im Oktober. Der Film wurde am 10.11.2020 veröffentlicht; sein Flugtag ist unbekannt. Heutiger Zustand und konkrete Zutritts- oder Flugfreigabe sind nicht bestätigt. Der ungefähre Kartenpunkt wurde aus dem veröffentlichten amtlichen Gebäudeumriss von Denkmal 10762 berechnet; er markiert weder Eingang noch Startplatz. Das Generierungsdatum des Denkmalblatts und der Fotocredit 2023 sind keine bestätigten Besuchsdaten."
+      },
+      "videos": [
+        {
+          "id": "zlnH9U_XUlk",
+          "title": "LOST PLACE IN MALENTE – Schloss Eggersdorf",
+          "pilotId": "in-love-with-flight",
+          "publishedAt": "2020-11-10",
+          "match": "visual",
+          "timestampSeconds": 380,
+          "note": "Tatsächlich geprüfte Außenflugsequenzen zeigen Park und Villa, besonders die Gebäudesilhouette bei 380–390 und 470–475 s. Heller Bau, gestufter Giebel, Zinnenfront und Turm passen zu den benannten Vergleichsfotos. Ein Innenflug ist in den geprüften Ausschnitten nicht belegt. Die humorvolle Geisterhaus-Beschreibung ist weder Immobilienangebot noch Zugangserlaubnis. Aufnahmetag unbekannt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kreiszeitung, 13.04.2026: Bewuchs entfernt, Gebäude weiter verfallen, privates eingezäuntes Areal; Gemeinde zu damaligen Planungsständen",
+          "url": "https://www.kreiszeitung.de/lokales/schleswig-holstein/lost-place-an-der-ostsee-schloss-wirft-fragen-auf-schloss-eggersdorf-94260302.html",
+          "type": "press",
+          "date": "2026-04-13"
+        },
+        {
+          "title": "Landesamt für Denkmalpflege: Villa Schloss Eggersdorf, Objekt 10762, Kellerseestraße 35; amtliches Foto und Lageplan",
+          "url": "https://efi2.schleswig-holstein.de/dish/dish_pdf/dish_pdfgenerate.php?id=10762",
+          "type": "official"
+        },
+        {
+          "title": "Amtliche Denkmalkarte, Objekt 10762: veröffentlichter Gebäudeumriss; daraus berechneter ungefährer Kartenmittelpunkt",
+          "url": "https://efi2.schleswig-holstein.de/dish/dish_client/index.html?ObjektID=10762",
+          "type": "official"
+        },
+        {
+          "title": "Zwischen den Seen, 23.02.2020: benannte Ortsfotos von Villa und Park; genauer Aufnahmetag unbekannt",
+          "url": "https://zwischendenseen.com/schloss-eggersdorf/",
+          "type": "photo",
+          "date": "2020-02-23"
+        }
+      ]
+    },
+    {
+      "id": "alt-daber-westlicher-hallenkomplex",
+      "name": "Alt Daber – westlicher Hallenkomplex",
+      "city": "Wittstock/Dosse, Alt Daber",
+      "region": "Brandenburg",
+      "type": "Militärischer Hallenkomplex",
+      "lat": 53.19735,
+      "lon": 12.516054,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Ehemalige Militärbauten an der Flugplatzallee zwischen großen Solarflächen. RudisFPV zeigt einen Flug durch niedrige Betonrahmen und überdachte Seitenschiffe mit offenem mittlerem Dachstreifen. Das benannte Areal ist zugeordnet; die genaue Funktion und Lage dieses Hallenteils innerhalb des Komplexes bleiben offen.",
+      "features": [
+        "Niedrige Betonrahmenhalle",
+        "Offener mittlerer Dachstreifen",
+        "Überdachte Seitenschiffe",
+        "Ungefährer Arealpunkt"
+      ],
+      "status": {
+        "label": "Auktionskatalog 2025 · genauer Hallenteil offen",
+        "tone": "caution",
+        "lastEvidence": "2025-09-26",
+        "note": "Der Katalog zum Auktionstermin 26.09.2025 beschreibt auf Seite 64, Los 56, mehrere stark verfallene denkmalgeschützte Gebäude an der Flugplatzallee und die Nutzung von Teilflächen durch eine Rettungshundestaffel. Er belegt keinen ausgeführten Verkauf, keinen heutigen Zustand des gefilmten Hallenteils und keine Flugfreigabe. Der Pilot nennt den 19.08.2023 in der Beschreibung; veröffentlicht wurde das Video am 01.11.2023. Der Kartenpunkt ist der publizierte Orientierungspunkt für den Komplex, kein exakt verorteter Halleneingang oder Startpunkt. Die bereits kartierte Bogendeckung liegt rund 2,2 km östlich und bleibt ein eigener Teilstandort."
+      },
+      "videos": [
+        {
+          "id": "5ROnph3sWvs",
+          "title": "Flugplatz Alt Daber – Lost Place Wittstock/Dosse, Fallschirmjäger",
+          "pilotId": "rudis-fpv",
+          "publishedAt": "2023-11-01",
+          "match": "named",
+          "timestampSeconds": 63,
+          "note": "Titel und Beschreibung nennen Alt Daber; der Pilot verlinkt die unabhängige Ortsdokumentation direkt. Tatsächlich geprüfte Bilder von 0–8 und 63–71 s zeigen die niedrige Betonrahmenhalle und einen Durchflug durch ein gedecktes Seitenschiff. Das Luftbild der Ortsquelle passt zum Arealkontext. Die geprüften Fotos hoher Stahlträger-Hangars und des Werfthallen-Seitenflügels zeigen andere Räume; der Film wurde keinem davon einzeln zugeordnet. Der 19.08.2023 ist eine Datumsangabe des Piloten, kein unabhängig bestätigter Besuchstag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Digital Cosmonaut: direkt vom Piloten verlinkte Ortsdokumentation, benannte Vergleichsfotos und veröffentlichter Orientierungspunkt an der Flugplatzallee",
+          "url": "https://digitalcosmonaut.com/de/flugplatz-alt-daber-wittstock-dosse/",
+          "type": "photo"
+        },
+        {
+          "title": "Auktionskatalog für den 26.09.2025, Seite 64, Los 56: ehemaliger Militärstandort Flugplatzallee; Angebotsbeschreibung, kein Verkaufsnachweis",
+          "url": "https://www.wdga-ag.de/fileadmin/user_upload/api/kataloge/dga/D25-03.pdf",
+          "type": "official",
+          "date": "2025-09-26"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -4119,7 +4226,7 @@
       "name": "InLoveWithFlight",
       "handle": "@InLoveWithFlight",
       "url": "https://www.youtube.com/channel/UCATVsDr6LgxgY_t9ZcNLaNg",
-      "description": "Benannte FPV-Flüge in Kiel, darunter die alte Müllverbrennungsanlage (2020) und der ehemalige Max-Bahr-Markt Raisdorf (2022). Kanal-ID aus YouTube-Videometadaten. Zwei weitere Flüge am Butterwerk Schleswig visuell zugeordnet; von FPV-DIRK ausdrücklich verlinkt."
+      "description": "Benannte FPV-Flüge in Kiel, darunter die alte Müllverbrennungsanlage (2020) und der ehemalige Max-Bahr-Markt Raisdorf (2022). Kanal-ID aus YouTube-Videometadaten. Zwei weitere Flüge am Butterwerk Schleswig visuell zugeordnet; von FPV-DIRK ausdrücklich verlinkt. Der Außenflug um Schloss Eggersdorf in Malente ist ebenfalls zugeordnet; daraus folgt keine heutige Freigabe."
     },
     {
       "id": "fpv-dirk",
@@ -4211,7 +4318,7 @@
       "name": "RudisFPV",
       "handle": "@RudisFPV",
       "url": "https://www.youtube.com/channel/UCI7n2nweS4q9ztONKqAVAyg",
-      "description": "Benannte FPV-Nah- und Innenflüge am Kraftwerk Vogelsang; weitere öffentliche Kasernen- und Modellflugvideos."
+      "description": "Benannte FPV-Nah- und Innenflüge am Kraftwerk Vogelsang sowie im westlichen Hallenkomplex von Alt Daber. Der genaue Hallenteil in Alt Daber und heutige Freigaben bleiben offen; weitere öffentliche Kasernen- und Modellflugvideos."
     },
     {
       "id": "muecke-fpv",

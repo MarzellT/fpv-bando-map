@@ -98,4 +98,12 @@ Eine echte ältere Videos-Seite von **Fliegerfilm** führt zum [Erichstollen bei
 
 Ein weiterer neuer Film zeigt den **alten Bahnhof Heigenbrücken** von außen und die Anfahrt zum verschlossenen Tunnelportal. Das [amtliche Exposé](https://www.blfd.bayern.de/mam/information_und_service/denkmal_boerse/unterfranken/ufr_ab-heigenbr%C3%BCcken-am_alten_bahnhof_1.pdf) nennt Sicherungsarbeiten im Dezember 2024 und Wohnnutzung bis 2022 beziehungsweise 2023. Daraus wurde kein aktueller Hallenflugspot abgeleitet. Ein älterer DVR-Film von **derhenk1** bestätigt nur das bereits bekannte Niederberg-Ensemble; ein heutiger Hallenbestand oder eine gemeinsame Session ist damit nicht belegt.
 
+## 03.10.2026 – Malenter Villa und Hallenkomplex Alt Daber
+
+Ältere Videos von **InLoveWithFlight** erschließen [Schloss Eggersdorf in Malente](../atlas/?spot=schloss-eggersdorf-malente): Ein Außenflug von 2020 passt zu benannten Ortsfotos; ein Bericht vom April 2026 beschreibt weiter das verfallene, private und eingezäunte Anwesen. Die Kartenposition ist ausdrücklich aus dem amtlichen Gebäudeumriss berechnet. Ein Innenflug und heutige Freigaben wurden nicht daraus abgeleitet.
+
+Bei **RudisFPV** führt eine neue Spur zum [westlichen Hallenkomplex Alt Daber](../atlas/?spot=alt-daber-westlicher-hallenkomplex). Der tatsächliche Flug durch niedrige Betonrahmen ist belegt. Das Areal ist im Film benannt; der genaue Hallenteil bleibt offen, da die hohen Hangar-Innenfotos andere Räume zeigen. Der veröffentlichte Orientierungspunkt liegt rund 2,2 km westlich der bereits kartierten Bogendeckung. Es ist eine Ergänzung innerhalb eines bekannten ehemaligen Flugplatzes. Ein Auktionskatalog für September 2025 liefert einen datierten Arealbefund, keinen Nachweis heutiger Flugfreigabe.
+
+Weitere Hamburger Filme zeigen DESY-Forschungsinfrastruktur beziehungsweise einen beauftragten Flug auf einer Abbruchbaustelle. Sie wurden als begrenzte technische Filmbelege archiviert. Aus den neuen Filmen ergibt sich keine zusätzliche Pilotenbeziehung.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

@@ -85,4 +85,10 @@ Neu ist der [Erichstollen Partenstein](../atlas/?spot=erichstollen-partenstein) 
 
 Stand: **65 Atlas-Orte, 61 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 113 verschiedene Spotvideos**. Die Hauptkarte enthält **574 Punkte**: 549 ursprüngliche Einträge, 36 geprüfte Überschneidungen und 25 zusätzliche Atlaspositionen. Es entstand keine neue Netzwerkverbindung.
 
+## 03.10.2026 – Villa und anderer Flugplatz-Teilstandort ergänzt
+
+Neu sind das Dossier [Schloss Eggersdorf in Malente](../atlas/?spot=schloss-eggersdorf-malente) mit belegtem Außenflug und das Dossier zum [westlichen Hallenkomplex Alt Daber](../atlas/?spot=alt-daber-westlicher-hallenkomplex) mit benanntem Areal und offenem genauen Hallenteil. Alt Daber zählt als zusätzliche Hallenspur innerhalb eines schon bekannten ehemaligen Flugplatzes; sein ursprünglicher Bogendeckungs-Pin bleibt erhalten. Kartenpunkt, gefilmter Gebäudeteil, Quellenalter und heutige Freigabe sind getrennt beschrieben.
+
+Stand: **67 Atlas-Orte, 63 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 115 verschiedene Spotvideos**. Die Hauptkarte enthält **576 Punkte**: 549 ursprüngliche Einträge, 36 geprüfte Überschneidungen und 27 zusätzliche Atlaspositionen. Die Zahl der Piloten und Kanten ist in dieser Charge unverändert.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
