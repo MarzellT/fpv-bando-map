@@ -4538,7 +4538,7 @@
       "name": "RC Rich / Skyhunter.FPV",
       "handle": "@RCRich030",
       "url": "https://www.youtube.com/channel/UCnIDujkDnLW7Hwj0de7E_jw",
-      "description": "Von DrFrantic77 ausdrücklich als Teilnehmer eines Bando-Wochenendes genannt; kanonischer YouTube-Kanal geprüft. Der genaue Veranstaltungsort bleibt offen. Nennt sich in eigener Videobeschreibung RC Rich aka Skyhunter.FPV. Ein historischer Innenflug ist anhand benannter Fotos der Wagenhalle des RAW Salbke zugeordnet; das Areal befindet sich 2026 in Entwicklung."
+      "description": "Von DrFrantic77 ausdrücklich als Teilnehmer eines Bando-Wochenendes genannt; kanonischer YouTube-Kanal geprüft. Der genaue Veranstaltungsort bleibt offen. Nennt sich in eigener Videobeschreibung RC Rich aka Skyhunter.FPV. Ein historischer Innenflug ist anhand benannter Fotos der Wagenhalle des RAW Salbke zugeordnet; das Areal befindet sich 2026 in Entwicklung. Verweist in einem RC-Video ausdrücklich auf blueRC; daraus wird keine gemeinsame FPV-Session abgeleitet."
     },
     {
       "id": "bavaria-fpv",
@@ -5336,6 +5336,14 @@
       "label": "FPV-DIRK ausdrücklich als Mitflieger genannt. Datum der Veröffentlichung, kein bestätigter Flugtag; die konkrete Anlage ist noch offen.",
       "url": "https://www.youtube.com/watch?v=FFW0jRJet1U",
       "date": "2023-03-01"
+    },
+    {
+      "sourceId": "rc-rich",
+      "targetId": "blue-rc",
+      "type": "reference",
+      "label": "RC Rich empfiehlt blueRCs Kanal in der Beschreibung eines RC-Treffens. Ein gemeinsamer FPV-Flug und der genaue Treffpunkt sind nicht belegt; Datum = Veröffentlichung.",
+      "url": "https://www.youtube.com/watch?v=AbD-vOUN-_4",
+      "date": "2023-08-22"
     }
   ]
 }

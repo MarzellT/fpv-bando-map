@@ -114,4 +114,10 @@ Weitere Hamburger Filme zeigen DESY-Forschungsinfrastruktur beziehungsweise eine
 
 Beide Dossiers ergänzen vorhandene Kartenpunkte. Es entstehen weder zusätzliche Pins noch unbelegte Pilotenbeziehungen. Ein erstmals inventarisierter Kanalzweig von Drone & Drive liefert zwei weitere Hallenfilme. Einer zeigt einen echten Flug durch eine vom Piloten in Dortmund verortete Halle; ihr genauer Standort bleibt auch nach Bildvergleich offen.
 
+## 03.10.2026 – RC Rich verweist auf blueRC
+
+Eine ältere Beschreibung von **RC Rich** nennt ein RC-Treffen mit **blueRC** und enthält dessen bereits bestätigte Kanal-ID in einem Abonnementhinweis. Das Netz erhält deshalb eine **Referenzkante**, keine FPV-Sessionkante. Der ursprüngliche Verweis verwendet einen ungewöhnlichen URL-Pfad; seine Erreichbarkeit wurde nicht behauptet. Als Beleg dient das [Video mit der ausdrücklichen Beschreibung](https://www.youtube.com/watch?v=AbD-vOUN-_4), veröffentlicht am 22.08.2023. Der Treffenstag und die genaue Lage des dort genannten „Fun Park“ sind unbekannt.
+
+Ein älterer PinkusFPV-Film mit dem Titel „Betonplattenwerk Berlin“ zeigt tatsächlich industrielle Innenflüge. Die konkrete Werksidentität bleibt nach begrenztem Bildvergleich offen; daraus entsteht kein Kartenpunkt. Zusätzliche Suchläufe zu Adolph-Schacht, Boesner und dem Merziger Fliesenwerk erbrachten keinen zugeordneten FPV-Film.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

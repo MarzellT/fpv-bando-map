@@ -99,4 +99,12 @@ Neu sind zwei Dossiers an bereits vorhandenen Pins: [Flugleitzentrum Schwerin-G�
 
 Stand: **69 Atlas-Orte, 65 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 117 verschiedene Spotvideos**. Die Hauptkarte hat weiterhin **576 Punkte**: 549 ursprüngliche Einträge und 27 zusätzliche Atlaspositionen; jetzt sind 38 Überschneidungen durch geprüfte Ortsidentitäten verknüpft. Die beiden neuen Dossiers zählen nicht als neu entdeckte Kartenstandorte.
 
+## 03.10.2026 – Netzwerkverweis und zwei präzisierte Bestandseinträge
+
+**RC Rich → blueRC** ist neu als ausdrücklicher Kanalverweis belegt. Das beschriebene RC-Treffen wird weder zu einer belegten FPV-Session noch einem bestimmten „Fun Park“ umgedeutet. Damit umfasst das Netz **95 Kanäle und 89 Verbindungen**; der Atlas bleibt bei **69 Orten, 65 Koordinaten und 117 verschiedenen Spotvideos**, die Hauptkarte bei **576 Punkten**.
+
+Zwei bestehende Kartentexte wurden präzisiert: Für das **Fliesenwerk Merzig** berichtet die Stadt über den Kauf einer Teilfläche mit zwei Hallen im Jahr 2025 und über die Vorstellung von Umbauplänen im Juni 2026. Für das **Boesner-Werk in Neuwied** beschreibt der amtliche Planentwurf vom Februar 2026 noch gewerbliche Teilnutzung einschließlich ES Boesner; vorgesehener Rückbau ist kein Nachweis eines bereits erfolgten Abrisses. Die genaue Zuordnung des jeweiligen Kartenpunkts zu diesen Teilflächen bleibt offen. Beide Einträge verlinken ihre amtlichen Quellen.
+
+Alle ursprünglichen Koordinaten bleiben erhalten. Seit dem Merge wurden die Texte von fünf Originaleinträgen anhand konkreter Quellen berichtigt: RAW Salbke, Neu Kaliß, Merzig, Boesner und RENAK. Diese Korrekturen zählen nicht als neue Orte.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
