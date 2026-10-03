@@ -38,4 +38,12 @@ Die [Knappschaftsheilstätte Sülzhayn](../atlas/?spot=knappschaftsheilstaette-s
 
 Beide Orte waren bereits in der Hauptkarte enthalten und bekommen jetzt Atlas-Dossiers. Ihre ursprünglichen Kartenpositionen bleiben erhalten. Neu ist der bestätigte Kanal xX_c-jay79_Xx; Flinkis Handle wurde verifiziert. Janett–Tilly und Flinki–Quax werden durch neue Quellen gestützt, ohne zusätzliche Beziehungskanten zu zählen. ScratchyFPV und R.S.FPV bleiben ohne sichere Kanalzuordnung.
 
+## 03.10.2026 – Unterkunftsgebäude bei Tessin
+
+Neu im Atlas und auf der Karte: [Hauptgefechtsstand Tessin – Unterkunftsgebäude](../atlas/?spot=hauptgefechtsstand-tessin-unterkuenfte). [Rotorholics’ Film](https://www.youtube.com/watch?v=cDPG7FAjFaA&t=100s), veröffentlicht am 02.07.2020, zeigt Flüge durch und um die oberirdischen Blöcke. Die Beschreibung nennt Tessin und Modern Vikings; die Gebäude sind mit [benannten Ortsfotos](https://www.bunker-tessin.de/) abgeglichen. Die geprüften Passagen belegen keinen Flug durch den unterirdischen Hauptbunker.
+
+[Modern Vikings beschreibt das Gelände als Airsoftfeld Ragnarök](https://www.airsoft-verzeichnis.de/index.php?status=team&teamnummer=008887). Diese undatierte Selbstdarstellung bestätigt keine FPV-Freigabe. Flugtag, Aufnahmezeiten der Vergleichsfotos und heutiger Zustand bleiben offen. Der Kartenpunkt dient der Orientierung im Komplex. Der bestehende Rotorholics-Kanal hat jetzt seinen verifizierten Handle; keine zusätzliche Netzwerkverbindung ist daraus abgeleitet.
+
+Weitere Prüfungen bleiben offen: Ein unbenannter Zwän-Film zeigt einen verkleideten Schachtturm; die geprüfte Hünxe-Referenz passt nicht. Für Holtzmann Forbach und die AKS-Basilika in Augsburg wurde kein konkreter FPV-Beleg gefunden. Ein ähnlich benannter Forbach-Minenfilm liegt ausdrücklich in Frankreich und wurde ausgeschlossen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

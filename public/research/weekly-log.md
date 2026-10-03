@@ -31,4 +31,10 @@ Zwei bereits vorhandene Kartenorte haben jetzt geprüfte Atlas-Dossiers: [Kraftw
 
 Stand: **59 Atlas-Orte, 56 mit Koordinaten, 93 Kanäle, 87 belegte Verbindungen und 107 verschiedene Videos**. Die Hauptkarte bleibt bei **570 Punkten**: 549 ursprüngliche Einträge, 35 geprüfte Überschneidungen und 21 zusätzliche Atlaspositionen. Ein neuer Kanal, Flinkis bestätigter Handle und zusätzliche Quellen für bestehende Beziehungen; keine neuen Kanten aus unklaren Namen. Details stehen in den [Recherchenotizen](youtube-netz.md).
 
+## 03.10.2026 – Neuer Standort aus dem Rotorholics-Netz
+
+Die [Unterkunftsgebäude am ehemaligen Hauptgefechtsstand Tessin](../atlas/?spot=hauptgefechtsstand-tessin-unterkuenfte) sind durch einen tatsächlich geprüften FPV-Film und benannte Gebäudefotos zugeordnet. Der historische Flug von Rotorholics wurde 2020 veröffentlicht. Das Gelände wird als Airsoftfeld beschrieben; aktuelle FPV-Freigabe und Gebäudebestand bleiben offen.
+
+Stand: **60 Atlas-Orte, 57 mit Koordinaten, 93 Kanäle, 87 Verbindungen und 108 verschiedene Videos**. Die Hauptkarte enthält **571 Punkte**, darunter unverändert 549 ursprüngliche Einträge mit 35 geprüften Überschneidungen und nun 22 zusätzliche Atlaspositionen. Die neue Kanalprüfung bestätigt Rotorholics’ Handle, ohne eine zusätzliche Beziehung zu behaupten.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

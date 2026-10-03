@@ -3434,6 +3434,58 @@
           "type": "operator"
         }
       ]
+    },
+    {
+      "id": "hauptgefechtsstand-tessin-unterkuenfte",
+      "name": "Hauptgefechtsstand Tessin – Unterkunftsgebäude",
+      "city": "Bei Drüsewitz / Selpin, nahe Tessin",
+      "region": "Mecklenburg-Vorpommern",
+      "type": "Militär",
+      "lat": 53.990212,
+      "lon": 12.436137,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Oberirdische Unterkunftsgebäude des ehemaligen Hauptgefechtsstands der Volksmarine mit langen Fluren, Flachdächern und Innenhöfen. Ein historischer Rotorholics-Flug ist anhand benannter Gebäudefotos zugeordnet; der Verein Modern Vikings beschreibt hier sein Airsoftgelände Ragnarök.",
+      "features": [
+        "Lange Flure",
+        "Mehrgeschossige Unterkunftsblöcke",
+        "Flachdächer",
+        "Höfe zwischen Gebäuden"
+      ],
+      "status": {
+        "label": "FPV 2020 · Airsoftgelände laut Betreiber",
+        "tone": "caution",
+        "lastEvidence": "2020-07-02",
+        "note": "Der am 02.07.2020 veröffentlichte Film zeigt Flüge in und an den Unterkunftsgebäuden; der Flugtag ist unbekannt. Modern Vikings nennt das Gelände in einer undatierten Selbstdarstellung als betriebenes Airsoftfeld. Das ist keine FPV-Freigabe. Heutiger Gebäudebestand, Betretungs- und Flugbedingungen bleiben ungeklärt. Der Orientierungspunkt stammt aus der benannten Fotogalerie und bezeichnet den Komplex, keinen Startplatz oder bestimmten Gebäudeeingang. Die geprüften Bilder belegen keinen Flug durch den unterirdischen Hauptbunker."
+      },
+      "videos": [
+        {
+          "id": "cDPG7FAjFaA",
+          "title": "Tessin M-V DDR Bunker / Air Soft Spielfeld",
+          "pilotId": "rotorholics",
+          "publishedAt": "2020-07-02",
+          "match": "visual",
+          "timestampSeconds": 100,
+          "note": "Die Beschreibung nennt ausdrücklich Tessin und das Spielfeld der Modern Vikings. Geprüfte Bilder von 0–48 und 100–148 s zeigen die Unterkunftsblöcke, ihre Flure, Dächer und Höfe. Besonders die lange dreigeschossige Tarnfassade, Fenster- und Kelleröffnungen stimmen mit dem benannten Foto von Unterkunftsgebäude 2 überein. Der zweite Block ist mit dem anderen Ortsfoto vereinbar, einzelne Türöffnungen sind nicht sicher abgleichbar. Die Baujahre sind keine Fotodaten; Flugtag und heutiger Zustand bleiben offen."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bunker Tessin: benannte Fotos der beiden Unterkunftsgebäude; Baujahre 1974 und 1983/84, Fotoaufnahmezeiten unbekannt",
+          "url": "https://www.bunker-tessin.de/",
+          "type": "history"
+        },
+        {
+          "title": "Modern Vikings: Selbstdarstellung des Airsoftgeländes Ragnarök am ehemaligen Hauptgefechtsstand, undatiert",
+          "url": "https://www.airsoft-verzeichnis.de/index.php?status=team&teamnummer=008887",
+          "type": "operator"
+        },
+        {
+          "title": "VIMUDEAP: benannte Anlage und veröffentlichter Orientierungspunkt; kein genauer Punkt der gefilmten Unterkunft",
+          "url": "https://vimudeap.info/de/atlas/marinefuehrungsbunker-tessin/images/",
+          "type": "photo"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3622,9 +3674,9 @@
     {
       "id": "rotorholics",
       "name": "Rotorholics",
-      "handle": "UCxSNFfMhIWDTSjiTiaZSC2A",
+      "handle": "@Rotorholics",
       "url": "https://www.youtube.com/channel/UCxSNFfMhIWDTSjiTiaZSC2A",
-      "description": "Historischer Teamkanal mit dokumentiertem Hallentraining und Pilotenvorstellungen."
+      "description": "Historischer Teamkanal mit Hallentraining und Pilotenvorstellungen. Ein 2020 veröffentlichter Film zeigt die zugeordneten Unterkunftsgebäude am ehemaligen Hauptgefechtsstand Tessin; die Beschreibung nennt das Airsoftfeld der Modern Vikings."
     },
     {
       "id": "wiesbadener-kurier-bericht",
