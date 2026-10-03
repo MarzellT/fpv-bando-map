@@ -123,4 +123,10 @@ Neu ist das historische Salzmann-Dossier an einem bestehenden Kasseler Kartenpun
 
 Die ursprünglichen 549 Koordinaten bleiben unverändert. Der Text zum Salzmann-Eintrag wurde durch konkrete, verlinkte Bauinformationen ersetzt. Zwei bestehende Kanalhandles wurden über identische kanonische Kanal-IDs bestätigt. Weitere Titelspuren zu Karmachrizz und Team Frntflip liefern noch keine belastbare Kanalidentität; ein unbenanntes Fördergerüst bleibt ebenfalls offen.
 
+## 03.10.2026 – Offene Chemiefabrikspur und weitere begrenzte Suchen
+
+Die weitere Prüfung der Salzmann-Kanalzweige sowie von Quax, JJK, APHI, Chris FPV und MonkeyMindMovies liefert derzeit keinen zusätzlichen individuell benannten deutschen Industrieort. Vier bestehende Kanalhandles sind anhand ihrer identischen Kanal-IDs ergänzt. Die Zahlen bleiben bei **71 Dossiers, 98 Kanälen, 92 Verbindungen, 120 Spotvideos und 577 Kartenpunkten**.
+
+Ein neuer Film nennt Norddeutschland im April 2025, zeigt aber bislang keine sicher zugeordnete Chemiefabrik. Weitere genaue Suchen zu Eschwege, Veritas Wittenberge, den Bielefelder Hartsteinwerken und dem Metallwerk Senne ergeben keinen konkreten Werksflug. Regionale Luftaufnahmen, Sportanlagen und bekannte Videos aus anderen Orten wurden nicht als Treffer gezählt.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

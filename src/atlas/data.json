@@ -4147,14 +4147,14 @@
     {
       "id": "quax",
       "name": "QuaxFPV",
-      "handle": "UC1vjDcfGB1wZoZhqehUp-Tw",
+      "handle": "@quaxFPV",
       "url": "https://www.youtube.com/channel/UC1vjDcfGB1wZoZhqehUp-Tw",
       "description": "Benannte Videos von Herrenteich und Area One; weitere südwestdeutsche Spots."
     },
     {
       "id": "jjk",
       "name": "JJK FPV",
-      "handle": "UCxLkEHrLIPa3TBX1NV8uWbA",
+      "handle": "@JJK_FPV",
       "url": "https://www.youtube.com/channel/UCxLkEHrLIPa3TBX1NV8uWbA",
       "description": "Hockenheimer Bando im Video ausdrücklich benannt und mit Herrenteich abgeglichen."
     },
@@ -4371,7 +4371,7 @@
     {
       "id": "aphi-fpv",
       "name": "APHI FPV",
-      "handle": "UCqwkeS4pPA-1EFA-fQ9yuYw",
+      "handle": "@aphinion",
       "url": "https://www.youtube.com/channel/UCqwkeS4pPA-1EFA-fQ9yuYw",
       "description": "Benannter Cinematic-FPV-Flug durch die Burgruine Rodenstein im Odenwald, veröffentlicht 2021."
     },
@@ -4441,7 +4441,7 @@
     {
       "id": "monkeymindmovies",
       "name": "MonkeyMindMovies",
-      "handle": "UCm2q8FkJdO400GvFgCJT7sA",
+      "handle": "@MonkeyMindMovies",
       "url": "https://www.youtube.com/channel/UCm2q8FkJdO400GvFgCJT7sA",
       "description": "Veröffentlicht den als offiziell bezeichneten Aftermovie des FPV-Events funpark26 in Meppen."
     },

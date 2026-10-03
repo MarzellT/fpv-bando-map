@@ -136,4 +136,10 @@ Das neue Dossier verknüpft den bereits vorhandenen Salzmann-Kartenpunkt. Die [B
 
 Für **Dura Plettenberg** ist der Restbereich inzwischen über ein amtliches NRW-Orthofoto mit Bildflugdatum **20.09.2025** kartiert. Der aus dem Luftbild abgeleitete Punkt ist ausdrücklich ungefähr. Die Ortszuordnung ist belastbar; heutiger Hallenzustand und Freigaben bleiben offen. Ein weiterer Telefononkel-Kraftwerksfilm passt zur bekannten unlokalisierten Turbinenhalle, liefert aber weiterhin keinen belegten deutschen Standort.
 
+## 03.10.2026 – Weitere Kanalzweige geprüft
+
+Die bestehenden Profile von **QuaxFPV**, **JJK FPV**, **APHI FPV** und **MonkeyMindMovies** sind nun über ihre belegten Handles **@quaxFPV**, **@JJK_FPV**, **@aphinion** und **@MonkeyMindMovies** auffindbar. Die kanonischen Kanal-IDs bleiben gleich; dadurch entstehen keine neuen Knoten oder Beziehungen.
+
+Ein [Chemiefabrikfilm von Chill-o-Copter](https://www.youtube.com/watch?v=8F2q-nuQLZA) nennt ausdrücklich Norddeutschland und April 2025. Die geprüften Bilder zeigen Industrieflug, doch die genaue Anlage ist noch nicht zugeordnet. Der zusätzliche Vergleich mit vorhandenen benannten Rüdersdorf-Fotos liefert keinen eindeutigen Treffer und schließt andere Gebäudeteile des Areals nicht aus. Die Spur bleibt ohne erfundenen Kartenpunkt im Recherche-Register.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)
