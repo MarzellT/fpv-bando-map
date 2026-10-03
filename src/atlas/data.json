@@ -3854,6 +3854,114 @@
           "date": "2025-09-26"
         }
       ]
+    },
+    {
+      "id": "flugleitzentrum-schwerin-goerries",
+      "name": "Flugleitzentrum Schwerin-Görries",
+      "city": "Schwerin-Görries",
+      "region": "Mecklenburg-Vorpommern",
+      "type": "Ehemalige Flugleitung",
+      "lat": 53.61257,
+      "lon": 11.37575,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Verfallenes Flugleitungsgebäude mit gerundetem Fenstererker, rechteckigem Backsteinschornstein und langen Seitenflügeln. RudisFPV zeigt den Blick aus der gerundeten Stube und einen tatsächlichen Einflug durch ein tieferes Fenster. Die charakteristische Fassade passt zu einem unabhängig benannten Foto.",
+      "features": [
+        "Gerundete Flugleitungsstube",
+        "Mehrgeschossiger Fenstererker",
+        "Belegter FPV-Einflug",
+        "Hangar im unmittelbaren Umfeld"
+      ],
+      "status": {
+        "label": "Historischer Innenflug · heutiger Zustand offen",
+        "tone": "caution",
+        "lastEvidence": "2023-06-24",
+        "note": "Das Video wurde am 24.06.2023 veröffentlicht; sein Aufnahmetag ist unbekannt. Das Vergleichsfoto von Hajuko ist auf den 06.12.2018 datiert. Die undatierte städtische Planungsseite beschreibt eine beabsichtigte Sanierung der Flugplatzgebäude und gewerbliche Entwicklung. Sie belegt keine ausgeführten Arbeiten und keinen Zustand im Oktober 2026. Heutiger Gebäudeerhalt, Zutritt und FPV-Freigabe bleiben ungeklärt. Der vorhandene Kartenpunkt wird als ungefähre Gebäudeorientierung beibehalten; er wurde nicht neu vermessen und bezeichnet keinen Eingang oder Startplatz. Die Angaben zur Satellitenaufnahme 2024 und zum Luftraum im älteren Karteneintrag wurden für dieses Dossier nicht erneut geprüft."
+      },
+      "videos": [
+        {
+          "id": "ZyQX-AWW_a4",
+          "title": "Flugplatz Fokker Werke 2 – Lost Place Tower",
+          "pilotId": "rudis-fpv",
+          "publishedAt": "2023-06-24",
+          "match": "visual",
+          "timestampSeconds": 40,
+          "note": "Geprüft wurden die nativen Ausschnitte 0–8 und 36–44 s. Bei 0 s ist die gerundete Fensterstube innen sichtbar, bei 40–43 s die individuell passende Schornstein- und Erkerfassade, anschließend ein Einflug durch eine untere rechteckige Öffnung. Die Hangaransichten belegen keinen vollständigen Hallendurchflug. Der genaue Flugtag und heutige Freigaben sind unbekannt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hajuko: Flugleitzentrum Fliegerhorst Schwerin-Görries, Aufnahme 06.12.2018; benanntes und tatsächlich verglichenes Fassadenfoto",
+          "url": "https://commons.wikimedia.org/wiki/File:Flugplatz_Schwerin-G%C3%B6rries.jpg",
+          "type": "photo",
+          "date": "2018-12-06"
+        },
+        {
+          "title": "Landeshauptstadt Schwerin: Bebauungsplan 72.12, beabsichtigte Sanierung von Hangars und Tower; undatierter Planungsstand",
+          "url": "https://mobil.schwerin.de/mein-schwerin/leben/planen-bauen/stadtplanung/bebauungsplanung/laufende-planverfahren/goerries/goerries-ehemaliger-flugplatz/index.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "raw-salbke-magdeburg",
+      "name": "RAW Salbke – Wagenhalle Magdeburg",
+      "city": "Magdeburg-Salbke",
+      "region": "Sachsen-Anhalt",
+      "type": "Ehemaliges Bahnwerk",
+      "lat": 52.08189,
+      "lon": 11.66162,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Weitläufige frühere Wagenhalle mit genieteten Stahlstützen, Bodengruben und langen Dachlichtbändern. Ein FPV-Flug von RC Rich ist anhand einer markanten Stirnwand und des Hallentragwerks visuell zugeordnet. Das Areal wird inzwischen für das Quartier Rawsburg entwickelt.",
+      "features": [
+        "Mehrschiffige Stahlhalle",
+        "Lange Dachlichtbänder",
+        "Visuell zugeordneter Innenflug",
+        "Areal im Umbau"
+      ],
+      "status": {
+        "label": "Umbau im Areal seit August 2026",
+        "tone": "caution",
+        "lastEvidence": "2026-08-21",
+        "note": "Die Stadt meldet am 21.08.2026 den Spatenstich für Rawsburg, begonnene Sanierungen der Eingangskopfbauten und Bauvorbereitungen an Alt Salbke. Daraus folgt keine Bestätigung, welche Teile der gefilmten Wagenhalle heute erhalten oder zugänglich sind. Ein benanntes Hallenfoto ist auf den 28.09.2024 datiert, sein Upload erfolgte erst 2025. Der Film wurde am 09.11.2023 veröffentlicht; der Flugtag ist unbekannt. Heutiger Zustand der einzelnen Hallengasse, Zutritt und FPV-Freigabe bleiben offen. Der Kartenpunkt entspricht der vorhandenen Arealorientierung und dem veröffentlichten Communitypunkt; er markiert keine bestimmte Hallengasse, keinen Eingang und keinen Startplatz."
+      },
+      "videos": [
+        {
+          "id": "R3iahpm5HEk",
+          "title": "Der krasseste FPV Lostplace in Magdeburg – RAW Salbke",
+          "pilotId": "rc-rich",
+          "publishedAt": "2023-11-09",
+          "match": "visual",
+          "timestampSeconds": 72,
+          "note": "Die tatsächlich geprüfte Flugsequenz 72–88 s zeigt Innenflug zwischen Stahlstützen und Bodengruben sowie einen Flug über die Dachlichter. Die PEKS-Stirnwand mit flachen Bogenfeldern passt zusammen mit dem Tragwerk zum benannten Foto von 2023. Das Hallenfoto von 2024 ergänzt den historischen Zustand, belegt aber nicht dieselbe nummerierte Hallengasse. Die geprüften Anfangsbilder 0–16 s zeigen einen Rundgang; weitere Filmabschnitte wurden nicht vollständig untersucht. Keine namentlich belegten Mitflieger."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Landeshauptstadt Magdeburg, 21.08.2026: Spatenstich und begonnene Arbeiten für Rawsburg; kein Einzelbefund zur gefilmten Hallengasse",
+          "url": "https://www.magdeburg.de/B%C3%BCrger-Stadt/Aktuelles-Presse/Pressemeldungen/Ehemaliges-RAW-Gel%C3%A4nde-Spatenstich-zum-800-Millionen-Projekt.php?FID=698.54474.1&object=tx%2C698.6.1",
+          "type": "official",
+          "date": "2026-08-21"
+        },
+        {
+          "title": "Jojoo64: RAW Salbke, Hallen 03; Aufnahme 21.01.2023, Upload 01.09.2023; individueller Stirnwandvergleich",
+          "url": "https://commons.wikimedia.org/wiki/File:Reichsbahnausbesserungswerk_Salbke_Hallen_03.jpg",
+          "type": "photo",
+          "date": "2023-01-21"
+        },
+        {
+          "title": "Jojoo64: frühere Waggoninstandsetzungshalle; Aufnahme 28.09.2024, Upload 05.09.2025; Foto tatsächlich geprüft",
+          "url": "https://commons.wikimedia.org/wiki/File:RAW_Halle.jpg",
+          "type": "photo",
+          "date": "2024-09-28"
+        },
+        {
+          "title": "FPV Spots Germany, Eintrag 34: veröffentlichter ungefährer Arealpunkt; Eintragsdatum ist kein Besuchsdatum",
+          "url": "https://www.fpv-spots-germany.de/spot_detail.php?id=34",
+          "type": "community"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -4318,7 +4426,7 @@
       "name": "RudisFPV",
       "handle": "@RudisFPV",
       "url": "https://www.youtube.com/channel/UCI7n2nweS4q9ztONKqAVAyg",
-      "description": "Benannte FPV-Nah- und Innenflüge am Kraftwerk Vogelsang sowie im westlichen Hallenkomplex von Alt Daber. Der genaue Hallenteil in Alt Daber und heutige Freigaben bleiben offen; weitere öffentliche Kasernen- und Modellflugvideos."
+      "description": "Benannte FPV-Flüge am Kraftwerk Vogelsang und im westlichen Hallenkomplex Alt Daber sowie ein visuell zugeordneter Einflug in die Flugleitung Schwerin-Görries. Der genaue Hallenteil in Alt Daber und heutige Freigaben bleiben offen."
     },
     {
       "id": "muecke-fpv",
@@ -4430,7 +4538,7 @@
       "name": "RC Rich / Skyhunter.FPV",
       "handle": "@RCRich030",
       "url": "https://www.youtube.com/channel/UCnIDujkDnLW7Hwj0de7E_jw",
-      "description": "Von DrFrantic77 ausdrücklich als Teilnehmer eines Bando-Wochenendes genannt; kanonischer YouTube-Kanal geprüft. Der genaue Veranstaltungsort bleibt offen. Nennt sich in eigener Videobeschreibung RC Rich aka Skyhunter.FPV."
+      "description": "Von DrFrantic77 ausdrücklich als Teilnehmer eines Bando-Wochenendes genannt; kanonischer YouTube-Kanal geprüft. Der genaue Veranstaltungsort bleibt offen. Nennt sich in eigener Videobeschreibung RC Rich aka Skyhunter.FPV. Ein historischer Innenflug ist anhand benannter Fotos der Wagenhalle des RAW Salbke zugeordnet; das Areal befindet sich 2026 in Entwicklung."
     },
     {
       "id": "bavaria-fpv",

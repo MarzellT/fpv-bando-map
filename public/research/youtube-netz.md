@@ -106,4 +106,12 @@ Bei **RudisFPV** führt eine neue Spur zum [westlichen Hallenkomplex Alt Daber](
 
 Weitere Hamburger Filme zeigen DESY-Forschungsinfrastruktur beziehungsweise einen beauftragten Flug auf einer Abbruchbaustelle. Sie wurden als begrenzte technische Filmbelege archiviert. Aus den neuen Filmen ergibt sich keine zusätzliche Pilotenbeziehung.
 
+## 03.10.2026 – Zwei bestehende Kartenorte mit Innenflugbelegen
+
+**RudisFPV** lässt sich nun der [Flugleitung Schwerin-Görries](../atlas/?spot=flugleitzentrum-schwerin-goerries) zuordnen. Schornstein, gerundeter Erker und Seitenflügel stimmen mit einem benannten Foto überein; der Film zeigt einen tatsächlichen Fenstereinflug. Der Flugtag ist unbekannt, die Veröffentlichung stammt von Juni 2023. Eine städtische Sanierungsabsicht ersetzt keinen aktuellen Zustandsbeleg.
+
+**RC Rich** zeigt einen visuell zugeordneten [Innenflug im RAW Salbke](../atlas/?spot=raw-salbke-magdeburg). Ein charakteristisches Wandmotiv und das Hallentragwerk tragen den Vergleich. Ein weiteres Foto ist auf September 2024 datiert. Die Stadt meldet für August 2026 Arbeiten am Areal; der konkrete heutige Hallenzustand bleibt offen. Der alte pauschale Hinweis auf freien Zugang wurde deshalb entfernt.
+
+Beide Dossiers ergänzen vorhandene Kartenpunkte. Es entstehen weder zusätzliche Pins noch unbelegte Pilotenbeziehungen. Ein erstmals inventarisierter Kanalzweig von Drone & Drive liefert zwei weitere Hallenfilme. Einer zeigt einen echten Flug durch eine vom Piloten in Dortmund verortete Halle; ihr genauer Standort bleibt auch nach Bildvergleich offen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

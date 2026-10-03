@@ -91,4 +91,12 @@ Neu sind das Dossier [Schloss Eggersdorf in Malente](../atlas/?spot=schloss-egge
 
 Stand: **67 Atlas-Orte, 63 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 115 verschiedene Spotvideos**. Die Hauptkarte enthält **576 Punkte**: 549 ursprüngliche Einträge, 36 geprüfte Überschneidungen und 27 zusätzliche Atlaspositionen. Die Zahl der Piloten und Kanten ist in dieser Charge unverändert.
 
+## 03.10.2026 – Schwerin-Görries und RAW Salbke belegt
+
+Neu sind zwei Dossiers an bereits vorhandenen Pins: [Flugleitzentrum Schwerin-Görries](../atlas/?spot=flugleitzentrum-schwerin-goerries) und [RAW Salbke in Magdeburg](../atlas/?spot=raw-salbke-magdeburg). Beide erhalten visuell geprüfte historische Innenflugbelege. Sanierungsabsicht in Schwerin und tatsächlich begonnene Arbeiten im Magdeburger Areal bleiben von einer aktuellen Prüfung des jeweiligen Gebäudeteils getrennt.
+
+**Korrektur am ursprünglichen RAW-Eintrag:** Die unbelegte Angabe „frei zugänglich“ und die uneingeschränkte Empfehlung wurden durch den belegten Umbaukontext und offene Freigaben ersetzt. Der Kartenpunkt bleibt unverändert. Zusammen mit den früheren Korrekturen an Neu Kaliß und RENAK sind damit drei Originaleinträge inhaltlich berichtigt; sämtliche ursprünglichen Koordinaten bleiben erhalten.
+
+Stand: **69 Atlas-Orte, 65 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 117 verschiedene Spotvideos**. Die Hauptkarte hat weiterhin **576 Punkte**: 549 ursprüngliche Einträge und 27 zusätzliche Atlaspositionen; jetzt sind 38 Überschneidungen durch geprüfte Ortsidentitäten verknüpft. Die beiden neuen Dossiers zählen nicht als neu entdeckte Kartenstandorte.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
