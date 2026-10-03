@@ -92,4 +92,10 @@ Die bestehenden Profile von Jörg Schüller und Manfred Auch sind nun unter **@j
 
 Beide Kartenpositionen bleiben erhalten. Das sind Quellenkorrekturen an bestehenden Einträgen, keine neuen FPV-Spots. Die anderen 547 Ausgangseinträge und alle Atlas-Verknüpfungen bleiben unverändert.
 
+## 03.10.2026 – Ältere Kanalabschnitte erschließen den Spessart
+
+Eine echte ältere Videos-Seite von **Fliegerfilm** führt zum [Erichstollen bei Partenstein](../atlas/?spot=erichstollen-partenstein). Der [Film von April 2023](https://www.youtube.com/watch?v=o2EbpnxoLd8&t=14s) zeigt einen kurzen Flug im restaurierten Eingangsbereich und einen Außenumlauf um den kleinen Verladebunker. Beide Bauformen wurden individuell mit benannten LFU-Fotos abgeglichen. Das ist eine kleine Bergbau-Ergänzung am Kulturweg; heutiger Zustand und Freigabe bleiben offen. Die Referenzpublikation stammt von Oktober 2013, ihr aktuelles Suchindexdatum ist kein Ortsbesuch. Der Kartenpunkt ist der veröffentlichte ungefähre Geotoppunkt.
+
+Ein weiterer neuer Film zeigt den **alten Bahnhof Heigenbrücken** von außen und die Anfahrt zum verschlossenen Tunnelportal. Das [amtliche Exposé](https://www.blfd.bayern.de/mam/information_und_service/denkmal_boerse/unterfranken/ufr_ab-heigenbr%C3%BCcken-am_alten_bahnhof_1.pdf) nennt Sicherungsarbeiten im Dezember 2024 und Wohnnutzung bis 2022 beziehungsweise 2023. Daraus wurde kein aktueller Hallenflugspot abgeleitet. Ein älterer DVR-Film von **derhenk1** bestätigt nur das bereits bekannte Niederberg-Ensemble; ein heutiger Hallenbestand oder eine gemeinsame Session ist damit nicht belegt.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

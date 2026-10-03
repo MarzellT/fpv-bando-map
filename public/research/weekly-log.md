@@ -79,4 +79,10 @@ Die bestehenden Profile von Jörg Schüller und Manfred Auch sind nun unter **@j
 
 Beide Kartenpositionen bleiben erhalten. Das sind Quellenkorrekturen an bestehenden Einträgen, keine neuen FPV-Spots. Die anderen 547 Ausgangseinträge und alle Atlas-Verknüpfungen bleiben unverändert.
 
+## 03.10.2026 – Kleines Bergbaurelikt im Spessart ergänzt
+
+Neu ist der [Erichstollen Partenstein](../atlas/?spot=erichstollen-partenstein) als kleines Bergbaurelikt am Kulturweg. Kurzer FPV-Eingangsflug, benannte Vergleichsfotos und veröffentlichter Geotoppunkt sind belegt. Die Einordnung bleibt getrennt von großen verlassenen Industriehallen und vom betreuten Trainingsbergwerk. Für den heutigen Zustand oder eine Flugfreigabe gibt es keine neue Bestätigung. Heigenbrücken und der zusätzliche Niederberg-Film bleiben begrenzte historische Recherchebelege.
+
+Stand: **65 Atlas-Orte, 61 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 113 verschiedene Spotvideos**. Die Hauptkarte enthält **574 Punkte**: 549 ursprüngliche Einträge, 36 geprüfte Überschneidungen und 25 zusätzliche Atlaspositionen. Es entstand keine neue Netzwerkverbindung.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

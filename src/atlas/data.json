@@ -3695,6 +3695,58 @@
           "type": "community"
         }
       ]
+    },
+    {
+      "id": "erichstollen-partenstein",
+      "name": "Erichstollen Partenstein",
+      "city": "Partenstein, Main-Spessart",
+      "region": "Bayern",
+      "type": "Bergbaurelikt",
+      "lat": 50.047733,
+      "lon": 9.534317,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Kleine Bergbau-Ergänzung am Kulturweg: ein restauriertes Stollenmundloch mit hölzernem Eingangsbereich und ein erhaltener Verladebunker im Wald. Fliegerfilm zeigt einen kurzen Ein- und Ausflug am Eingang sowie einen Außenumlauf um den Bunker. Die markanten Bauformen passen zu benannten Fotos des Landesamts.",
+      "features": [
+        "Restauriertes Mundloch",
+        "Kleiner Verladebunker",
+        "Kulturweg im Wald",
+        "Kurzer FPV-Eingangsflug"
+      ],
+      "status": {
+        "label": "Kulturweg-Bergbaurelikt · Film 2023",
+        "tone": "caution",
+        "lastEvidence": "2023-04-23",
+        "note": "Der Film wurde am 23.04.2023 veröffentlicht; sein Aufnahmetag ist unbekannt. Die Ortsfotos und der veröffentlichte Geotoppunkt stammen aus der LFU-Publikation mit Stand Oktober 2013. Sie beschreiben die Restaurierung des Mundlochbereichs ab 1992 und den erhaltenen Verladebunker. Der Kulturweg-Anbieter führt die Anlage weiterhin auf, ohne datierten aktuellen Zustandsbericht. Der heutige Erhalt und eine konkrete Zutritts- beziehungsweise FPV-Freigabe bleiben ungeklärt. Belegt ist nur der kurze Flug im Eingangsbereich; eine tiefe Grubenbefliegung ist nicht nachgewiesen. Der ungefähre Geotoppunkt dient zur Orientierung am Komplex, nicht als bestätigter Startpunkt."
+      },
+      "videos": [
+        {
+          "id": "o2EbpnxoLd8",
+          "title": "Ehemaliger Bergbauschacht bei Partenstein [DJI Avata]",
+          "pilotId": "fliegerfilm",
+          "publishedAt": "2023-04-23",
+          "match": "visual",
+          "timestampSeconds": 14,
+          "note": "Der Creator nennt den Erichstollen ausdrücklich. Tatsächlich geprüfte Sequenzen von 14–40 s zeigen den kurzen Ein- und Ausflug im hölzern ausgekleideten Eingangsbereich; 100–148 s zeigen den Außenumlauf um den Verladebunker. Rundes Mundloch mit benachbarter Hütte mit Ziegeldach sowie Bunkerfront, Öffnungen und Endwand passen individuell zu den benannten LFU-Fotos. Die älteren Fotos belegen keinen identischen Ausbauzustand von 2023. Weitere Filmabschnitte und tiefer liegende Grubenräume wurden nicht daraus abgeleitet. Flugtag und heutige Freigabe sind unbekannt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bayerisches Landesamt für Umwelt: Geotope in Unterfranken, Stand Oktober 2013, Seite 93; benannte Fotos und Geotoppunkt 677G003",
+          "url": "https://www.lfu.bayern.de/publikationen/get_pdf.htm?art_nr=93028&pdf_nr=0",
+          "type": "official"
+        },
+        {
+          "title": "Archäologisches Spessart-Projekt: Kulturweg Partenstein mit Station Erichstollen; undatierte Ortsbeschreibung",
+          "url": "https://www.spessartprojekt.de/kulturwege/partenstein-schwerspat-und-eisenbahn/",
+          "type": "official"
+        },
+        {
+          "title": "Kulturweg-Tafel Erichstollen: Transportstollen 1919–1922, endgültige Stilllegung 1964, Rekonstruktion ab 1992; Fotozeiten getrennt",
+          "url": "https://www.spessartprojekt.de/wordpress/wp-content/uploads/2019/11/partenstein_taf_3.pdf",
+          "type": "official"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -4032,7 +4084,7 @@
       "name": "Fliegerfilm",
       "handle": "@Fliegerfilm",
       "url": "https://www.youtube.com/channel/UCPZRl3AESdanDjLaNW3MtNg",
-      "description": "Benannter FPV-Flug in Gräfendorf."
+      "description": "Öffentlicher Kanal mit zugeordneten FPV-Filmen an der Papierfabrik Gräfendorf und am kleinen Kulturweg-Bergbaurelikt Erichstollen bei Partenstein. Historische Flüge bestätigen keine heutige Freigabe."
     },
     {
       "id": "drone-and-drive",
