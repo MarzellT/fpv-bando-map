@@ -128,4 +128,12 @@ Neue Videosinventare und eine ältere hangtime-Folgeseite liefern weitere überp
 
 Der [Steinzeugfilm von hangtime](https://www.youtube.com/watch?v=pnA82Ytqrdc&t=8s), veröffentlicht am 05.10.2024, lässt sich anhand der markanten Schornsteine und benannter Eigentümerfotos **Rhenania/Keramo in Frechen** zuordnen. Das ist ein historischer Flug während des Abbruchs. Der [Projektträger](https://www.rhenania-quartier.de/) meldet inzwischen abgeschlossene oberirdische Abrissarbeiten; daraus entsteht kein neuer erhaltener Hallenspot.
 
+## 03.10.2026 – Salzmann Kassel: drei belegte Mitflieger
+
+Der [Salzmann-Film von Chill-o-Copter](https://www.youtube.com/watch?v=eyC_-5ItOsI&t=150s) zeigt einen historischen Außen- und Innenflug in der Kasseler Textilfabrik. **Chill-o-Copter, MichasWelt und Marcel Opretzka** verlinken sich gegenseitig und erklären, den Ort zu dritt besucht und Filmmaterial gemeinsam verwendet zu haben. Daraus entstehen drei neue Kanalknoten und drei Session-Verbindungen. **17.10.2023 ist das Veröffentlichungsdatum**, der Flugtag ist unbekannt; einzelne Sequenzen lassen sich nicht jeweils einem der Piloten zuschreiben.
+
+Das neue Dossier verknüpft den bereits vorhandenen Salzmann-Kartenpunkt. Die [Bauherrenmeldung vom 24.04.2026](https://cureus.de/unternehmen/presse/pressemitteilungen/industriedenkmal-salzmann-grundsteinlegung-fuer-neues-wohnquartier-kassel-bettenhausen) belegt laufende Sanierung im historischen Nordflügel. Das [Richtfest vom 23.09.2026](https://cureus.de/unternehmen/presse/pressemitteilungen/richtfest-fuer-die-seniorenresidenz-salzmann-areal-kassel-bettenhausen) betrifft den separaten Seniorenresidenz-Neubau. Der historische Film ist kein Nachweis heutiger Zugangs- oder Flugfreigabe.
+
+Für **Dura Plettenberg** ist der Restbereich inzwischen über ein amtliches NRW-Orthofoto mit Bildflugdatum **20.09.2025** kartiert. Der aus dem Luftbild abgeleitete Punkt ist ausdrücklich ungefähr. Die Ortszuordnung ist belastbar; heutiger Hallenzustand und Freigaben bleiben offen. Ein weiterer Telefononkel-Kraftwerksfilm passt zur bekannten unlokalisierten Turbinenhalle, liefert aber weiterhin keinen belegten deutschen Standort.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

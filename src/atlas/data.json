@@ -3969,11 +3969,11 @@
       "city": "Plettenberg",
       "region": "Nordrhein-Westfalen",
       "type": "Fabrik",
-      "lat": null,
-      "lon": null,
+      "lat": 51.205,
+      "lon": 7.8795,
       "coordinatePrecision": "approximate",
-      "confidence": "open",
-      "summary": "Historische FPV-Flüge durch große Produktionshallen und entdachte Hallenreste des ehemaligen Dura-/Schade-Werks an der Königstraße. Ein Gebäudeteil passt zu einem benannten Luftbild von 2024. Der heutige Restbestand der gefilmten Hallen und ein präziser Kartenpunkt sind ungeklärt.",
+      "confidence": "confirmed",
+      "summary": "Historische FPV-Flüge durch große Produktionshallen und entdachte Hallenreste des ehemaligen Dura-/Schade-Werks. Ein amtliches Luftbild vom 20.09.2025 belegt den verbliebenen Gebäudeteil neben der geräumten Großfläche. Der ungefähre Kartenpunkt orientiert diesen Restbereich; sein heutiger Zustand bleibt offen.",
       "features": [
         "Große Produktionshallen",
         "Türkise Dachlichtbänder",
@@ -3981,10 +3981,10 @@
         "Historischer Teilabbruch"
       ],
       "status": {
-        "label": "Historische Hallenflüge · Restbestand offen",
+        "label": "Hallenrest 2025 belegt · heutiger Zustand offen",
         "tone": "uncertain",
-        "lastEvidence": "2024-09-26",
-        "note": "Die Videos wurden am 21.01.2024 und 11.03.2024 veröffentlicht; ihre Aufnahmetage sind unbekannt. Ein Bericht vom 26.09.2024 mit einem Luftbild von Anfang September trennt eine weitgehend geräumte Großfläche von einem noch bebauten Teil des Werks. Dieser Restbereich passt zum Märzfilm. Das belegt weder den Erhalt der konkreten Halle im Oktober 2026 noch Betretungs- oder Flugfreigabe. Ein präziser Punkt wurde nicht unabhängig kartiert; deshalb bleibt das Dossier ohne Kartenpin und ist kein bestätigtes aktuelles Ausflugsziel."
+        "lastEvidence": "2025-09-20",
+        "note": "Veröffentlichungen der Flüge: 21.01.2024 und 11.03.2024; Aufnahmetage unbekannt. Der März-Restbereich passt zum benannten Luftbild von September 2024 und zum amtlichen NRW-Orthofoto vom 20.09.2025. Letzteres zeigt dort noch Gebäude und ein teilweise entdachtes Hallentragwerk. Die ungefähre Position wurde aus diesem georeferenzierten Luftbild abgeleitet; sie bezeichnet den historischen Teilbereich, keinen vermessenen Hallenmittelpunkt, Eingang oder Startplatz. Die Januar-Innenhalle ist nicht einzeln zugeordnet. Erhalt der konkreten Flugpassagen im Oktober 2026, Zugang und Flugfreigabe bleiben ungeklärt."
       },
       "videos": [
         {
@@ -4003,7 +4003,7 @@
           "publishedAt": "2024-03-11",
           "match": "visual",
           "timestampSeconds": 25,
-          "note": "Geprüfte Bilder von 0–40 s zeigen tatsächlichen Flug um und durch entdachte Hallenreste. Tragwerksraster, weißer mehrgeschossiger Nachbarbau und Waldrand passen zum im benannten Luftbild von September 2024 markierten Restbereich. Kein Nachweis heutiger Erhaltung und keine Gleichsetzung mit der Januar-Innenhalle. Datum nach Europe/Berlin; kein gesicherter Flugtag."
+          "note": "Geprüfte Bilder von 0–40 s zeigen tatsächlichen Flug um und durch entdachte Hallenreste. Tragwerksraster, weißer mehrgeschossiger Nachbarbau und Waldrand passen zum im benannten Luftbild von September 2024 markierten Restbereich. Kein Nachweis heutiger Erhaltung und keine Gleichsetzung mit der Januar-Innenhalle. Datum nach Europe/Berlin; kein gesicherter Flugtag. Ein amtliches Orthofoto belegt den zugehörigen bebauten Restbereich auch am 20.09.2025, ohne den vollständigen Erhalt jeder Flugpassage zu bestätigen."
         }
       ],
       "sources": [
@@ -4023,6 +4023,73 @@
           "url": "https://kuehlkoerper.de/platz-fuer-neues/",
           "type": "official",
           "date": "2024-02-01"
+        },
+        {
+          "title": "Geobasis NRW: amtliches Orthofoto des Dura-Restbereichs; Bildflug 20.09.2025, Grundlage der ungefähren Position",
+          "url": "https://www.wms.nrw.de/geobasis/wms_nw_dop?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=nw_dop_rgb&STYLES=&SRS=EPSG%3A4326&BBOX=7.873%2C51.198%2C7.880%2C51.208&WIDTH=1400&HEIGHT=1800&FORMAT=image%2Fjpeg",
+          "type": "official",
+          "date": "2025-09-20"
+        },
+        {
+          "title": "Geobasis NRW: Bildflugdatum 20.09.2025, Kachel 32421_5673; Metadaten am abgeleiteten Orientierungspunkt",
+          "url": "https://www.wms.nrw.de/geobasis/wms_nw_dop?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&LAYERS=nw_dop_utm_info&STYLES=&SRS=EPSG%3A4326&BBOX=7.873%2C51.198%2C7.880%2C51.208&WIDTH=1400&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=nw_dop_utm_info&INFO_FORMAT=text%2Fplain&FEATURE_COUNT=10&X=1300&Y=540",
+          "type": "official",
+          "date": "2025-09-20"
+        }
+      ]
+    },
+    {
+      "id": "salzmann-fabrik-kassel",
+      "name": "Salzmann-Fabrik Kassel – historischer Hallenflug",
+      "city": "Kassel-Bettenhausen",
+      "region": "Hessen",
+      "type": "Fabrik",
+      "lat": 51.3096,
+      "lon": 9.52395,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Großes Backsteinensemble mit Rundbogenfenstern, Säulenräumen und durchbrochenen Innenwänden. Ein Film von 2023 dokumentiert den Außen- und Innenflug einer Dreiergruppe. Die ehemalige Fabrik wird inzwischen zum Wohnquartier umgebaut; das Dossier zeigt den historischen Flugzustand.",
+      "features": [
+        "Mehrgeschossige Backsteinfabrik",
+        "Große Rundbogenfenster",
+        "Säulenräume und Durchbrüche",
+        "Historischer Innenflug",
+        "Laufende Umnutzung"
+      ],
+      "status": {
+        "label": "Historischer Flug · Umbau 2026 belegt",
+        "tone": "caution",
+        "lastEvidence": "2026-09-23",
+        "note": "Das Flugvideo wurde am 17.10.2023 veröffentlicht; sein Aufnahmetag ist unbekannt. Cureus meldet am 24.04.2026 bereits laufende Sanierung im Nordflügel der historischen Fabrik. Der Bericht vom 23.09.2026 bestätigt das Richtfest des separaten Seniorenresidenz-Neubaus auf dem Areal; er belegt keine abgeschlossene Sanierung sämtlicher Fabrikräume. Die historische Flugroute ist damit kein bestätigtes heutiges Bando-Angebot. Zugang und Flugfreigabe bleiben ungeklärt. Der unveränderte vorhandene Kartenpunkt dient nur der ungefähren Arealorientierung, nicht als Eingang oder exakte Innenraumposition."
+      },
+      "videos": [
+        {
+          "id": "eyC_-5ItOsI",
+          "title": "DJI Avata - Lost Place Salzmann Factory Kassel",
+          "pilotId": "chill-o-copter",
+          "publishedAt": "2023-10-17",
+          "match": "named",
+          "timestampSeconds": 150,
+          "note": "Beschreibung benennt Salzmann in Kassel/Deutschland. Tatsächlich geprüfte Bilder von 135–175 s zeigen den Anflug auf die Backsteinfassade und Innenflug durch Säulenräume, Wanddurchbrüche und einen Gang. Das benannte Stadtfoto zeigt denselben Gebäudekomplex aus anderer Perspektive, keine exakt registrierte Innenhalle. Der Anfang des Films enthält historische Fotos. Die drei Beteiligten bestätigen gemeinsam verwendetes Material; deshalb ist nicht jede Sequenz einem bestimmten Piloten oder Drohnentyp zuzuordnen."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stadt Kassel: benanntes Industriedenkmal mit tatsächlichem Bestandsfoto und Informationen zur laufenden Umnutzung; Foto und Seite ohne eindeutiges Aufnahmedatum",
+          "url": "https://www.kassel.de/buerger/bauen_und_wohnen/projekte-und-entwicklung/inhaltsseiten/industriedenkmal-salzmann.php",
+          "type": "official"
+        },
+        {
+          "title": "Cureus: Grundsteinlegung vom 23.04.2026 und bereits laufende Sanierung im historischen Nordflügel; Bericht vom Folgetag",
+          "url": "https://cureus.de/unternehmen/presse/pressemitteilungen/industriedenkmal-salzmann-grundsteinlegung-fuer-neues-wohnquartier-kassel-bettenhausen",
+          "type": "official",
+          "date": "2026-04-24"
+        },
+        {
+          "title": "Cureus: Richtfest und fertiger Rohbau des separaten Seniorenresidenz-Neubaus; keine Fertigmeldung für die gesamte alte Fabrik",
+          "url": "https://cureus.de/unternehmen/presse/pressemitteilungen/richtfest-fuer-die-seniorenresidenz-salzmann-areal-kassel-bettenhausen",
+          "type": "official",
+          "date": "2026-09-23"
         }
       ]
     }
@@ -4187,7 +4254,7 @@
       "name": "Telefononkel",
       "handle": "@telefononkel",
       "url": "https://www.youtube.com/channel/UCp-LYhtH13GyMQaWNWkp5rA",
-      "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung. Dokumentiert historische Hallenflüge im teilweise abgebrochenen Dura-Werk in Plettenberg; dessen heutiger Restbestand bleibt offen."
+      "description": "Dokumentiert historische Hallenflüge im teilweise abgebrochenen Dura-Werk in Plettenberg. Der Restbereich ist für September 2025 belegt; heutiger Zustand und Freigaben bleiben offen."
     },
     {
       "id": "adriansfpv",
@@ -4248,7 +4315,7 @@
     {
       "id": "sebastian-fpv-ger",
       "name": "Sebastian FPV GER",
-      "handle": "UCuYlRxfSmX4iRb1EQ1R2LdQ",
+      "handle": "@abramose",
       "url": "https://www.youtube.com/channel/UCuYlRxfSmX4iRb1EQ1R2LdQ",
       "description": "Video von 2019 benennt gemeinsames Racing mit Rotorholics; genauer Spot dort ungeklärt."
     },
@@ -4290,7 +4357,7 @@
     {
       "id": "patric-berges",
       "name": "Patric Berges",
-      "handle": "UC2dMWKBOJtRRqBB6_bnDJPA",
+      "handle": "@PatricBerges_AfD",
       "url": "https://www.youtube.com/channel/UC2dMWKBOJtRRqBB6_bnDJPA",
       "description": "Öffentlicher Kanal mit benanntem FPV-Trainingsvideo in Waldalgesheim von 2021."
     },
@@ -4693,6 +4760,27 @@
       "handle": "@FpvMr.K",
       "url": "https://www.youtube.com/channel/UC1o54JVgqh0SK2khYnyyekQ",
       "description": "Öffentlicher FPV-Kanal. In der Beschreibung eines am 01.03.2023 veröffentlichten Kieler Bando-Films nennt er FPV-DIRK ausdrücklich als Mitflieger. Der genaue Flugort und Aufnahmetag bleiben ungeklärt."
+    },
+    {
+      "id": "chill-o-copter",
+      "name": "Chill-o-Copter",
+      "handle": "@chill-o-copter8772",
+      "url": "https://www.youtube.com/channel/UC7QkQok7ynASXXpnFuMOvEg",
+      "description": "Dokumentiert den gemeinsamen Salzmann-Besuch mit zwei weiteren Piloten. Die gegenseitig verlinkten Videos vom 17.10.2023 verwenden gemeinsames Filmmaterial; der Aufnahmetag ist unbekannt."
+    },
+    {
+      "id": "michaswelt",
+      "name": "MichasWelt",
+      "handle": "@MichasWelt",
+      "url": "https://www.youtube.com/channel/UC4IhEYCf0JySioK7uNpw_tA",
+      "description": "Dokumentiert den gemeinsamen Salzmann-Besuch mit zwei weiteren Piloten. Die gegenseitig verlinkten Videos vom 17.10.2023 verwenden gemeinsames Filmmaterial; der Aufnahmetag ist unbekannt."
+    },
+    {
+      "id": "marcel-opretzka",
+      "name": "Marcel Opretzka",
+      "handle": "@MarcelOpretzka",
+      "url": "https://www.youtube.com/channel/UC8lNahC1DwgCx9nwmTlhjgA",
+      "description": "Dokumentiert den gemeinsamen Salzmann-Besuch mit zwei weiteren Piloten. Die gegenseitig verlinkten Videos vom 17.10.2023 verwenden gemeinsames Filmmaterial; der Aufnahmetag ist unbekannt."
     }
   ],
   "edges": [
@@ -5407,6 +5495,30 @@
       "label": "RC Rich empfiehlt blueRCs Kanal in der Beschreibung eines RC-Treffens. Ein gemeinsamer FPV-Flug und der genaue Treffpunkt sind nicht belegt; Datum = Veröffentlichung.",
       "url": "https://www.youtube.com/watch?v=AbD-vOUN-_4",
       "date": "2023-08-22"
+    },
+    {
+      "sourceId": "chill-o-copter",
+      "targetId": "michaswelt",
+      "type": "session",
+      "label": "Gegenseitige Videolinks und ausdrücklich drei Piloten mit gemeinsamem Filmmaterial belegen denselben Salzmann-Besuch. Datum = Veröffentlichung; Flugtag und Pilot einzelner Filmsequenzen sind nicht belegt.",
+      "url": "https://www.youtube.com/watch?v=eyC_-5ItOsI",
+      "date": "2023-10-17"
+    },
+    {
+      "sourceId": "chill-o-copter",
+      "targetId": "marcel-opretzka",
+      "type": "session",
+      "label": "Gegenseitige Videolinks und ausdrücklich drei Piloten mit gemeinsamem Filmmaterial belegen denselben Salzmann-Besuch. Datum = Veröffentlichung; Flugtag und Pilot einzelner Filmsequenzen sind nicht belegt.",
+      "url": "https://www.youtube.com/watch?v=eyC_-5ItOsI",
+      "date": "2023-10-17"
+    },
+    {
+      "sourceId": "michaswelt",
+      "targetId": "marcel-opretzka",
+      "type": "session",
+      "label": "Gegenseitige Videolinks und ausdrücklich drei Piloten mit gemeinsamem Filmmaterial belegen denselben Salzmann-Besuch. Datum = Veröffentlichung; Flugtag und Pilot einzelner Filmsequenzen sind nicht belegt.",
+      "url": "https://www.youtube.com/watch?v=etRRki_sWIY",
+      "date": "2023-10-17"
     }
   ]
 }

@@ -115,4 +115,12 @@ Die genaue historische Zuordnung eines weiteren Films zu **Rhenania/Keramo Frech
 
 Ein neuer Matschi-Film passt zum schon bekannten, weiterhin unlokalisierten Kraftwerkssaal von Daru/Schnotte. Deutschland ist dafür noch nicht belegt. Ein weiterer Militärhauptquartierfilm zeigt in den geprüften Passagen Sportgelände und Kasernenblöcke; daraus wird keine verlassene Hallenanlage abgeleitet. Die bestätigten Handles von hangtime und Telefononkel wurden ergänzt.
 
+## 03.10.2026 – Salzmann-Session und datierter Dura-Restbereich
+
+Stand nach dieser Charge: **71 Dossiers**, **67 mit Koordinaten**, **120 verschiedene Spotvideos**, **98 Kanäle** und **92 Verbindungen**. Die Hauptkarte enthält **577 Punkte** mit **39 Verknüpfungen** zwischen vorhandenen Einträgen und Dossiers.
+
+Neu ist das historische Salzmann-Dossier an einem bestehenden Kasseler Kartenpunkt, einschließlich drei belegter Mitfliegerbeziehungen und datierter Quellen zur Umnutzung 2026. Eine zusätzliche ungefähre Kartenposition entsteht bei **Dura Plettenberg**: Das bereits vorhandene Dossier ist nun anhand eines amtlichen Luftbilds vom **20.09.2025** kartiert. Das ist ein datierter historischer Hallenrest, kein bestätigter heutiger Flugspot.
+
+Die ursprünglichen 549 Koordinaten bleiben unverändert. Der Text zum Salzmann-Eintrag wurde durch konkrete, verlinkte Bauinformationen ersetzt. Zwei bestehende Kanalhandles wurden über identische kanonische Kanal-IDs bestätigt. Weitere Titelspuren zu Karmachrizz und Team Frntflip liefern noch keine belastbare Kanalidentität; ein unbenanntes Fördergerüst bleibt ebenfalls offen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
