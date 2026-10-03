@@ -74,4 +74,10 @@ Das [Erlebnisbad Basso in Bad Schmiedeberg](../atlas/?spot=erlebnisbad-basso) er
 
 Der [veröffentlichte Communitypunkt](https://www.fpv-spots-germany.de/spot_detail.php?id=8) stimmt mit dem bereits vorhandenen Kartenort überein. Es entsteht daher kein zusätzlicher Pin. Der Eintrag und neun Foto-Uploads vom 09.04.2026 bestätigen keine Aufnahme oder Besichtigung an diesem Tag. Eine andere Ortsseite vermischt das Bad mit dem benachbarten Ferienlager; ihre Zustands- und Zugangsangaben wurden nicht übernommen. Heutiger Bestand, Zutritt und Flugfreigabe bleiben offen.
 
+## 03.10.2026 – Trainingsbergwerk als betreute Industrieanlage
+
+Der neue Kanalzweig von [ADRIANSFPV](https://www.youtube.com/channel/UCEYbHwvYvtRFm5moe7N5y8Q) führt zum [Trainingsbergwerk Recklinghausen](../atlas/?spot=trainingsbergwerk-recklinghausen). Sein [Film von 2022](https://www.youtube.com/watch?v=voPODWF-oB4&t=57s) enthält tatsächliche FPV-Sequenzen entlang der Stollenschienen und nennt den Betreiber ausdrücklich. Die Anlage wird heute für Führungen genutzt. Ein Bericht der TU Dortmund vom 03.07.2026 dokumentiert einen Besuch am 23.06.2026; die historische Filmzusammenarbeit bestätigt keine allgemeine Flugfreigabe. Betreiberfotos passen zur Bauart, belegen aber keinen einzelnen identischen Flugkorridor. Das Dossier kennzeichnet diese Zuordnung deshalb als benannten Ort.
+
+Die Erstinventare bestätigen außerdem die Handles **@thomasaulmann3591**, **@RestartFPV** und **@ADRIANSFPV**. Betreiberteam und Piloten wurden nicht als gemeinsame Session verknüpft. Weitere benannte Aufnahmen von Peenemünde und Karnin liefern zunächst Museums- beziehungsweise Denkmalaufnahmen; sie wurden nicht als neue Bandos übernommen. Begrenzte Suchen zu weiteren süddeutschen Fabriken ergaben noch keinen zuordenbaren FPV-Film.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

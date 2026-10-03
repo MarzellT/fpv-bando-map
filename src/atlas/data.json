@@ -3637,6 +3637,64 @@
           "date": "2026-04-09"
         }
       ]
+    },
+    {
+      "id": "trainingsbergwerk-recklinghausen",
+      "name": "Trainingsbergwerk Recklinghausen",
+      "city": "Recklinghausen-Hochlarmark",
+      "region": "Nordrhein-Westfalen",
+      "type": "Trainingsbergwerk",
+      "lat": 51.5620392,
+      "lon": 7.1820856,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Betreutes Besucherbergwerk mit ehemaliger RAG-Ausbildungsanlage in einer Bergehalde. ADRIANSFPV zeigt Flugsequenzen entlang der Schienen durch ausgebaute Stollen und verlinkt den Betreiber direkt. Eine nachgenutzte Industrieanlage mit dokumentiertem FPV-Film.",
+      "features": [
+        "Stollen und Schienen",
+        "Originale Bergbaumaschinen",
+        "Ehemalige RAG-Ausbildung",
+        "Betreuter Besuchsbetrieb"
+      ],
+      "status": {
+        "label": "Betreutes Besucherbergwerk · Besuch Juni 2026",
+        "tone": "documented",
+        "lastEvidence": "2026-07-03",
+        "note": "Die TU Dortmund berichtet am 03.07.2026 über ihre Führung am 23.06.2026 mit Besichtigung der untertägigen Anlagen und Bedienung von Maschinen. Betreiber und städtische Tourismusquelle beschreiben geführten Besuchsbetrieb. Der Zugang führt ebenerdig in eine Halde; die Darstellung einer 1000 Meter tiefen Grube beschreibt das Erlebnis, keine tatsächliche Tiefe. Der Film vom 27.06.2022 entstand laut Pilot mit Unterstützung des Teams; sein Aufnahmetag bleibt unbekannt. Besichtigung und historische Filmzusammenarbeit bestätigen keine heutige allgemeine FPV-Freigabe. Der veröffentlichte OSM-Punkt markiert die Anlage ungefähr, keinen bestätigten Flug- oder Startpunkt."
+      },
+      "videos": [
+        {
+          "id": "voPODWF-oB4",
+          "title": "FLYING in a MINE with my FPV Drone – Trainingsbergwerk",
+          "pilotId": "adriansfpv",
+          "publishedAt": "2022-06-27",
+          "match": "named",
+          "timestampSeconds": 57,
+          "note": "Der Pilot nennt und verlinkt trainingsbergwerk.de und bedankt sich beim Team. Tatsächlich geprüfte Sequenzen von 57–69 s zeigen niedrigen Flug entlang der Schienen durch Stollen und Abzweigungen. Der Film enthält daneben Aufnahmen des Piloten, der Maschinen und eines Führers. Betreiberfotos sind mit der Bauart vereinbar, zeigen jedoch keinen individuell identisch registrierten Flugkorridor. Ortszuordnung über die ausdrückliche Betreiberverknüpfung; Veröffentlichung am 27.06.2022, Flugtag unbekannt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trainingsbergwerk Recklinghausen: direkt vom Piloten verlinkter Betreiber, ebenerdiger Zugang in die Halde und betreute Führungen",
+          "url": "https://trainingsbergwerk.de/",
+          "type": "official"
+        },
+        {
+          "title": "Städtische Tourismusquelle: Wanner Straße 30, ehemalige RAG-Ausbildungsanlage und Besuchsbetrieb",
+          "url": "https://recklinghausen-tourismus.de/poi/trainingsbergwerk-recklinghausen/",
+          "type": "official"
+        },
+        {
+          "title": "TU Dortmund: Bericht vom 03.07.2026 über den tatsächlichen Besuch am 23.06.2026; keine Flugfreigabe",
+          "url": "https://bs.etit.tu-dortmund.de/en/details/?cHash=b6d2c04181ea98639239b75e4bc5a312&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=65209",
+          "type": "official",
+          "date": "2026-07-03"
+        },
+        {
+          "title": "OpenStreetMap: benannter Anlagenpunkt mit Betreiberwebsite und übereinstimmender Anschrift; Bearbeitungsdatum ist kein Besuchsdatum",
+          "url": "https://www.openstreetmap.org/node/7154748389",
+          "type": "community"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3706,7 +3764,7 @@
     {
       "id": "restart",
       "name": "Restart FPV / fpv one",
-      "handle": "UC_xNRpXXVEvGbPRio_fxVIg",
+      "handle": "@RestartFPV",
       "url": "https://www.youtube.com/channel/UC_xNRpXXVEvGbPRio_fxVIg",
       "description": "Benannter Flugbeleg der Heimschule Maria Laach von 2021."
     },
@@ -3804,9 +3862,9 @@
     {
       "id": "adriansfpv",
       "name": "ADRIANSFPV",
-      "handle": "UCEYbHwvYvtRFm5moe7N5y8Q",
+      "handle": "@ADRIANSFPV",
       "url": "https://www.youtube.com/channel/UCEYbHwvYvtRFm5moe7N5y8Q",
-      "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung."
+      "description": "Dokumentiert FPV-Flüge an der Zeche Westerholt und im betreuten Trainingsbergwerk Recklinghausen. Für den Bergwerksfilm von 2022 bedankt er sich ausdrücklich beim Betreiberteam; daraus folgt keine allgemeine Flugfreigabe."
     },
     {
       "id": "matschi-fpv",
@@ -4134,7 +4192,7 @@
     {
       "id": "thomas-aulmann",
       "name": "Thomas Aulmann",
-      "handle": "UCkVvLbs-4MlMacNvmrabb6Q",
+      "handle": "@thomasaulmann3591",
       "url": "https://www.youtube.com/channel/UCkVvLbs-4MlMacNvmrabb6Q",
       "description": "Zeigt tatsächliche Innen- und Außenflüge im visuell zugeordneten Camp Hitfeld. Der Film wird von bigtunitube öffentlich verlinkt."
     },

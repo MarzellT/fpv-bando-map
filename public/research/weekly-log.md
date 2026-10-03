@@ -61,4 +61,10 @@ Für das [Erlebnisbad Basso](../atlas/?spot=erlebnisbad-basso) sind Innenflug un
 
 Stand: **63 Atlas-Orte, 59 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 111 verschiedene Spotvideos**. Die Hauptkarte bleibt bei **572 Punkten**: 549 ursprüngliche Einträge, jetzt 36 geprüfte Überschneidungen und weiterhin 23 zusätzliche Atlaspositionen.
 
+## 03.10.2026 – Betreutes Trainingsbergwerk und weitere Kanalinventare
+
+Neu ist das [Trainingsbergwerk Recklinghausen](../atlas/?spot=trainingsbergwerk-recklinghausen) als ausdrücklich betreute Industrieanlage mit zugeordnetem FPV-Film. Es zählt getrennt von verlassenen Hallen. Der Anlagenpunkt stammt aus einem benannten OSM-Eintrag mit passender Betreiberwebsite und Anschrift. Der unabhängige Besuchsbericht von 2026 ist von der Filmveröffentlichung 2022 getrennt. Drei verifizierte Kanalhandles verbessern die Netzwerksuche; die Zahl der Kanäle und Beziehungen bleibt unverändert.
+
+Stand: **64 Atlas-Orte, 60 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 112 verschiedene Spotvideos**. Die Hauptkarte enthält **573 Punkte**: 549 ursprüngliche Einträge, 36 geprüfte Überschneidungen und 24 zusätzliche Atlaspositionen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
