@@ -13,4 +13,10 @@ Die Auswahl vom 03.10.2026 ist eine feste historische Auswahl. Neue Einträge od
 
 Weitere Hallen- und Militärspuren bleiben ohne neuen Atlas-Punkt, solange konkrete Filmzuordnung oder Ortsbeleg fehlen. Dazu gehören ein ehemaliges Betonwerk in Baienfurt und noch unbenannte Industrieaufnahmen aus Brandenburg. Allgemeine Gebäudetypen und Kanalnähe reichen für eine Zuordnung nicht aus.
 
+## 03.10.2026 – weitere Orts- und Zustandsprüfungen
+
+Die [öffentlichen Recherchenotizen](youtube-netz.md) dokumentieren drei weitere Ergebnisse: Ein Stahlwerksfilm gehört nach Bildvergleich zu HFB in Belgien; ein Spandauer Glaswerksfilm zeigt einen historischen OSRAM-Räumungsauftrag; beim Postareal Kiel-Gaarden sind spätere Hallenabrisse belegt. Diese Prüfungen erzeugen keine zusätzlichen Kartenpunkte oder unbelegten Netzwerkverbindungen.
+
+Das ehemalige Kieswerk bei Schwackenreute/Mühlingen bleibt eine weitere Spur im Süden. [Benannte Ortsquellen](https://www.bwegt.de/service/bwegt-magazin/lost-places-in-baden-wuerttemberg-4-spektakulaere-fotospots) und Fotos stützen die Anlage mit Fördertürmen und Förderbändern; ein konkreter FPV-Film ist bislang nicht zugeordnet. Neu untersuchte Kanalinventare von Maxime, Pinkus und NightFlyer liefern weitere offene Ansätze. Fehlende Videometadaten werden als unbekannt dokumentiert.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

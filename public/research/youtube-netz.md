@@ -14,4 +14,12 @@ Der [Betreiber Nukebase](https://nukebase-airsoft.de/about/) beschreibt eine gen
 
 Bei der bereits erfassten [Lore-Bauer-Halle](../atlas/?spot=lore-bauer-halle) kam [Labingers Trainingsfilm vom 24.08.2018](https://www.youtube.com/watch?v=fVezNdlGYzw&t=22s) hinzu. Das geschwungene Betonschalendach, die Glasraster und drei blaue Elemente stimmen mit [offiziellen Denkmalfotos vom Januar 2023](https://denkxweb.denkmalpflege-hessen.de/167902/) überein. Diese Ortszuordnung aktualisiert weder den heutigen Innenzustand noch eine Flugfreigabe. Auch die neue Verbindung zu fpv_ B.P. bezeichnet nur denselben Spot.
 
+## Weitere Prüfungen vom 03.10.2026
+
+[ChrisDoingFPVs Stahlwerksfilm](https://www.youtube.com/watch?v=RjIru4Ef57M) passt anhand der Ofenanlage, Hallen, Flusslage und Brücke zur [benannten HFB-Dokumentation aus Ougrée in Belgien](https://www.viktormacha.com/galerie/cockerill-sambre-ougree/cockerill-sambre-ougree-industrial-landscape-3785.html). Das ist eine visuelle Zuordnung; der Film enthält keine ausdrückliche Ortsangabe. Er wird nicht als deutscher Standort übernommen.
+
+Der [FPV-Räumungsflug von C-TECH](https://www.c-tech.berlin/projekte/raeumen-glaswerk) ist dem historischen OSRAM-Glaswerk in Berlin-Spandau zugeordnet. Das heutige [Luxwerk](https://luxwerk.aventos.group/en) wird als Gewerbestandort entwickelt und vermietet. Der Film von 2022 belegt einen betrieblichen Räumungsauftrag; der heutige Zustand der gefilmten Ofenhalle ist nicht geklärt. Daraus entsteht keine aktuelle Bando-Empfehlung.
+
+[InLoveWithFlights Film „Alte Post Gaarden“](https://www.youtube.com/watch?v=SKwYENOSI6Q&t=108s) zeigt 2024 veröffentlichte Flüge an einem Hochhaus und durch Hallen. Die [Stadt Kiel](https://kiel.de/de/kiel_zukunft/kiel_plant_baut/postareal.php) bestätigt das ehemalige Postareal an Werftstraße/Karlstal. Ein [Gutachten vom 12.09.2025](https://www.kiel.de/de/kiel_zukunft/kiel_plant_baut/_dokumente_Altes_Postareal_Frue/Anlage_B_GOF.pdf) beschreibt bereits Hallenabrisse bis auf eine Halle und führt das leerstehende Hochhaus separat auf. Welche gefilmte Halle erhalten blieb, ist ungeklärt. Ein genauer Kartenpunkt wird erst mit einem ausreichenden Gebäudebeleg ergänzt.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)
