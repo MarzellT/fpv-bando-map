@@ -3486,6 +3486,61 @@
           "type": "photo"
         }
       ]
+    },
+    {
+      "id": "bahnbetriebswerk-bitterfeld",
+      "name": "Bahnbetriebswerk Bitterfeld",
+      "city": "Bitterfeld-Wolfen",
+      "region": "Sachsen-Anhalt",
+      "type": "Industrie",
+      "lat": 51.638,
+      "lon": 12.3066,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Ehemaliges Bahnbetriebswerk mit Lokschuppen, markanten Stahlträgern, Schornstein und Nebengebäuden. Die beschriftete Backsteinfassade und der Hallenflug von LW17 Media sind individuell mit benannten Ortsfotos abgeglichen.",
+      "features": [
+        "Lokschuppen mit Stahlträgern",
+        "Beschriftete Backsteinfassade",
+        "Schornstein",
+        "Flure und Nebenräume"
+      ],
+      "status": {
+        "label": "Foto 2025 · Dachschäden 2026 gemeldet",
+        "tone": "caution",
+        "lastEvidence": "2026-06-13",
+        "note": "Tatsächlich geprüfte Fotos mit Aufnahmeangabe April 2025 zeigen dieselbe Fassade und Halle mit vorhandenem Tragwerk und Dachlücken; die EXIF-Aufnahmeangaben nennen den 17.04.2025. Ein Communitykommentar vom 13.06.2026 meldet eingestürzte Dächer an vielen Gebäuden. Das ist keine unabhängig bestätigte Bestandsprüfung und betrifft nicht nachweislich die gesamte gefilmte Halle. Der FPV-Film wurde am 09.12.2020 veröffentlicht; sein Aufnahmedatum ist unbekannt. Heutiger Gebäudezustand sowie Betretungs- und Flugfreigabe bleiben offen. Der Communitypunkt dient nur der Orientierung im Komplex."
+      },
+      "videos": [
+        {
+          "id": "E2mT5YJBMVw",
+          "title": "Bando BTF FPV 4K",
+          "pilotId": "lw17-media",
+          "publishedAt": "2020-12-09",
+          "match": "visual",
+          "timestampSeconds": 0,
+          "note": "Geprüfte Bilder von 0–24 und 50–74 s zeigen die Bitterfeld-Fassade, tatsächlichen Hallenflug, Flure und Backsteinbauten mit Schornstein. Die individuelle Beschriftung, Fensteröffnungen und Stürze stimmen exakt mit dem benannten Foto von CacheLand überein; eine Fotoserie von 2025 bestätigt Fassade und Hallenstruktur. Veröffentlichung am 09.12.2020 Europe/Berlin, kein bestätigter Flugtag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "CacheLand: benannter Besuch und Fotos des Bahnbetriebswerks, Artikel vom 31.12.2013; Aufnahmezeit des Schildfotos nicht bestätigt",
+          "url": "https://cacheland.wordpress.com/2013/12/31/mal-wieder-im-osten-teil-3-lost-place-caching-in-bitterfeld/",
+          "type": "photo",
+          "date": "2013-12-31"
+        },
+        {
+          "title": "ZeitBrüche / Ingolf Bergfeld: individuell passende Fassaden- und Hallenfotos, beschriftet April 2025; EXIF-Aufnahmeangaben 17.04.2025",
+          "url": "https://www.zeitbrueche.de/bahnbetriebswerk.html",
+          "type": "photo",
+          "date": "2025-04-17"
+        },
+        {
+          "title": "Lost Place Club: benannter Standortpunkt und passende Hallenbilder; Communitymeldung über Dachschäden vom 13.06.2026, Bildaufnahmezeiten unbekannt",
+          "url": "https://www.lostplace.club/place2.php?id=1462",
+          "type": "community",
+          "date": "2026-06-13"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3667,9 +3722,9 @@
     {
       "id": "fpv-b-p",
       "name": "fpv_ B.P.",
-      "handle": "UCT_7ZP3-pyjleTd9Hvx5Fjg",
+      "handle": "@fpvBP",
       "url": "https://www.youtube.com/channel/UCT_7ZP3-pyjleTd9Hvx5Fjg",
-      "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung."
+      "description": "Öffentlicher FPV-Kanal. In einer am 27.08.2018 veröffentlichten Rotorholics-Vorstellung beschreibt sich B.P. als damaliger Teampilot und verlinkt diesen Kanal. Das belegt keine heutige Mitgliedschaft oder gemeinsame Session."
     },
     {
       "id": "rotorholics",
@@ -4140,6 +4195,13 @@
       "handle": "@xX_c-jay79_Xx",
       "url": "https://www.youtube.com/channel/UCJB5SIY6aXqpCZx2fegeF3w",
       "description": "Öffentlicher FPV-Kanal mit zwei im August 2026 veröffentlichten Flügen an der Knappschaftsheilstätte Sülzhayn. Der Film nennt die Heilstätte; Durchfahrt und Hof sind visuell mit Ortsfotos abgeglichen. Keine belegte Beziehung zu anderen Atlas-Piloten."
+    },
+    {
+      "id": "lw17-media",
+      "name": "LW17 Media",
+      "handle": "@lw17media",
+      "url": "https://www.youtube.com/channel/UCtIRIVVkgz8G9GsWiXmCvNQ",
+      "description": "Öffentlicher Medienkanal. Der am 09.12.2020 veröffentlichte FPV-Film ist anhand der beschrifteten Fassade und benannter Fotos dem Bahnbetriebswerk Bitterfeld zugeordnet. Keine gemeinsame Session oder Beziehung zu anderen Atlas-Kanälen belegt."
     }
   ],
   "edges": [
@@ -4291,9 +4353,9 @@
       "sourceId": "rotorholics",
       "targetId": "fpv-b-p",
       "type": "reference",
-      "label": "Im Pilotenteam verlinkt. Beschreibung führt fpv_b.p. unter Piloten auf; Hallenbezug im Titel.",
-      "url": "https://www.youtube.com/watch?v=vxUj4zTmU0I",
-      "date": "2020-01-11"
+      "label": "Historische Teamvorstellung: B.P. beschreibt sich als Rotorholics-Teampilot und verlinkt seinen Kanal. Veröffentlichungsdatum, kein Beleg einer bestimmten gemeinsamen Session oder heutigen Mitgliedschaft.",
+      "url": "https://www.youtube.com/watch?v=K8hPlflSweA",
+      "date": "2018-08-27"
     },
     {
       "sourceId": "rotorholics",

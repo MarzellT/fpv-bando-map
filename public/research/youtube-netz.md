@@ -46,4 +46,12 @@ Neu im Atlas und auf der Karte: [Hauptgefechtsstand Tessin – Unterkunftsgebäu
 
 Weitere Prüfungen bleiben offen: Ein unbenannter Zwän-Film zeigt einen verkleideten Schachtturm; die geprüfte Hünxe-Referenz passt nicht. Für Holtzmann Forbach und die AKS-Basilika in Augsburg wurde kein konkreter FPV-Beleg gefunden. Ein ähnlich benannter Forbach-Minenfilm liegt ausdrücklich in Frankreich und wurde ausgeschlossen.
 
+## 03.10.2026 – Bahnbetriebswerk Bitterfeld und B.P.s Teamvorstellung
+
+Neu: [Bahnbetriebswerk Bitterfeld](../atlas/?spot=bahnbetriebswerk-bitterfeld). Der [FPV-Film von LW17 Media](https://www.youtube.com/watch?v=E2mT5YJBMVw&t=0s), veröffentlicht am 09.12.2020, zeigt die beschriftete Backsteinfassade und einen Flug durch die Halle. Die individuelle Fassade stimmt mit einem [benannten Besucherfoto](https://cacheland.wordpress.com/2013/12/31/mal-wieder-im-osten-teil-3-lost-place-caching-in-bitterfeld/) überein. Tatsächlich geprüfte [Fotos von ZeitBrüche](https://www.zeitbrueche.de/bahnbetriebswerk.html) zeigen dieselbe Fassade und Hallenstruktur; die Aufnahmeangabe lautet April 2025, die EXIF-Aufnahmefelder nennen den 17.04.2025.
+
+Eine [Communitymeldung vom 13.06.2026](https://www.lostplace.club/place2.php?id=1462) berichtet von eingestürzten Dächern an vielen Gebäuden. Umfang und heutiger Bestand sind nicht unabhängig bestätigt. Die passenden Hallenbilder und das Luftbild dieser Ortsseite stützen ihren ungefähren Standortpunkt. Widersprüchliche Kamerakoordinaten aus einem anderen Fotokatalog wurden nicht übernommen. Flugtag, heutiger Zugang und FPV-Freigabe bleiben offen.
+
+LW17 Media ist ein neuer bestätigter Kanal ohne belegte Verbindung zu anderen Atlas-Piloten. Bei B.P. bestätigen die [historische Rotorholics-Vorstellung](https://www.youtube.com/watch?v=K8hPlflSweA) und der kanonische Kanal den Handle `@fpvBP`. Der präzisere Quellenbeleg ersetzt die bisherige allgemeine Teamlisten-Referenz; die Beziehung bleibt ein Kanalverweis, keine neue Session oder zusätzliche Kante. Weitere unbenannte Hallenfilme bleiben ohne Standortzuordnung.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

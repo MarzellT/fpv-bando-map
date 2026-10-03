@@ -37,4 +37,10 @@ Die [Unterkunftsgebäude am ehemaligen Hauptgefechtsstand Tessin](../atlas/?spot
 
 Stand: **60 Atlas-Orte, 57 mit Koordinaten, 93 Kanäle, 87 Verbindungen und 108 verschiedene Videos**. Die Hauptkarte enthält **571 Punkte**, darunter unverändert 549 ursprüngliche Einträge mit 35 geprüften Überschneidungen und nun 22 zusätzliche Atlaspositionen. Die neue Kanalprüfung bestätigt Rotorholics’ Handle, ohne eine zusätzliche Beziehung zu behaupten.
 
+## 03.10.2026 – Bitterfelder Bahnbetriebswerk mit datiertem Fotovergleich
+
+Das [Bahnbetriebswerk Bitterfeld](../atlas/?spot=bahnbetriebswerk-bitterfeld) ist als neuer Ort aufgenommen: individueller Fassadenvergleich, tatsächlicher FPV-Hallenflug und eine passende Fotoserie von April 2025. Ein Dachschadenbericht aus Juni 2026 bleibt ausdrücklich als Communityangabe gekennzeichnet. LW17 Media ergänzt das Netzwerk als bestätigter Kanal; B.P.s bestehende Referenz erhält eine direkte Teamvorstellung als Quelle.
+
+Stand: **61 Atlas-Orte, 58 mit Koordinaten, 94 Kanäle, 87 Verbindungen und 109 verschiedene Videos**. Die Hauptkarte enthält **572 Punkte**, darunter unverändert 549 ursprüngliche Einträge, 35 geprüfte Überschneidungen und 23 zusätzliche Atlaspositionen. Historische Flugbelege bestätigen keine aktuelle Zutritts- oder Flugfreigabe.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
