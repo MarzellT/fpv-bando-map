@@ -49,4 +49,10 @@ Der erhaltene [Flakturm Achmer](../atlas/?spot=flakturm-achmer-1) ist durch den 
 
 Stand: **62 Atlas-Orte, 58 mit Koordinaten, 94 Kanäle, 87 Verbindungen und 110 verschiedene Videos**. Zwei bestehende Kanäle haben jetzt verifizierte Handles. Offene Hallen- und Kieswerkspuren bleiben ohne konkrete Ortszuordnung; Veröffentlichung, Aufnahmezeit, Gebäudebestand und Freigaben werden getrennt geführt.
 
+## 03.10.2026 – Neue belegte Session und weitere Kanalzweige
+
+FpvMr.K ergänzt das Netzwerk durch eine ausdrücklich benannte gemeinsame Session mit FPV-DIRK. Flugtag und genaue Anlage sind noch offen. Die neue Charge dokumentiert außerdem den wahrscheinlichen Kontext eines Delta-Musik-Park-Außenflugs, zwei erstmals gelesene Kanalinventare und offene süddeutsche Fabrikspuren. Der historische Abbruchbericht ist vom später veröffentlichten Flug und heutigen Bedingungen getrennt. CoScis Handle ist präzisiert; daraus wird keine zusätzliche Ortszuordnung abgeleitet.
+
+Stand: **62 Atlas-Orte, 58 mit Koordinaten, 95 Kanäle, 88 Verbindungen, 110 Spotvideos und 572 Kartenpunkte**. Offene Ergebnisse und die nächsten notwendigen Belege sind im Recherchearchiv gesichert.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

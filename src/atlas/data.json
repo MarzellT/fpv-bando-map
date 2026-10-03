@@ -3785,7 +3785,7 @@
     {
       "id": "cosci",
       "name": "CoSci",
-      "handle": "UCkIDqNawoKRJZ2oeLcseTnA",
+      "handle": "@cosciblog",
       "url": "https://www.youtube.com/channel/UCkIDqNawoKRJZ2oeLcseTnA",
       "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung."
     },
@@ -4244,6 +4244,13 @@
       "handle": "@lw17media",
       "url": "https://www.youtube.com/channel/UCtIRIVVkgz8G9GsWiXmCvNQ",
       "description": "Öffentlicher Medienkanal. Der am 09.12.2020 veröffentlichte FPV-Film ist anhand der beschrifteten Fassade und benannter Fotos dem Bahnbetriebswerk Bitterfeld zugeordnet. Keine gemeinsame Session oder Beziehung zu anderen Atlas-Kanälen belegt."
+    },
+    {
+      "id": "fpv-mr-k",
+      "name": "FpvMr.K",
+      "handle": "@FpvMr.K",
+      "url": "https://www.youtube.com/channel/UC1o54JVgqh0SK2khYnyyekQ",
+      "description": "Öffentlicher FPV-Kanal. In der Beschreibung eines am 01.03.2023 veröffentlichten Kieler Bando-Films nennt er FPV-DIRK ausdrücklich als Mitflieger. Der genaue Flugort und Aufnahmetag bleiben ungeklärt."
     }
   ],
   "edges": [
@@ -4942,6 +4949,14 @@
       "url": "https://www.youtube.com/watch?v=fVezNdlGYzw",
       "date": "2018-08-24",
       "label": "Labingers anhand von Denkmalfotos zugeordneter Trainingsfilm und fpv_ B.P.s benannter Film zeigen die Lore-Bauer-Halle. Getrennte Veröffentlichungen am 24.08.2018 und 18.05.2018; keine gemeinsame Session daraus abgeleitet."
+    },
+    {
+      "sourceId": "fpv-mr-k",
+      "targetId": "fpv-dirk",
+      "type": "session",
+      "label": "FPV-DIRK ausdrücklich als Mitflieger genannt. Datum der Veröffentlichung, kein bestätigter Flugtag; die konkrete Anlage ist noch offen.",
+      "url": "https://www.youtube.com/watch?v=FFW0jRJet1U",
+      "date": "2023-03-01"
     }
   ]
 }

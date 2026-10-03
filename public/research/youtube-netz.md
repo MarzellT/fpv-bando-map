@@ -60,4 +60,12 @@ Neu ist das [Dossier zum Flakturm Achmer](../atlas/?spot=flakturm-achmer-1). Der
 
 Die ersten Inventare der bereits bekannten Kanäle bestätigen `@derhenk1` und `@abudun4702`. Ein [Gelsenkirchener Hallenflug](https://www.youtube.com/watch?v=TSboizTRoeU), veröffentlicht am 20.11.2022, ist tatsächlich geprüft, aber noch keiner bestimmten Fabrik zugeordnet. Auch B.P.s Kieswerkfilm bleibt ohne genaue Ortszuordnung. Der benannte Pfaff-Film aus Kaiserslautern erweist sich in den geprüften Bildern als historischer Außenluftfilm; ein FPV-Hallenflug ist damit nicht belegt. Diese Prüfungen erzeugen keine zusätzlichen Netzwerkbeziehungen.
 
+## 03.10.2026 – FpvMr.K im Netzwerk und weitere geprüfte Grenzen
+
+Neu im Netzwerk ist [FpvMr.K](https://www.youtube.com/channel/UC1o54JVgqh0SK2khYnyyekQ), kanonisch als `@FpvMr.K` bestätigt. In der [Beschreibung seines Kieler Bando-Films](https://www.youtube.com/watch?v=FFW0jRJet1U) nennt er FPV-DIRK ausdrücklich als Mitflieger. Das belegt eine gemeinsame Session und ergänzt genau eine Verbindung. Der 01.03.2023 ist das Veröffentlichungsdatum; Flugtag und konkrete Anlage bleiben offen. Ein zweiter bereits vorhandener Film stützt dasselbe Paar, ohne eine zweite Verbindung zu erzeugen.
+
+Der [Film „Former Delta Musik Park“](https://www.youtube.com/watch?v=U9nLpkLDaxg), veröffentlicht am 08.09.2024, zeigt in den geprüften Abschnitten einen Außenflug an Rohrbrücken und über eine Freifläche. Eine benannte [Abbruchdokumentation von 2018, Seite 36](https://www.fachtagung-abbruch.de/wp-content/uploads/2018/12/Abbruch-aktuell-4-2018-Web.pdf) betrifft den ehemaligen Delta Musik Park in Duisburg und zeigt eine passende Rohrbrücke. Der genaue Verlauf ist noch nicht vollständig abgeglichen. Der historische Abriss der Diskothek und das spätere Flugvideo ergeben keinen Nachweis einer erhaltenen verlassenen Halle oder heutiger Freigaben; es entsteht kein neuer Kartenpunkt.
+
+Erste Inventare von Christopher Dörner und CoSci liefern keine zusätzliche benannte deutsche Industrieanlage. CoSci ist jetzt über den verifizierten Handle `@cosciblog` suchbar. Ein Film mit der groben Angabe „südlich von Hamburg“ zeigt Treppenhäuser und Flure, aber noch keinen konkreten Gebäudenamen. Weitere süddeutsche Fabrikabfragen bleiben ohne zugeordneten FPV-Beleg. Ein erneut aufgetauchter Papierfabrikfilm wurde als bereits untersuchte offene Spur erkannt und nicht nochmals abgerufen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)
