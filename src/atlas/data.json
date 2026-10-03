@@ -3962,6 +3962,69 @@
           "type": "community"
         }
       ]
+    },
+    {
+      "id": "dura-plettenberg",
+      "name": "Dura / Schade Plettenberg – historische Hallenflüge",
+      "city": "Plettenberg",
+      "region": "Nordrhein-Westfalen",
+      "type": "Fabrik",
+      "lat": null,
+      "lon": null,
+      "coordinatePrecision": "approximate",
+      "confidence": "open",
+      "summary": "Historische FPV-Flüge durch große Produktionshallen und entdachte Hallenreste des ehemaligen Dura-/Schade-Werks an der Königstraße. Ein Gebäudeteil passt zu einem benannten Luftbild von 2024. Der heutige Restbestand der gefilmten Hallen und ein präziser Kartenpunkt sind ungeklärt.",
+      "features": [
+        "Große Produktionshallen",
+        "Türkise Dachlichtbänder",
+        "Offenes Hallentragwerk",
+        "Historischer Teilabbruch"
+      ],
+      "status": {
+        "label": "Historische Hallenflüge · Restbestand offen",
+        "tone": "uncertain",
+        "lastEvidence": "2024-09-26",
+        "note": "Die Videos wurden am 21.01.2024 und 11.03.2024 veröffentlicht; ihre Aufnahmetage sind unbekannt. Ein Bericht vom 26.09.2024 mit einem Luftbild von Anfang September trennt eine weitgehend geräumte Großfläche von einem noch bebauten Teil des Werks. Dieser Restbereich passt zum Märzfilm. Das belegt weder den Erhalt der konkreten Halle im Oktober 2026 noch Betretungs- oder Flugfreigabe. Ein präziser Punkt wurde nicht unabhängig kartiert; deshalb bleibt das Dossier ohne Kartenpin und ist kein bestätigtes aktuelles Ausflugsziel."
+      },
+      "videos": [
+        {
+          "id": "6_gu__kXmdk",
+          "title": "Plettenberg – Die halb abgerissene Firma Dura im Winter (FPV)",
+          "pilotId": "telefononkel",
+          "publishedAt": "2024-01-21",
+          "match": "named",
+          "timestampSeconds": 2,
+          "note": "Titel benennt Dura in Plettenberg. Geprüfte native Bilder von 0–16 s zeigen echten Innenflug unter türkisen Dachlichtbändern, einen Abbruchbagger sowie einen niedrigen Nebenbereich mit weiß-roten Wänden. Die konkrete Januarhalle ist nicht individuell einer späteren Resthalle zugeordnet; Veröffentlichung ist kein Aufnahmetag."
+        },
+        {
+          "id": "AMsich7IGZY",
+          "title": "Dura Plettenberg – Das ist der Rest vom Schützenfest",
+          "pilotId": "telefononkel",
+          "publishedAt": "2024-03-11",
+          "match": "visual",
+          "timestampSeconds": 25,
+          "note": "Geprüfte Bilder von 0–40 s zeigen tatsächlichen Flug um und durch entdachte Hallenreste. Tragwerksraster, weißer mehrgeschossiger Nachbarbau und Waldrand passen zum im benannten Luftbild von September 2024 markierten Restbereich. Kein Nachweis heutiger Erhaltung und keine Gleichsetzung mit der Januar-Innenhalle. Datum nach Europe/Berlin; kein gesicherter Flugtag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stricker, Baukomplex 32/2023: benannte Dura-Hallenfotos und vorgesehener erster Abbruchabschnitt, Seite 4; Ausgabe Herbst/Winter 2023",
+          "url": "https://www.stricker-gruppe.de/wp-content/uploads/2025/10/Baukomplex-No.-32-Herbst-Winter-2023.pdf",
+          "type": "official"
+        },
+        {
+          "title": "Süderländer Tageblatt: Abbruchfläche und separat noch bebauter Restbereich; Luftbild laut Bildunterschrift von Anfang September 2024",
+          "url": "https://www.come-on.de/lennetal/plettenberg/plettenberg-dura-abbruch-abrissarbeiten-gewerbepark-oesterbach-93323281.html",
+          "type": "press",
+          "date": "2024-09-26"
+        },
+        {
+          "title": "JUNIOR-Gruppe: tatsächlicher Schornsteinabbruch und geplante Nachnutzung; Artikel vom 01.02.2024, später am 07.07.2025 geändert",
+          "url": "https://kuehlkoerper.de/platz-fuer-neues/",
+          "type": "official",
+          "date": "2024-02-01"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -4010,7 +4073,7 @@
     {
       "id": "hangtime",
       "name": "hangtime FPV",
-      "handle": "UCZH9DR2pMALNcx9gt0Vyvrg",
+      "handle": "@hangtimeFPV",
       "url": "https://www.youtube.com/channel/UCZH9DR2pMALNcx9gt0Vyvrg",
       "description": "Videos vom visuell zugeordneten SILAG-Gelände, Pleistalwerk und der Gießerei Geweke sowie benanntem Camp Hitfeld und Funpark Meppen."
     },
@@ -4122,9 +4185,9 @@
     {
       "id": "telefononkel",
       "name": "Telefononkel",
-      "handle": "UCp-LYhtH13GyMQaWNWkp5rA",
+      "handle": "@telefononkel",
       "url": "https://www.youtube.com/channel/UCp-LYhtH13GyMQaWNWkp5rA",
-      "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung."
+      "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung. Dokumentiert historische Hallenflüge im teilweise abgebrochenen Dura-Werk in Plettenberg; dessen heutiger Restbestand bleibt offen."
     },
     {
       "id": "adriansfpv",

@@ -120,4 +120,12 @@ Eine ältere Beschreibung von **RC Rich** nennt ein RC-Treffen mit **blueRC** un
 
 Ein älterer PinkusFPV-Film mit dem Titel „Betonplattenwerk Berlin“ zeigt tatsächlich industrielle Innenflüge. Die konkrete Werksidentität bleibt nach begrenztem Bildvergleich offen; daraus entsteht kein Kartenpunkt. Zusätzliche Suchläufe zu Adolph-Schacht, Boesner und dem Merziger Fliesenwerk erbrachten keinen zugeordneten FPV-Film.
 
+## 03.10.2026 – Neue Kanalzweige: Dura und eine historische Frechen-Zuordnung
+
+Neue Videosinventare und eine ältere hangtime-Folgeseite liefern weitere überprüfbare Industriespuren. Die bestehenden Kanäle **hangtime FPV** und **Telefononkel** sind nun unter ihren bestätigten Handles **@hangtimeFPV** und **@telefononkel** suchbar. Dadurch entstehen keine zusätzlichen Netzwerkknoten oder Beziehungen.
+
+**Dura / Schade in Plettenberg** erhält ein offenes historisches Dossier: [Januarfilm](https://www.youtube.com/watch?v=6_gu__kXmdk&t=2s) und [Märzfilm](https://www.youtube.com/watch?v=AMsich7IGZY&t=25s) zeigen tatsächliche Hallenflüge. Der März-Restbereich passt zu einem benannten Luftbild von Anfang September 2024. Der [Bericht vom 26.09.2024](https://www.come-on.de/lennetal/plettenberg/plettenberg-dura-abbruch-abrissarbeiten-gewerbepark-oesterbach-93323281.html) trennt die große Abbruchfläche von einem damals noch bebauten Teil. Heutiger Hallenerhalt, Freigaben und präziser Kartenpunkt bleiben offen; das Dossier ist kein bestätigtes aktuelles Ausflugsziel.
+
+Der [Steinzeugfilm von hangtime](https://www.youtube.com/watch?v=pnA82Ytqrdc&t=8s), veröffentlicht am 05.10.2024, lässt sich anhand der markanten Schornsteine und benannter Eigentümerfotos **Rhenania/Keramo in Frechen** zuordnen. Das ist ein historischer Flug während des Abbruchs. Der [Projektträger](https://www.rhenania-quartier.de/) meldet inzwischen abgeschlossene oberirdische Abrissarbeiten; daraus entsteht kein neuer erhaltener Hallenspot.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

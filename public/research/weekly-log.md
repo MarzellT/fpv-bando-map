@@ -107,4 +107,12 @@ Zwei bestehende Kartentexte wurden präzisiert: Für das **Fliesenwerk Merzig** 
 
 Alle ursprünglichen Koordinaten bleiben erhalten. Seit dem Merge wurden die Texte von fünf Originaleinträgen anhand konkreter Quellen berichtigt: RAW Salbke, Neu Kaliß, Merzig, Boesner und RENAK. Diese Korrekturen zählen nicht als neue Orte.
 
+## 03.10.2026 – Historische Dura-Hallenflüge, Restbestand offen
+
+Der Atlas enthält jetzt **70 Dossiers**, davon **65 mit Koordinaten**, **119 verschiedene Spotvideos**, **95 Kanäle** und **89 belegte Verbindungen**. Die Hauptkarte bleibt bei **576 Punkten**. Neu ist ein ausdrücklich offenes, nicht kartiertes historisches Dossier zum Dura-/Schade-Werk in Plettenberg. Echte Hallenflüge sind belegt; der genaue heutige Restbestand ist es nicht. Die Veröffentlichung des Märzfilms fällt nach deutscher Ortszeit auf den **11.03.2024**, die Aufnahmezeit ist unbekannt.
+
+Die genaue historische Zuordnung eines weiteren Films zu **Rhenania/Keramo Frechen** ist gelungen. Wegen des vom Projektträger gemeldeten oberirdischen Rückbaus bleibt das Werk aus der Auswahl erhaltener Hallen ausgeschlossen. Ein Aluminiumwerksfilm nennt ausdrücklich **Kroatien** und wird ebenfalls nicht als deutscher Ort aufgenommen. Zusätzliche begrenzte Suchläufe zu Güsten, Zwickau, Golzern, Flöha und Berenberg lieferten keinen individuell zugeordneten neuen Werksflug.
+
+Ein neuer Matschi-Film passt zum schon bekannten, weiterhin unlokalisierten Kraftwerkssaal von Daru/Schnotte. Deutschland ist dafür noch nicht belegt. Ein weiterer Militärhauptquartierfilm zeigt in den geprüften Passagen Sportgelände und Kasernenblöcke; daraus wird keine verlassene Hallenanlage abgeleitet. Die bestätigten Handles von hangtime und Telefononkel wurden ergänzt.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
