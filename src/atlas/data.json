@@ -3272,6 +3272,59 @@
           "type": "community"
         }
       ]
+    },
+    {
+      "id": "ringlokschuppen-bayerischer-bahnhof-leipzig",
+      "name": "Ringlokschuppen Bayerischer Bahnhof",
+      "city": "Leipzig, beim S-Bahnhof MDR",
+      "region": "Sachsen",
+      "type": "Bahn",
+      "lat": 51.319392,
+      "lon": 12.387439,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Zwanzigständiger Ringlokschuppen mit Drehscheibe, gebogener Backsteinfassade und radialen Hallenträgern. Der FPV-Flug von ptox ist mit benannten Fotos und der amtlichen Denkmalkarte abgeglichen.",
+      "features": [
+        "Gebogene Backsteinfassade",
+        "Drehscheibe",
+        "Radiale Hallenträger",
+        "Beschädigtes Dach"
+      ],
+      "status": {
+        "label": "Historischer FPV-Flug · Zustand offen",
+        "tone": "caution",
+        "lastEvidence": "2020-03-05",
+        "note": "Der Film wurde am 05.03.2020 veröffentlicht; der Titel nennt Februar 2020, keinen genauen Flugtag. Im August 2026 hochgeladene Communityfotos haben kein gesichertes Aufnahmedatum. Ein weiterer Fotokatalog nennt eine Aufnahme vom 15.03.2026; dessen Bildinhalt wurde hier nicht geprüft. Gebäudezustand im Oktober 2026 sowie Betretungs- und Flugfreigabe bleiben ungeklärt. Der Communitypunkt dient nur der Orientierung und bezeichnet keinen Eingang oder Startplatz."
+      },
+      "videos": [
+        {
+          "id": "oC8XTp2L5Rk",
+          "title": "First ever bando FPV flight! Leipzig - Feb-2020",
+          "pilotId": "ptox",
+          "publishedAt": "2020-03-05",
+          "match": "visual",
+          "timestampSeconds": 45,
+          "note": "Beschreibung nennt Leipzig ausdrücklich. Geprüfte Bilder von 0–245 s zeigen Außen- und Innenflüge. Bogenfassade, Dachlicht, Drehscheibe, Schornsteine und Hallenaufbau passen zu benannten Communityfotos und Denkmal 09296714. Veröffentlichungsdatum ist kein bestätigter Flugtag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Landesamt für Denkmalpflege Sachsen: Denkmal 09296714, Ortskarte und Foto von 2019; Dokumentstand ist kein Besichtigungsdatum",
+          "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09296714",
+          "type": "official"
+        },
+        {
+          "title": "FPV-Community: Ringlokschuppen, Orientierungspunkt und Fotos; Upload 24.08.2026, Aufnahmezeit unbekannt",
+          "url": "https://www.fpv-spots-germany.de/spot_detail.php?id=110",
+          "type": "community"
+        },
+        {
+          "title": "Alexander Richter: benannter Fotokatalog mit Aufnahmedatum 15.03.2026; Bildinhalt hier ungeprüft",
+          "url": "https://commons.wikimedia.org/wiki/File:Leipzig_D%C3%B6sner_Weg_Ring-Lokschuppen_mit_Drehscheibe.jpg",
+          "type": "photo",
+          "date": "2026-03-15"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3912,6 +3965,13 @@
       "handle": "@flyingfischkopp4504",
       "url": "https://www.youtube.com/channel/UCDi4Mo5PEoYDgpBa5HMGDbw",
       "description": "Öffentlicher FPV- und Urbex-Kanal. Ein am 26.06.2020 in Europe/Berlin veröffentlichter Film dokumentiert den benannten Komplex Muna Dünsen. Weitere Brandenburg-Aufnahmen zeigen Industriegebäude, deren genauer Ort noch offen ist."
+    },
+    {
+      "id": "ptox",
+      "name": "ptox",
+      "handle": "@pt0x",
+      "url": "https://www.youtube.com/channel/UCsD1c4dfCt__W1Lexljb1wg",
+      "description": "Öffentlicher FPV-Kanal. Ein am 05.03.2020 veröffentlichter Flug auf einer Geschäftsreise nach Leipzig zeigt den visuell zugeordneten Ringlokschuppen am ehemaligen Bayerischen Bahnhof. Keine gemeinsame Session oder Beziehung zu anderen Atlas-Kanälen belegt."
     }
   ],
   "edges": [

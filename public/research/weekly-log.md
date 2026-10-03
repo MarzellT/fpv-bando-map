@@ -19,4 +19,10 @@ Die [öffentlichen Recherchenotizen](youtube-netz.md) dokumentieren drei weitere
 
 Das ehemalige Kieswerk bei Schwackenreute/Mühlingen bleibt eine weitere Spur im Süden. [Benannte Ortsquellen](https://www.bwegt.de/service/bwegt-magazin/lost-places-in-baden-wuerttemberg-4-spektakulaere-fotospots) und Fotos stützen die Anlage mit Fördertürmen und Förderbändern; ein konkreter FPV-Film ist bislang nicht zugeordnet. Neu untersuchte Kanalinventare von Maxime, Pinkus und NightFlyer liefern weitere offene Ansätze. Fehlende Videometadaten werden als unbekannt dokumentiert.
 
+## 03.10.2026 – Leipzig ergänzt
+
+Ein neuer individuell zugeordneter Ort: [Ringlokschuppen Bayerischer Bahnhof, Leipzig](../atlas/?spot=ringlokschuppen-bayerischer-bahnhof-leipzig). Historischer FPV-Film, zwei benannte Communityfotos und amtliche Ortskarte abgeglichen; aktueller Zustand und Freigabe bleiben ungeklärt. Der neue Kanal ptox ist bestätigt, zusätzliche Pilotenkanten sind nicht belegt.
+
+Stand dieser Charge: **57 Atlas-Orte, 54 mit Koordinaten, 92 Kanäle, 87 Verbindungen und 104 verschiedene Videos**. Die Hauptkarte enthält **570 Punkte** bei unverändert 549 ursprünglichen Einträgen und 33 geprüften Überschneidungen. Rendsburger Schlachthof und Oktogon werden mit ihren konkreten Beleggrenzen in den [Recherchenotizen](youtube-netz.md) dokumentiert. Zwei neu verknüpfte Filme zur Knappschaftsheilstätte Sülzhayn bleiben bis zum Gebäudevergleich offen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
