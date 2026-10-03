@@ -3541,6 +3541,48 @@
           "date": "2026-06-13"
         }
       ]
+    },
+    {
+      "id": "flakturm-achmer-1",
+      "name": "Flakturm Achmer · Turm 1",
+      "city": "Achmer",
+      "region": "Raum Osnabrück",
+      "type": "Militär",
+      "lat": null,
+      "lon": null,
+      "coordinatePrecision": "approximate",
+      "confidence": "open",
+      "summary": "Erhaltener Backsteinturm des ehemaligen Fliegerhorsts Achmer mit offenem Abschluss und Innenwänden. Ein kurzer Außenflug ist mit benannten historischen Turmfotos abgeglichen; der genaue Kartenpunkt fehlt noch.",
+      "features": [
+        "Backsteinturm",
+        "Offener oberer Abschluss",
+        "Außenflug",
+        "Ehemaliger Fliegerhorst"
+      ],
+      "status": {
+        "label": "Außenflug veröffentlicht 2025 · Kartenpunkt offen",
+        "tone": "uncertain",
+        "lastEvidence": "2025-05-21",
+        "note": "Der am 21.05.2025 veröffentlichte Film zeigt einen Flug um und über den erhaltenen Turm 1, keine Gebäudedurchquerung. Der Flugtag ist unbekannt. Die benannte Fotodokumentation trennt diesen Turm vom inzwischen entfernten Nachbarturm 1A; ihre Erhaltungsangabe ist undatiert. Ein heutiger Gebäudezustand sowie Betretungs- und Flugfreigabe sind nicht bestätigt. Mangels belastbarer veröffentlichter Turmkoordinate erscheint das Dossier ohne Kartenpin. Raum Osnabrück bezeichnet die Umgebung, keine geprüfte Gemeinde- oder Landesgrenze am Turm."
+      },
+      "videos": [
+        {
+          "id": "DauV0h0AXR0",
+          "title": "Flakturm am Flugfeld Ahnenkult",
+          "pilotId": "abu-dun",
+          "publishedAt": "2025-05-21",
+          "match": "visual",
+          "timestampSeconds": 11,
+          "note": "Geprüfte Bilder von 0–26 s zeigen den Backsteinturm am Feldrand, seine unterschiedlich angeordneten oberen Öffnungen, eine untere Türöffnung und den offenen oberen Abschluss. Zusammen mit dem ausdrücklich genannten historischen Flugfeldnamen Ahnenkult passt die Fassade zum benannten erhaltenen Turm 1 bei Achmer. Die Fotos zeigen den entfernten Nachbarturm mit abweichenden großen Wandöffnungen separat. Veröffentlichungsdatum, kein bestätigter Aufnahmetag; kein Innenflug belegt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Luftschutzbunker Osnabrück: benannte Fotos des erhaltenen Mauerwerk-Flakturms 1 bei Achmer; Aufnahmezeiten und Erhaltungsangabe undatiert, Nachbarturm 1A getrennt",
+          "url": "https://www.luftschutzbunker-osnabrueck.de/bu_sites/mauerwerkflturmachmer1.html",
+          "type": "photo"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3617,7 +3659,7 @@
     {
       "id": "derhenk",
       "name": "derhenk1",
-      "handle": "UCfSzxcWxWHWH-P3tOf4jf3A",
+      "handle": "@derhenk1",
       "url": "https://www.youtube.com/channel/UCfSzxcWxWHWH-P3tOf4jf3A",
       "description": "Benannter Flugbeleg des Steinbruchs Steinsberg von 2023."
     },
@@ -3680,9 +3722,9 @@
     {
       "id": "abu-dun",
       "name": "Abu Dun",
-      "handle": "UCdtg9Ejf54swoTZFOWVhdMg",
+      "handle": "@abudun4702",
       "url": "https://www.youtube.com/channel/UCdtg9Ejf54swoTZFOWVhdMg",
-      "description": "Öffentlicher Kanal mit belegtem Video oder einer ausdrücklich dokumentierten Verbindung."
+      "description": "Öffentlicher FPV-Kanal mit zugeordneten Filmen am Zementwerk Mersmann und am erhaltenen Flakturm des ehemaligen Fliegerhorsts Achmer. Die Filme belegen keine heutige Flugfreigabe; zusätzliche Beziehungen sind nicht dokumentiert."
     },
     {
       "id": "fpv-doc",

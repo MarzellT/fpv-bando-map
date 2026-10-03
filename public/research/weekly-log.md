@@ -43,4 +43,10 @@ Das [Bahnbetriebswerk Bitterfeld](../atlas/?spot=bahnbetriebswerk-bitterfeld) is
 
 Stand: **61 Atlas-Orte, 58 mit Koordinaten, 94 Kanäle, 87 Verbindungen und 109 verschiedene Videos**. Die Hauptkarte enthält **572 Punkte**, darunter unverändert 549 ursprüngliche Einträge, 35 geprüfte Überschneidungen und 23 zusätzliche Atlaspositionen. Historische Flugbelege bestätigen keine aktuelle Zutritts- oder Flugfreigabe.
 
+## 03.10.2026 – Achmer als Dossier ohne erfundenen Kartenpunkt
+
+Der erhaltene [Flakturm Achmer](../atlas/?spot=flakturm-achmer-1) ist durch den Vergleich eines veröffentlichten Außenflugs mit benannten Turmfotos zugeordnet. Eine genaue veröffentlichte Koordinate fehlt noch. Der neue Eintrag erweitert daher den Atlas, während die Hauptkarte unverändert **572 Punkte** enthält.
+
+Stand: **62 Atlas-Orte, 58 mit Koordinaten, 94 Kanäle, 87 Verbindungen und 110 verschiedene Videos**. Zwei bestehende Kanäle haben jetzt verifizierte Handles. Offene Hallen- und Kieswerkspuren bleiben ohne konkrete Ortszuordnung; Veröffentlichung, Aufnahmezeit, Gebäudebestand und Freigaben werden getrennt geführt.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)

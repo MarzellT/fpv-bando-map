@@ -54,4 +54,10 @@ Eine [Communitymeldung vom 13.06.2026](https://www.lostplace.club/place2.php?id=
 
 LW17 Media ist ein neuer bestätigter Kanal ohne belegte Verbindung zu anderen Atlas-Piloten. Bei B.P. bestätigen die [historische Rotorholics-Vorstellung](https://www.youtube.com/watch?v=K8hPlflSweA) und der kanonische Kanal den Handle `@fpvBP`. Der präzisere Quellenbeleg ersetzt die bisherige allgemeine Teamlisten-Referenz; die Beziehung bleibt ein Kanalverweis, keine neue Session oder zusätzliche Kante. Weitere unbenannte Hallenfilme bleiben ohne Standortzuordnung.
 
+## 03.10.2026 – Achmer-Flakturm und zwei weitere Kanalinventare
+
+Neu ist das [Dossier zum Flakturm Achmer](../atlas/?spot=flakturm-achmer-1). Der [Film von Abu Dun](https://www.youtube.com/watch?v=DauV0h0AXR0&t=11s), veröffentlicht am 21.05.2025, zeigt einen Außenflug um den erhaltenen Backsteinturm. Die individuell angeordneten Wandöffnungen und der offene Abschluss passen zur [benannten Fotodokumentation von Turm 1](https://www.luftschutzbunker-osnabrueck.de/bu_sites/mauerwerkflturmachmer1.html). Der entfernte Nachbarturm wird dort getrennt gezeigt. Flugtag, heutiger Bestand und Freigaben bleiben offen. Ein belastbarer veröffentlichter Turmstandort fehlt; deshalb gibt es noch keinen Kartenpin.
+
+Die ersten Inventare der bereits bekannten Kanäle bestätigen `@derhenk1` und `@abudun4702`. Ein [Gelsenkirchener Hallenflug](https://www.youtube.com/watch?v=TSboizTRoeU), veröffentlicht am 20.11.2022, ist tatsächlich geprüft, aber noch keiner bestimmten Fabrik zugeordnet. Auch B.P.s Kieswerkfilm bleibt ohne genaue Ortszuordnung. Der benannte Pfaff-Film aus Kaiserslautern erweist sich in den geprüften Bildern als historischer Außenluftfilm; ein FPV-Hallenflug ist damit nicht belegt. Diese Prüfungen erzeugen keine zusätzlichen Netzwerkbeziehungen.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)
