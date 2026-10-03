@@ -25,6 +25,7 @@ export default defineConfig({
         atlas: 'atlas/index.html',
         network: 'netzwerk/index.html',
         selection: 'auswahl/index.html',
+        daySelection: 'tagesauswahl/index.html',
       },
     },
     target: 'es2022',

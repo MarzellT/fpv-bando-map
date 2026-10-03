@@ -1,0 +1,1254 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ed" />
+    <meta
+      name="description"
+      content="Deutschlandweite Tagesauswahl vom 03.10.2026: konkrete FPV-Belege, datierte Zustandsquellen und offene Freigaben. Neue Kartenpositionen und neue Belege bleiben getrennt."
+    />
+    <title>Tagesauswahl · Deutschland · 03.10.2026</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f5f3ed;
+        --white: #fffcf7;
+        --ink: #23312e;
+        --muted: #5e6861;
+        --line: #dcded4;
+        --orange: #b63d19;
+        --accent: #e45b34;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+        font-synthesis: none;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      a {
+        color: inherit;
+        text-underline-offset: 0.2em;
+        text-decoration-thickness: 1px;
+      }
+      a:hover {
+        color: var(--orange);
+      }
+      a:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 5px;
+        border-radius: 2px;
+      }
+      ::selection {
+        background: #f6c3aa;
+      }
+      .skip {
+        position: absolute;
+        left: 16px;
+        top: -80px;
+        background: var(--ink);
+        color: white;
+        padding: 12px;
+        z-index: 3;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+      .wrap {
+        width: min(1160px, calc(100% - 48px));
+        margin: auto;
+      }
+      header {
+        border-bottom: 1px solid var(--line);
+      }
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 24px 0;
+      }
+      .brand {
+        text-decoration: none;
+        font-weight: 750;
+        letter-spacing: -0.04em;
+        font-size: 22px;
+      }
+      .brand span {
+        color: var(--orange);
+      }
+      nav {
+        display: flex;
+        gap: 24px;
+        font-size: 14px;
+      }
+      nav a {
+        text-decoration: none;
+      }
+      main {
+        padding-bottom: 64px;
+      }
+      .hero {
+        padding: 65px 0 38px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 750;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+      .hero .eyebrow {
+        color: var(--orange);
+      }
+      h1 {
+        font-size: clamp(38px, 6vw, 76px);
+        line-height: 1.03;
+        letter-spacing: -0.055em;
+        margin: 20px 0 24px;
+        max-width: 920px;
+        font-weight: 750;
+      }
+      h1 span {
+        display: block;
+      }
+      .lead {
+        font-size: clamp(18px, 2vw, 22px);
+        line-height: 1.6;
+        max-width: 820px;
+        margin: 0;
+      }
+      .lead strong {
+        font-weight: 700;
+      }
+      .notice {
+        margin: 28px 0 0;
+        border-left: 4px solid var(--accent);
+        padding: 14px 20px;
+        background: #eeeae1;
+        font-size: 14px;
+        line-height: 1.6;
+        max-width: 820px;
+      }
+      .notice p {
+        margin: 0;
+      }
+      .section {
+        margin-top: 40px;
+      }
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 24px;
+        border-top: 1px solid var(--ink);
+        padding-top: 20px;
+        margin-bottom: 22px;
+      }
+      h2 {
+        font-size: 28px;
+        letter-spacing: -0.035em;
+        margin: 0;
+      }
+      .section-head p {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 0;
+        max-width: 370px;
+        line-height: 1.5;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+      .card {
+        background: var(--white);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+      .card.featured {
+        border-color: var(--accent);
+        box-shadow: inset 0 4px 0 var(--accent);
+      }
+      .card.featured .eyebrow {
+        color: var(--orange);
+      }
+      .card.open {
+        background: #eeeee7;
+      }
+      h3 {
+        font-size: 26px;
+        line-height: 1.14;
+        letter-spacing: -0.03em;
+        margin: 13px 0 9px;
+      }
+      .place {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 0 0 19px;
+      }
+      .description {
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0 0 18px;
+      }
+      .evidence {
+        font-size: 14px;
+        line-height: 1.65;
+        border-top: 1px solid var(--line);
+        padding-top: 17px;
+        margin-bottom: 20px;
+      }
+      .evidence p {
+        margin: 0;
+      }
+      .video-meta {
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--muted);
+        margin: auto 0 12px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+      }
+      .actions a {
+        font-size: 13px;
+        font-weight: 700;
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .actions a:first-child {
+        color: var(--orange);
+      }
+      .map-link {
+        font-size: 12px;
+        color: var(--muted);
+        margin: 10px 0 0;
+        line-height: 1.5;
+      }
+      .map-link a {
+        display: inline-block;
+        padding: 4px 0;
+      }
+      .footnote {
+        margin: 34px 0 0;
+        font-size: 13px;
+        line-height: 1.65;
+        color: var(--muted);
+        max-width: 850px;
+      }
+      footer {
+        background: var(--ink);
+        color: var(--paper);
+        padding: 26px 0;
+        font-size: 13px;
+      }
+      .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        line-height: 1.6;
+      }
+      footer p {
+        margin: 0;
+      }
+      footer a:hover {
+        color: #ffb69d;
+      }
+      @media (max-width: 680px) {
+        .wrap {
+          width: calc(100% - 32px);
+        }
+        .topbar {
+          padding: 20px 0;
+          gap: 18px;
+        }
+        nav {
+          gap: 15px;
+          font-size: 13px;
+        }
+        .hero {
+          padding-top: 42px;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .section-head {
+          display: block;
+        }
+        .section-head p {
+          margin-top: 10px;
+        }
+        .card {
+          padding: 24px;
+        }
+        h2 {
+          font-size: 25px;
+        }
+        .footer-inner {
+          display: block;
+        }
+        .footer-inner p + p {
+          margin-top: 10px;
+        }
+      }
+      @media print {
+        header nav,
+        .actions,
+        .map-link {
+          display: none;
+        }
+        .grid {
+          display: block;
+        }
+        .card {
+          break-inside: avoid;
+          margin-bottom: 15px;
+        }
+        h1 {
+          font-size: 38px;
+        }
+        .hero {
+          padding-top: 20px;
+        }
+        footer {
+          background: white;
+          color: var(--ink);
+        }
+      }
+
+      .topbar {
+        flex-wrap: wrap;
+      }
+      nav {
+        flex-wrap: wrap;
+        gap: 8px 22px;
+      }
+      nav a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .jump {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        margin-top: 24px;
+        font-size: 14px;
+      }
+      .jump a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 28px;
+        padding: 20px 0;
+        margin: 22px 0 0;
+        border-top: 1px solid var(--line);
+      }
+      .stats div {
+        min-width: 125px;
+      }
+      .stats dt {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .stats dd {
+        margin: 3px 0 0;
+        font-size: 28px;
+        font-weight: 750;
+      }
+      .unknowns {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.6;
+        margin: 0 0 16px;
+      }
+      .sources {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        margin-top: 12px;
+      }
+      .sources a {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .actions a {
+        min-height: 44px;
+      }
+      .map-link a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .section:last-of-type .description,
+      .section:last-of-type .evidence {
+        font-size: 14px;
+      }
+      .section:last-of-type h3 {
+        font-size: 23px;
+      }
+      @media (max-width: 680px) {
+        .topbar {
+          display: block;
+        }
+        nav {
+          margin-top: 10px;
+        }
+        .hero {
+          padding-top: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Zum Inhalt</a>
+    <header>
+      <div class="wrap topbar">
+        <a class="brand" href="../atlas/">Bando<span> Atlas</span></a>
+        <nav aria-label="Hauptnavigation">
+          <a href="../">Hauptkarte</a><a href="../atlas/">Atlas</a
+          ><a href="../netzwerk/">Pilotennetz</a><a href="../auswahl/">Morgenauswahl</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <div class="hero">
+        <p class="eyebrow">
+          Recherchestand <time datetime="2026-10-03">03.10.2026</time> · Deutschland
+        </p>
+        <h1>Tagesauswahl.<span>Gebäude, Flüge, offene Fragen.</span></h1>
+        <p class="lead">
+          Neue Hallenpositionen und konkrete Filmbelege aus ganz Deutschland. Diese Auswahl zeigt,
+          welche Bauteile dokumentiert sind und wie weit die Zustandsquellen reichen.
+          <strong>Kein Eintrag bestätigt eine aktuelle Betretungs- oder Flugfreigabe.</strong>
+        </p>
+        <dl class="stats" aria-label="Zuwachs gegenüber dem Tagesbeginn">
+          <div>
+            <dt>Neue Dossiers</dt>
+            <dd>16</dd>
+          </div>
+          <div>
+            <dt>Zusätzliche Kartenpositionen</dt>
+            <dd>9</dd>
+          </div>
+          <div>
+            <dt>Neue öffentliche Pilotprofile</dt>
+            <dd>12</dd>
+          </div>
+          <div>
+            <dt>Neue belegte Beziehungen</dt>
+            <dd>15</dd>
+          </div>
+        </dl>
+        <aside class="notice" aria-label="So sind die Belege zu lesen">
+          <p>
+            <strong>Veröffentlichung ist kein Flugtag.</strong> Videodaten sind Veröffentlichungen
+            in deutscher Ortszeit. Fotoaufnahmen, Berichte und Planungen werden getrennt genannt.
+            Militärische Teilnutzung, Besucherbetrieb und laufender Umbau bleiben sichtbar; 16 neue
+            Dossiers sind keine 16 neuen frei nutzbaren Flugorte.
+          </p>
+        </aside>
+        <nav class="jump" aria-label="Abschnitte der Tagesauswahl">
+          <a href="#neue-punkte">Neue Kartenpositionen</a
+          ><a href="#neue-belege">Bestehende Punkte</a><a href="#historisch">Historische Flüge</a
+          ><a href="#weitere">Weitere Dossiers</a>
+        </nav>
+      </div>
+      <section class="section" aria-labelledby="neue-punkte">
+        <div class="section-head">
+          <h2 id="neue-punkte">Neue Kartenpositionen</h2>
+          <p>
+            Vier ausgewählte Orte aus den neun zusätzlichen Positionen des Tages. Leipzig ergänzt
+            eine konkrete Halle im schon bekannten Bahnensemble.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p class="eyebrow">Neue Hallenposition · Bahn</p>
+            <h3>Ringlokschuppen Bayerischer Bahnhof</h3>
+            <p class="place">Leipzig, beim S-Bahnhof MDR · Sachsen</p>
+            <p class="description">
+              Gebogene Backsteinfassade, Drehscheibe und radiale Hallenträger: tatsächlich belegter
+              Außen- und Innenflug im zwanzigständigen Ringlokschuppen. Der ältere Bahnhofspunkt
+              liegt rund 900 Meter nördlich.
+            </p>
+            <div class="evidence">
+              <p>
+                Das amtliche Denkmalfoto stammt von 2019. Communityfotos wurden am 24.08.2026
+                hochgeladen, ihre Aufnahmezeit ist unbekannt. Ein Commons-Katalog nennt den
+                15.03.2026 als Aufnahmezeit; das Bild selbst blieb ungeprüft. Der heutige Dach- und
+                Gebäudezustand ist offen.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09296714"
+                  >Landesamt für Denkmalpflege Sachsen: Denkmal 09296714, Ortskarte und Foto von
+                  2019; Dokumentstand ist kein Besichtigungsdatum ↗</a
+                ><a
+                  href="https://commons.wikimedia.org/wiki/File:Leipzig_D%C3%B6sner_Weg_Ring-Lokschuppen_mit_Drehscheibe.jpg"
+                  >Alexander Richter: benannter Fotokatalog mit Aufnahmedatum 15.03.2026; Bildinhalt
+                  hier ungeprüft ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2020-03-05">05.03.2020</time> · Einstieg 0:45
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=oC8XTp2L5Rk&amp;t=45s">FPV-Video ab 0:45 ↗</a
+              ><a href="../atlas/?spot=ringlokschuppen-bayerischer-bahnhof-leipzig"
+                >Dossier im Atlas →</a
+              >
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.319392%2C12.387439"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Depotpunkt · Bahn</p>
+            <h3>Bahnbetriebswerk Bitterfeld</h3>
+            <p class="place">Bitterfeld-Wolfen · Sachsen-Anhalt</p>
+            <p class="description">
+              Ein echter Innenflug zwischen markanten Stahlrahmen, Fensterbändern und ehemaligen
+              Gleisgruben. Die beschriftete Bitterfeld-Fassade und die Hallenstruktur sind
+              individuell zugeordnet.
+            </p>
+            <div class="evidence">
+              <p>
+                Tatsächlich geprüfte Fotos mit EXIF-Aufnahmeangabe 17.04.2025 zeigen die Halle mit
+                Dachlücken. Ein Communitykommentar vom 13.06.2026 meldet eingestürzte Dächer an
+                vielen Gebäuden; er bestätigt weder den Zustand der gesamten gefilmten Halle noch
+                eine aktuelle Begehbarkeit.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://www.zeitbrueche.de/bahnbetriebswerk.html"
+                  >ZeitBrüche / Ingolf Bergfeld: individuell passende Fassaden- und Hallenfotos,
+                  beschriftet April 2025; EXIF-Aufnahmeangaben 17.04.2025 ↗</a
+                ><a href="https://www.lostplace.club/place2.php?id=1462"
+                  >Lost Place Club: benannter Standortpunkt und passende Hallenbilder;
+                  Communitymeldung über Dachschäden vom 13.06.2026, Bildaufnahmezeiten unbekannt
+                  ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2020-12-09">09.12.2020</time> · Einstieg 0:10
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=E2mT5YJBMVw&amp;t=10s">FPV-Video ab 0:10 ↗</a
+              ><a href="../atlas/?spot=bahnbetriebswerk-bitterfeld">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.638%2C12.3066"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Komplexpunkt · Militär</p>
+            <h3>Luftmunitionsanstalt Dünsen / Muna Harpstedt</h3>
+            <p class="place">Dünsen / Groß Ippener / Kirchseelte · Niedersachsen</p>
+            <p class="description">
+              Erdüberdeckte Bunker und Lagerhäuser im Wald. Der gewählte Film zeigt bei 50/55
+              Sekunden einen Lagerhaus-Innenflug; ein zweiter Film belegt einen gewölbten
+              Bunkerraum. Die einzelnen Gebäude sind noch nicht exakt verortet.
+            </p>
+            <div class="evidence">
+              <p>
+                Der Pressebericht vom 02.04.2026 beschreibt Bunkerreste und Airsoft auf einer
+                Teilfläche. Die undatierte Betreiberseite nennt 65.000 m². Ob die gefilmten Gebäude
+                auf dieser Fläche liegen, ist offen; geplante Spieltermine sind keine Besuchs- oder
+                FPV-Freigabe.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://www.kreiszeitung.de/lokales/niedersachsen/grosser-militaer-lost-place-hier-wurden-einst-atomsprengkoepfe-in-niedersachsen-gelagert-94247494.html"
+                  >Kreiszeitung, 02.04.2026: Bunkerreste und Airsoft-Teilnutzung; Fotodatum nicht
+                  angegeben ↗</a
+                ><a href="https://nukebase-airsoft.de/about/"
+                  >Nukebase: Betreiberangaben zur 65.000 m² großen Airsoft-Teilfläche, undatierte
+                  Seite ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-04-27">27.04.2026</time> · Einstieg 0:50
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=LVC_Tc4NYxM&amp;t=50s">FPV-Video ab 0:50 ↗</a
+              ><a href="../atlas/?spot=muna-duensen">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=52.940176%2C8.642543"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Komplexpunkt · Militär</p>
+            <h3>Hauptgefechtsstand Tessin – Unterkunftsgebäude</h3>
+            <p class="place">Bei Drüsewitz / Selpin, nahe Tessin · Mecklenburg-Vorpommern</p>
+            <p class="description">
+              Oberirdische Unterkunftsblöcke mit langen Fluren, Tarnfassaden und Höfen. Belegt sind
+              Flüge in und an den Unterkünften; ein Flug durch den unterirdischen Hauptbunker ist
+              nicht nachgewiesen.
+            </p>
+            <div class="evidence">
+              <p>
+                Der Film erschien 2020. Die benannten Vergleichsfotos haben kein gesichertes
+                Aufnahmedatum; 1974 und 1983/84 sind Baujahre. Modern Vikings beschreibt sein
+                Airsoftfeld undatiert. Ein unabhängiger neuerer Bestandsbericht fehlt.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://www.bunker-tessin.de/"
+                  >Bunker Tessin: benannte Fotos der beiden Unterkunftsgebäude; Baujahre 1974 und
+                  1983/84, Fotoaufnahmezeiten unbekannt ↗</a
+                ><a
+                  href="https://www.airsoft-verzeichnis.de/index.php?status=team&amp;teamnummer=008887"
+                  >Modern Vikings: Selbstdarstellung des Airsoftgeländes Ragnarök am ehemaligen
+                  Hauptgefechtsstand, undatiert ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2020-07-02">02.07.2020</time> · Einstieg 1:40
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=cDPG7FAjFaA&amp;t=100s"
+                >FPV-Video ab 1:40 ↗</a
+              ><a href="../atlas/?spot=hauptgefechtsstand-tessin-unterkuenfte"
+                >Dossier im Atlas →</a
+              >
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=53.990212%2C12.436137"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="neue-belege">
+        <div class="section-head">
+          <h2 id="neue-belege">Neue Belege zu bestehenden Punkten</h2>
+          <p>
+            Diese vier Orte standen bereits auf der Hauptkarte. Neu sind die recherchierten Dossiers
+            und konkreten Filmzuordnungen.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p class="eyebrow">Bestehender Punkt · Turbinenhalle</p>
+            <h3>Kraftwerk Vockerode</h3>
+            <p class="place">Vockerode / Oranienbaum-Wörlitz · Sachsen-Anhalt</p>
+            <p class="description">
+              Lange Halle mit gekacheltem Leitstand, tiefen Turbinenfundamenten und markanten
+              Fensterstützen. Der Innenflug ist mit Robert Conrads benannter Aufnahme vom 15.07.2001
+              abgeglichen.
+            </p>
+            <div class="evidence">
+              <p>
+                Der Film wurde am 03.10.2026 veröffentlicht, sein Flugtag ist unbekannt. Die
+                undatierte regionale Tourismusquelle nennt eine Besuchersperre aus
+                Sicherheitsgründen. Die Standortvermarktung bestätigt weder den heutigen
+                Hallenzustand noch eine Flugfreigabe.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://vimudeap.info/de/atlas/kraftwerk-vockerode/images/#image-2166"
+                  >VIMUDEAP / Robert Conrad: Turbinenhalle, aufgenommen am 15.07.2001; Galerie mit
+                  Orientierungspunkt ↗</a
+                ><a
+                  href="https://www.kohle-dampf-licht-seen.de/staedte-sehenswuerdigkeiten-landschaften/kraftwerk-vockerode"
+                  >WelterbeRegion Anhalt-Dessau-Wittenberg: Kraftwerk und Besuchersperre, undatierte
+                  Angaben ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-10-03">03.10.2026</time> · Einstieg 6:00
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=xGcimQJncEM&amp;t=360s"
+                >FPV-Video ab 6:00 ↗</a
+              ><a href="../atlas/?spot=kraftwerk-vockerode">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.845482%2C12.358675"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Bestehender Punkt · Flugleitung</p>
+            <h3>Flugleitzentrum Schwerin-Görries</h3>
+            <p class="place">Schwerin-Görries · Mecklenburg-Vorpommern</p>
+            <p class="description">
+              Gerundete Fensterstube, rechteckiger Backsteinschornstein und ein tatsächlicher
+              Einflug durch eine untere Fensteröffnung. Ein vollständiger Durchflug durch den
+              benachbarten Hangar ist nicht belegt.
+            </p>
+            <div class="evidence">
+              <p>
+                Das individuell passende Fassadenfoto ist auf den 06.12.2018 datiert; der Film
+                erschien am 24.06.2023. Die undatierte Stadtplanung sieht Sanierung vor und belegt
+                keine ausgeführten Arbeiten. Heutiger Erhalt und Freigabe bleiben offen.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Flugplatz_Schwerin-G%C3%B6rries.jpg"
+                  >Hajuko: Flugleitzentrum Fliegerhorst Schwerin-Görries, Aufnahme 06.12.2018;
+                  benanntes und tatsächlich verglichenes Fassadenfoto ↗</a
+                ><a
+                  href="https://mobil.schwerin.de/mein-schwerin/leben/planen-bauen/stadtplanung/bebauungsplanung/laufende-planverfahren/goerries/goerries-ehemaliger-flugplatz/index.html"
+                  >Landeshauptstadt Schwerin: Bebauungsplan 72.12, beabsichtigte Sanierung von
+                  Hangars und Tower; undatierter Planungsstand ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2023-06-24">24.06.2023</time> · Einstieg 0:40
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=ZyQX-AWW_a4&amp;t=40s">FPV-Video ab 0:40 ↗</a
+              ><a href="../atlas/?spot=flugleitzentrum-schwerin-goerries">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=53.61257%2C11.37575"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Bestehender Punkt · Wagenhalle</p>
+            <h3>RAW Salbke – Wagenhalle Magdeburg</h3>
+            <p class="place">Magdeburg-Salbke · Sachsen-Anhalt</p>
+            <p class="description">
+              Mehrschiffige Stahlhalle mit Dachlichtbändern und Bodengruben. Die Stirnwand und das
+              Tragwerk stützen die Zuordnung des tatsächlichen Innenflugs; die genaue nummerierte
+              Hallengasse bleibt offen.
+            </p>
+            <div class="evidence">
+              <p>
+                Ein Hallenfoto trägt die Aufnahmeangabe 28.09.2024. Die Stadt meldet am 21.08.2026
+                den Spatenstich für Rawsburg und bereits begonnene Arbeiten an Eingangskopfbauten.
+                Das bestätigt nicht, welche Teile der gefilmten Wagenhalle heute erhalten sind.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://commons.wikimedia.org/wiki/File:RAW_Halle.jpg"
+                  >Jojoo64: frühere Waggoninstandsetzungshalle; Aufnahme 28.09.2024, Upload
+                  05.09.2025; Foto tatsächlich geprüft ↗</a
+                ><a
+                  href="https://www.magdeburg.de/B%C3%BCrger-Stadt/Aktuelles-Presse/Pressemeldungen/Ehemaliges-RAW-Gel%C3%A4nde-Spatenstich-zum-800-Millionen-Projekt.php?FID=698.54474.1&amp;object=tx%2C698.6.1"
+                  >Landeshauptstadt Magdeburg, 21.08.2026: Spatenstich und begonnene Arbeiten für
+                  Rawsburg; kein Einzelbefund zur gefilmten Hallengasse ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2023-11-09">09.11.2023</time> · Einstieg 1:12
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=R3iahpm5HEk&amp;t=72s">FPV-Video ab 1:12 ↗</a
+              ><a href="../atlas/?spot=raw-salbke-magdeburg">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=52.08189%2C11.66162"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Bestehender Punkt · Heilstätte</p>
+            <h3>Knappschaftsheilstätte Sülzhayn</h3>
+            <p class="place">Sülzhayn / Ellrich · Thüringen</p>
+            <p class="description">
+              Markante Giebelhäuser, Innenhof und überbaute Hofdurchfahrt. Der ausgewählte Flug
+              führt durch die Gebäudebrücke und über stark beschädigte Dächer; benachbarte
+              Heilstätten bleiben getrennt.
+            </p>
+            <div class="evidence">
+              <p>
+                Die Filme erschienen am 06. und 08.08.2026, ohne bestätigten Aufnahmetag.
+                Communityfotos wurden am 30.08.2026 hochgeladen, ihre Aufnahmezeit ist unbekannt.
+                Ein aktueller unabhängiger Zustandsnachweis fehlt.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://www.fpv-spots-germany.de/spot_detail.php?id=109"
+                  >FPV-Community: benannter Komplex, Orientierungspunkt, zwei verlinkte Filme und
+                  Vergleichsfotos; Fotoaufnahmezeit unbekannt ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2026-08-08">08.08.2026</time> · Einstieg 0:09
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=XVQLb8mAGtU&amp;t=9s">FPV-Video ab 0:09 ↗</a
+              ><a href="../atlas/?spot=knappschaftsheilstaette-suelzhayn">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.619935%2C10.704464"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="historisch">
+        <div class="section-head">
+          <h2 id="historisch">Historische Flüge · Areale im Wandel</h2>
+          <p>
+            Baulich interessante Dokumentation mit belegtem Rückbau oder laufender Umnutzung. Die
+            historischen Flugpassagen sind kein bestätigtes heutiges Bando-Angebot.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p class="eyebrow">Neuer Teilbereichspunkt · Historischer Rückbau</p>
+            <h3>Dura / Schade Plettenberg – historische Hallenflüge</h3>
+            <p class="place">Plettenberg · Nordrhein-Westfalen</p>
+            <p class="description">
+              FPV durch entdachte Hallenreste neben einem weißen Mehrgeschossbau am Waldrand. Der
+              März-Film ist dem verbliebenen Teilbereich zugeordnet; die Januar-Innenhalle wurde
+              nicht mit dieser Resthalle gleichgesetzt.
+            </p>
+            <div class="evidence">
+              <p>
+                Das amtliche NRW-Orthofoto vom Bildflug 20.09.2025 zeigt dort Gebäude und teilweise
+                entdachtes Tragwerk. Es belegt weder den vollständigen Erhalt jeder Flugpassage noch
+                den Zustand im Oktober 2026. Der Kartenpunkt wurde ungefähr aus dem
+                georeferenzierten Luftbild abgeleitet.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://www.come-on.de/lennetal/plettenberg/plettenberg-dura-abbruch-abrissarbeiten-gewerbepark-oesterbach-93323281.html"
+                  >Süderländer Tageblatt: Abbruchfläche und separat noch bebauter Restbereich;
+                  Luftbild laut Bildunterschrift von Anfang September 2024 ↗</a
+                ><a
+                  href="https://www.wms.nrw.de/geobasis/wms_nw_dop?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;LAYERS=nw_dop_rgb&amp;STYLES=&amp;SRS=EPSG%3A4326&amp;BBOX=7.873%2C51.198%2C7.880%2C51.208&amp;WIDTH=1400&amp;HEIGHT=1800&amp;FORMAT=image%2Fjpeg"
+                  >Geobasis NRW: amtliches Orthofoto des Dura-Restbereichs; Bildflug 20.09.2025,
+                  Grundlage der ungefähren Position ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2024-03-11">11.03.2024</time> · Einstieg 0:25
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=AMsich7IGZY&amp;t=25s">FPV-Video ab 0:25 ↗</a
+              ><a href="../atlas/?spot=dura-plettenberg">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.205%2C7.8795"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Bestehender Punkt · Laufende Umnutzung</p>
+            <h3>Salzmann-Fabrik Kassel – historischer Hallenflug</h3>
+            <p class="place">Kassel-Bettenhausen · Hessen</p>
+            <p class="description">
+              Historischer Außen- und Innenflug durch Backsteinflügel, Säulenräume und
+              Wanddurchbrüche. Die Ortszuordnung ist benannt; das Stadtfoto registriert keinen exakt
+              identischen Innenraum. Das Material stammt aus einer Dreiergruppe.
+            </p>
+            <div class="evidence">
+              <p>
+                Cureus meldet am 24.04.2026 bereits laufende Sanierung im historischen Nordflügel.
+                Das Richtfest vom 23.09.2026 betrifft den separaten Seniorenresidenz-Neubau, keine
+                abgeschlossene Sanierung aller Fabrikräume. Aktuelle Flugbedingungen bleiben offen.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://cureus.de/unternehmen/presse/pressemitteilungen/industriedenkmal-salzmann-grundsteinlegung-fuer-neues-wohnquartier-kassel-bettenhausen"
+                  >Cureus: Grundsteinlegung vom 23.04.2026 und bereits laufende Sanierung im
+                  historischen Nordflügel; Bericht vom Folgetag ↗</a
+                ><a
+                  href="https://cureus.de/unternehmen/presse/pressemitteilungen/richtfest-fuer-die-seniorenresidenz-salzmann-areal-kassel-bettenhausen"
+                  >Cureus: Richtfest und fertiger Rohbau des separaten Seniorenresidenz-Neubaus;
+                  keine Fertigmeldung für die gesamte alte Fabrik ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2023-10-17">17.10.2023</time> · Einstieg 2:30
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=eyC_-5ItOsI&amp;t=150s"
+                >FPV-Video ab 2:30 ↗</a
+              ><a href="../atlas/?spot=salzmann-fabrik-kassel">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.3096%2C9.52395"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="weitere">
+        <div class="section-head">
+          <h2 id="weitere">Weitere sechs Tagesdossiers</h2>
+          <p>
+            Ergänzungen mit unterschiedlichen Gebäudetypen und Nutzungen: bestehende Punkte, neue
+            Teilstandorte und ein Dossier ohne belastbaren Kartenpunkt.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p class="eyebrow">Bestehender Punkt · Schwimmhalle</p>
+            <h3>Erlebnisbad Basso</h3>
+            <p class="place">Bad Schmiedeberg · Sachsen-Anhalt</p>
+            <p class="description">
+              Cinewhoop-Innenflug entlang Galerie, leeren Becken und markantem Dachtragwerk.
+              Individuelle Wandbilder und Hallenstruktur sind mit benannten Fotos abgeglichen.
+            </p>
+            <div class="evidence">
+              <p>
+                Geprüfte Fotos nennen März 2024 als Aufnahmezeit. Der Film erschien am 07.12.2024;
+                Uploads aus April 2026 haben keinen gesicherten Aufnahmetag. Der heutige
+                Hallenzustand ist offen.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://www.zeitbrueche.de/sportfrei.html"
+                  >ZeitBrüche / Ingolf Bergfeld: individuell passende Fotos von Becken, Galerie und
+                  Rutsche; Aufnahmeangabe März 2024, kein exakter Aufnahmetag bestätigt ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2024-12-07">07.12.2024</time> · Einstieg 0:04
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=2vZ0vbXoAb8&amp;t=4s">FPV-Video ab 0:04 ↗</a
+              ><a href="../atlas/?spot=erlebnisbad-basso">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.690949%2C12.721052"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Punkt · Betreute Industrieanlage</p>
+            <h3>Trainingsbergwerk Recklinghausen</h3>
+            <p class="place">Recklinghausen-Hochlarmark · Nordrhein-Westfalen</p>
+            <p class="description">
+              Dokumentierte FPV-Sequenz entlang der Schienen durch die ehemalige
+              RAG-Ausbildungsanlage in einer Halde. Ein betreutes Besucherbergwerk, keine verlassene
+              tiefe Grube; der Film enthält auch Rundgang und B-Roll.
+            </p>
+            <div class="evidence">
+              <p>
+                Die TU Dortmund berichtet am 03.07.2026 über ihre tatsächliche Führung am
+                23.06.2026. Der Film von 2022 entstand laut Pilot mit Unterstützung des Teams.
+                Beides bestätigt keine heutige allgemeine FPV-Freigabe.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://bs.etit.tu-dortmund.de/en/details/?cHash=b6d2c04181ea98639239b75e4bc5a312&amp;tx_news_pi1%5Baction%5D=detail&amp;tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Bnews%5D=65209"
+                  >TU Dortmund: Bericht vom 03.07.2026 über den tatsächlichen Besuch am 23.06.2026;
+                  keine Flugfreigabe ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2022-06-27">27.06.2022</time> · Einstieg 0:57
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=voPODWF-oB4&amp;t=57s">FPV-Video ab 0:57 ↗</a
+              ><a href="../atlas/?spot=trainingsbergwerk-recklinghausen">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=51.5620392%2C7.1820856"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Punkt · Kleines Bergbaurelikt</p>
+            <h3>Erichstollen Partenstein</h3>
+            <p class="place">Partenstein, Main-Spessart · Bayern</p>
+            <p class="description">
+              Kurzer Ein- und Ausflug am restaurierten Mundloch sowie Außenumlauf um den kleinen
+              Verladebunker am Kulturweg. Keine große Industriehalle und keine belegte tiefe
+              Grubenbefliegung.
+            </p>
+            <div class="evidence">
+              <p>
+                Benannte LFU-Fotos und Geotoppunkt stammen aus der Veröffentlichung mit Stand
+                Oktober 2013. Der Film erschien am 23.04.2023. Der undatiert geführte Kulturweg
+                bestätigt keinen aktuellen Gebäude- oder Freigabezustand.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://www.lfu.bayern.de/publikationen/get_pdf.htm?art_nr=93028&amp;pdf_nr=0"
+                  >Bayerisches Landesamt für Umwelt: Geotope in Unterfranken, Stand Oktober 2013,
+                  Seite 93; benannte Fotos und Geotoppunkt 677G003 ↗</a
+                ><a
+                  href="https://www.spessartprojekt.de/kulturwege/partenstein-schwerspat-und-eisenbahn/"
+                  >Archäologisches Spessart-Projekt: Kulturweg Partenstein mit Station Erichstollen;
+                  undatierte Ortsbeschreibung ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2023-04-23">23.04.2023</time> · Einstieg 0:14
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=o2EbpnxoLd8&amp;t=14s">FPV-Video ab 0:14 ↗</a
+              ><a href="../atlas/?spot=erichstollen-partenstein">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=50.047733%2C9.534317"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Punkt · Villa</p>
+            <h3>Schloss Eggersdorf – Villa in Malente</h3>
+            <p class="place">Bad Malente-Gremsmühlen · Schleswig-Holstein</p>
+            <p class="description">
+              Außenflug um die schlossartige Villa mit Zinnen, Turm und verwildertem Park. Die
+              Silhouette ist individuell abgeglichen; ein Innenflug ist nicht belegt.
+            </p>
+            <div class="evidence">
+              <p>
+                Der Bericht vom 13.04.2026 nennt ein weiterhin verfallenes Gebäude auf privatem,
+                eingezäuntem Gelände. Damals lagen laut Gemeinde keine konkreten Bauanträge vor. Der
+                Film erschien bereits 2020, sein Flugtag ist unbekannt.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://www.kreiszeitung.de/lokales/schleswig-holstein/lost-place-an-der-ostsee-schloss-wirft-fragen-auf-schloss-eggersdorf-94260302.html"
+                  >Kreiszeitung, 13.04.2026: Bewuchs entfernt, Gebäude weiter verfallen, privates
+                  eingezäuntes Areal; Gemeinde zu damaligen Planungsständen ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2020-11-10">10.11.2020</time> · Einstieg 6:20
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=zlnH9U_XUlk&amp;t=380s"
+                >FPV-Video ab 6:20 ↗</a
+              ><a href="../atlas/?spot=schloss-eggersdorf-malente">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=54.17676%2C10.572916"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Neuer Teilstandort · Bekannte Militärbasis</p>
+            <h3>Alt Daber – westlicher Hallenkomplex</h3>
+            <p class="place">Wittstock/Dosse, Alt Daber · Brandenburg</p>
+            <p class="description">
+              Durchflug durch niedrige Betonrahmen und ein gedecktes Seitenschiff. Der westliche
+              Komplex ist benannt; der genaue Hallenteil wurde keinem der hohen Stahlträger-Hangars
+              zugeordnet. Die alte Bogendeckung liegt rund 2,2 km östlich.
+            </p>
+            <div class="evidence">
+              <p>
+                Der Auktionskatalog für den 26.09.2025 beschreibt stark verfallene Gebäude und
+                Teilnutzung durch eine Rettungshundestaffel, keinen ausgeführten Verkauf. Der
+                19.08.2023 ist eine Aufnahmeangabe des Piloten; Veröffentlichung am 01.11.2023.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a href="https://www.wdga-ag.de/fileadmin/user_upload/api/kataloge/dga/D25-03.pdf"
+                  >Auktionskatalog für den 26.09.2025, Seite 64, Los 56: ehemaliger Militärstandort
+                  Flugplatzallee; Angebotsbeschreibung, kein Verkaufsnachweis ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2023-11-01">01.11.2023</time> · Einstieg 1:03
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=5ROnph3sWvs&amp;t=63s">FPV-Video ab 1:03 ↗</a
+              ><a href="../atlas/?spot=alt-daber-westlicher-hallenkomplex">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=53.19735%2C12.516054"
+                >Ort auf Google Maps ↗</a
+              >
+              · Ungefähre Orientierung
+            </p>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Ohne Kartenpunkt · Außenflug</p>
+            <h3>Flakturm Achmer · Turm 1</h3>
+            <p class="place">Achmer · Raum Osnabrück</p>
+            <p class="description">
+              Kurzer Flug um und über den erhaltenen Backsteinturm 1. Individuell mit benannten
+              Fotos abgeglichen, aber keine Gebäudedurchquerung. Der entfernte Nachbarturm 1A bleibt
+              getrennt.
+            </p>
+            <div class="evidence">
+              <p>
+                Der Film erschien am 21.05.2025, sein Flugtag ist unbekannt. Die Erhaltungsangabe
+                der Fotodokumentation ist undatiert. Ohne belastbare veröffentlichte Turmkoordinate
+                gibt es hier keinen Maps-Link oder Hauptkartenpin.
+              </p>
+              <div class="sources" aria-label="Zustands- und Ortsquellen">
+                <a
+                  href="https://www.luftschutzbunker-osnabrueck.de/bu_sites/mauerwerkflturmachmer1.html"
+                  >Luftschutzbunker Osnabrück: benannte Fotos des erhaltenen Mauerwerk-Flakturms 1
+                  bei Achmer; Aufnahmezeiten und Erhaltungsangabe undatiert, Nachbarturm 1A getrennt
+                  ↗</a
+                >
+              </div>
+            </div>
+            <p class="unknowns">
+              <strong>Offen:</strong> heutiger Einzelgebäudezustand sowie konkrete Betretungs- und
+              Flugfreigabe. Kartenpunkte dienen der Orientierung, nicht als bestätigter Eingang oder
+              Startplatz.
+            </p>
+            <p class="video-meta">
+              Video veröffentlicht <time datetime="2025-05-21">21.05.2025</time> · Einstieg 0:11
+            </p>
+            <div class="actions">
+              <a href="https://www.youtube.com/watch?v=DauV0h0AXR0&amp;t=11s">FPV-Video ab 0:11 ↗</a
+              ><a href="../atlas/?spot=flakturm-achmer-1">Dossier im Atlas →</a>
+            </div>
+            <p class="map-link">Noch kein belastbarer Kartenpunkt veröffentlicht.</p>
+          </article>
+        </div>
+      </section>
+      <p class="footnote">
+        Die Hauptkarte behält bei bestehenden Orten ihre bisherigen Positionen. Atlaspunkte können
+        abweichende, ausdrücklich ungefähre Orientierungspunkte sein. Belege zu einem Raum oder
+        Gebäudeteil bestätigen nicht den gesamten Komplex. Die unveränderte
+        <a href="../auswahl/">Morgenauswahl mit Schwerpunkt Aachen–Bonn</a> bleibt als eigener
+        datierter Stand erhalten.
+      </p>
+    </main>
+    <footer>
+      <div class="wrap footer-inner">
+        <p>
+          Recherchestand <time datetime="2026-10-03">03.10.2026</time> · deutschlandweite
+          Tagesauswahl
+        </p>
+        <p>
+          <a href="../atlas/">Alle Dossiers</a> ·
+          <a href="../netzwerk/">Belegte Pilotverbindungen</a> · <a href="../">Hauptkarte</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

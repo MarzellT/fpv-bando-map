@@ -142,4 +142,10 @@ Die bestehenden Profile von **QuaxFPV**, **JJK FPV**, **APHI FPV** und **MonkeyM
 
 Ein [Chemiefabrikfilm von Chill-o-Copter](https://www.youtube.com/watch?v=8F2q-nuQLZA) nennt ausdrücklich Norddeutschland und April 2025. Die geprüften Bilder zeigen Industrieflug, doch die genaue Anlage ist noch nicht zugeordnet. Der zusätzliche Vergleich mit vorhandenen benannten Rüdersdorf-Fotos liefert keinen eindeutigen Treffer und schließt andere Gebäudeteile des Areals nicht aus. Die Spur bleibt ohne erfundenen Kartenpunkt im Recherche-Register.
 
+## 03.10.2026 – Letzte Kanalzweige und Tagesauswahl
+
+Zorfts erstmals geprüftes Kanalinventar liefert zwei Industriehinweise. Die Beschreibung des [Hebewerk-Videos](https://www.youtube.com/watch?v=U9ad_KCPBDk) verlinkt einen Geocache in Sachsen-Anhalt, benennt aber die Anlage nicht unabhängig. Der [Braunkohlebagger-Film](https://www.youtube.com/watch?v=JIszxaZqICY) bleibt ohne genaue Ortszuordnung. Daraus wurden keine neuen Kartenpunkte oder Crewbeziehungen abgeleitet.
+
+Die [deutschlandweite Tagesauswahl](../tagesauswahl/) erklärt die stärksten neuen Orts- und Zustandsbelege. Das Netz steht bei 98 öffentlichen Profilen und 92 belegten Beziehungen; gegenüber dem Tagesbeginn sind das zwölf Profile und 15 Verbindungen mehr. Gemeinsame Sessions, gleicher Spot und reine Kanalverweise bleiben getrennt.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Hauptkarte](../)

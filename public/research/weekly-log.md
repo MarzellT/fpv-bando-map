@@ -129,4 +129,14 @@ Die weitere Prüfung der Salzmann-Kanalzweige sowie von Quax, JJK, APHI, Chris F
 
 Ein neuer Film nennt Norddeutschland im April 2025, zeigt aber bislang keine sicher zugeordnete Chemiefabrik. Weitere genaue Suchen zu Eschwege, Veritas Wittenberge, den Bielefelder Hartsteinwerken und dem Metallwerk Senne ergeben keinen konkreten Werksflug. Regionale Luftaufnahmen, Sportanlagen und bekannte Videos aus anderen Orten wurden nicht als Treffer gezählt.
 
+## Tagesrecherche 03.10.2026 – Deutschlandweite Auswahl
+
+Die [Tagesauswahl](../tagesauswahl/) bündelt die neuen Dossiers mit konkreten Videopassagen, normalen Google-Maps-Ortslinks, datierten Zustandsquellen und offenen Fragen. Die historische [Morgenauswahl](../auswahl/) bleibt unverändert. Die Veröffentlichung dieser Zusammenstellung erfolgt nach Wiederaufnahme am 04.10.2026; der Recherchestand bleibt der 03.10.2026.
+
+Gegenüber dem Tagesbeginn sind **16 Dossiers, 12 öffentliche Pilotprofile, 15 belegte Beziehungen und 22 Spotvideos** hinzugekommen. Die Hauptkarte hat **neun zusätzliche Positionen**. Dazu gehören der Leipziger Ringlokschuppen als konkrete Halle im bekannten Bahnensemble, das Bahnbetriebswerk Bitterfeld, Dünsen und Tessin mit teilweise betriebenen Militärflächen sowie betreute Anlagen, kleinere Relikte und ein Teilstandort. Sechs neue Dossiers vertiefen bereits vorhandene Kartenpunkte; Achmer bleibt ohne belastbare Koordinate. Der historische Dura-Restbereich ist mit einem Orthofoto von September 2025 verortet. Das ist keine Bestätigung aktueller Flugmöglichkeiten.
+
+Der veröffentlichte Gesamtstand umfasst **577 Kartenpositionen, 71 Dossiers, 98 Pilotprofile, 92 Beziehungen und 120 unterschiedliche Spotvideos**. Gebäudezustand, Ortszuordnung und Zugang sind getrennt bewertet. Alle 549 ursprünglichen Koordinaten bleiben erhalten.
+
+Offen bleiben unter anderem der verlinkte NZT-Industriefilm, die norddeutsche Chemiefabrik von Chill-o-Copter und Zorfts als unfertiges Hebewerk bezeichnete Anlage. Bei letzterer führt ein ausdrücklich verlinkter Geocache nach Sachsen-Anhalt; ein unabhängig benannter Gebäudenachweis fehlt noch. Der veröffentlichte Zugangspunkt aus der Cache-Geschichte wurde nicht als Anlagenkoordinate übernommen. APHIs „Little Prypjat“ und der genannte Mitflieger Willion bleiben ebenfalls unaufgelöst. Weitere genaue Suchen zu Schweina und den Feintuchwerken Koswig in Finsterwalde ergaben keinen zugeordneten FPV-Film.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
