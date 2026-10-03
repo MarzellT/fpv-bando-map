@@ -34,7 +34,7 @@ Vite builds all four entry pages. Relative asset and navigation paths support Gi
 
 ## Data and merge rules
 
-- [`src/data/bandos.json`](src/data/bandos.json): original map records, retained unchanged.
+- [`src/data/bandos.json`](src/data/bandos.json): the 549 original map records. Source-backed corrections to individual records are documented in [`public/research/weekly-log.md`](public/research/weekly-log.md); research additions are merged separately.
 - [`src/atlas/data.json`](src/atlas/data.json): shared structured Atlas dataset for dossiers, the pilot graph and map evidence. Add future sourced Atlas research here.
 - [`src/data/atlas-links.json`](src/data/atlas-links.json): reviewed site-identity matches to original record names. No proximity-based deduplication.
 - [`src/data/merged.ts`](src/data/merged.ts): combines these inputs at build time without maintaining a second copy of the research.

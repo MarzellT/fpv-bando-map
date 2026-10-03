@@ -67,4 +67,16 @@ Neu ist das [Trainingsbergwerk Recklinghausen](../atlas/?spot=trainingsbergwerk-
 
 Stand: **64 Atlas-Orte, 60 mit Koordinaten, 95 Kanäle, 88 Verbindungen und 112 verschiedene Spotvideos**. Die Hauptkarte enthält **573 Punkte**: 549 ursprüngliche Einträge, 36 geprüfte Überschneidungen und 24 zusätzliche Atlaspositionen.
 
+## 03.10.2026 – Weitere Kanalidentitäten und offener Förderanlagenflug
+
+Die bestehenden Profile von Jörg Schüller und Manfred Auch sind nun unter **@joergschueller_teamspieltrieb** und **@manfredauch2758** auffindbar. Ein weiterer geprüfter Film von ADRIANSFPV zeigt Außenflüge an einer Förderanlage. Das konkrete Bergwerk bleibt offen; ein unpassendes Vergleichsgerüst schließt andere Schächte derselben Anlage nicht aus. Es entsteht daraus kein zusätzlicher Kartenpunkt oder Netzwerkbeleg.
+
+## 03.10.2026 – Zwei bestehende Werkseinträge berichtigt
+
+**RENAK in Reichenbach:** Der vorhandene Punkt liegt bereits im Gebäude Dammsteinstraße 12. Der [amtliche Denkmaleintrag](https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09245732) und der [benannte Gebäudeumriss](https://www.openstreetmap.org/way/510563391) stimmen darin überein. Die frühere Zuordnung zu VCST und die behauptete Verschiebung um 500 Meter wurden entfernt. Das Gebäude ist amtlich auf die 1920er datiert. Ein Bericht von Februar 2025 ersetzt keine heutige Zustandsprüfung; Nutzung und Freigaben bleiben offen.
+
+**Neu Kaliß:** Die [historische Papierfabrik](https://metropolregion.hamburg.de/natur-und-kultur-erleben/industriekultur-am-wasser/fabriken/papierfabrik-neu-kaliss-10870) wurde 1995 stillgelegt. Das [Projekt Inselfabrik](https://www.inselfabrik.de/areal) beschreibt heute mehrere Teilareale mit verschiedenen Eigentümern und kulturelle Nachnutzung eines Teilbereichs. Die Zuordnung des bisherigen Punkts ist nicht präzise genug, um ihm eine Produktionsschließung von März 2026 zuzuschreiben. Der Eintrag zeigt diese Unsicherheit jetzt ausdrücklich.
+
+Beide Kartenpositionen bleiben erhalten. Das sind Quellenkorrekturen an bestehenden Einträgen, keine neuen FPV-Spots. Die anderen 547 Ausgangseinträge und alle Atlas-Verknüpfungen bleiben unverändert.
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
