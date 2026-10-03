@@ -3325,6 +3325,115 @@
           "date": "2026-03-15"
         }
       ]
+    },
+    {
+      "id": "knappschaftsheilstaette-suelzhayn",
+      "name": "Knappschaftsheilstätte Sülzhayn",
+      "city": "Sülzhayn / Ellrich",
+      "region": "Thüringen",
+      "type": "Ruine",
+      "lat": 51.619935,
+      "lon": 10.704464,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Verfallener Heilstättenkomplex im Südharz mit Innenhof, Gebäudebrücke, Giebelhäusern und Schornstein. Zwei im August 2026 veröffentlichte Filme zeigen denselben erhaltenen Hofbereich; Bildvergleich und Ortsbenennung stützen die Zuordnung.",
+      "features": [
+        "Überbaute Hofdurchfahrt",
+        "Giebelhäuser",
+        "Innenhof",
+        "Stark beschädigte Dächer"
+      ],
+      "status": {
+        "label": "FPV 2026 veröffentlicht · Stark verfallen",
+        "tone": "caution",
+        "lastEvidence": "2026-08-08",
+        "note": "Die geprüften Filme zeigen erhaltene Hofgebäude, große Dachschäden und einen Flug durch die Gebäudebrücke. Veröffentlichungen am 06. und 08.08.2026 sind keine bestätigten Flugtage. Communityfotos wurden am 30.08.2026 hochgeladen; ihre Aufnahmezeit ist unbekannt. Heutiger Gebäudezustand sowie Betretungs- und Flugfreigabe bleiben ungeklärt. Der Orientierungspunkt bezeichnet den Komplex, keinen Startplatz; benachbarte Heilstätten bleiben getrennt."
+      },
+      "videos": [
+        {
+          "id": "KXB43ivIlYA",
+          "title": "Lost Places erkunden . FPV fliegen",
+          "pilotId": "c-jay79",
+          "publishedAt": "2026-08-06",
+          "match": "named",
+          "timestampSeconds": 4,
+          "note": "Lesbare Einblendung nennt die ehemalige Knappschaftsheilstätte im Südharz. Geprüfte Bilder von 0–16 s zeigen denselben Hof, Giebelflügel und Schornstein wie die benannten Communityfotos. Flugtag unbekannt."
+        },
+        {
+          "id": "XVQLb8mAGtU",
+          "title": "FPV Powerloop ENDLICH geschafft . Bando 5 Copter von Axisflying 😁😁",
+          "pilotId": "c-jay79",
+          "publishedAt": "2026-08-08",
+          "match": "visual",
+          "timestampSeconds": 9,
+          "note": "Geprüfte Bilder von 9–17 s zeigen den tatsächlichen Flug unter der überbauten Hofdurchfahrt und über das beschädigte Dach. Durchfahrt, Giebel und Hof stimmen mit dem anderen Film und den Ortsfotos überein. Veröffentlichung ist kein bestätigter Flugtag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "FPV-Community: benannter Komplex, Orientierungspunkt, zwei verlinkte Filme und Vergleichsfotos; Fotoaufnahmezeit unbekannt",
+          "url": "https://www.fpv-spots-germany.de/spot_detail.php?id=109",
+          "type": "community"
+        },
+        {
+          "title": "NordhausenWiki: Knappschaftsheilstätte Sülzhayn, benannte historische Gesamtansicht von 1898; keine aktuelle Bestandsprüfung",
+          "url": "https://nordhausen-wiki.de/wiki/Knappschaftsheilst%C3%A4tte_S%C3%BClzhayn",
+          "type": "history"
+        }
+      ]
+    },
+    {
+      "id": "kraftwerk-vockerode",
+      "name": "Kraftwerk Vockerode",
+      "city": "Vockerode / Oranienbaum-Wörlitz",
+      "region": "Sachsen-Anhalt",
+      "type": "Kraftwerk",
+      "lat": 51.845482,
+      "lon": 12.358675,
+      "coordinatePrecision": "approximate",
+      "confidence": "confirmed",
+      "summary": "Lange Turbinenhalle mit gekacheltem Leitstand, markanten Fensterstützen und tiefen Turbinenfundamenten. Der Kraftwerksfilm von itsjanett ist anhand dieser Kombination mit der benannten Fotodokumentation aus Vockerode abgeglichen.",
+      "features": [
+        "Lange Turbinenhalle",
+        "Gekachelter Leitstand",
+        "Turbinenfundamente",
+        "Untere Geschosse"
+      ],
+      "status": {
+        "label": "Besucherzugang laut Tourismusquelle gesperrt",
+        "tone": "caution",
+        "lastEvidence": "2026-10-03",
+        "note": "Die regionale Tourismusorganisation führt das Kraftwerk als aus Sicherheitsgründen für den Besucherverkehr gesperrt; die Seite ist undatiert. Der am 03.10.2026 veröffentlichte FPV-Film belegt die gefilmte Halle bei unbekanntem Aufnahmedatum. LEAG vermarktet Flächen am Standort, ohne damit den heutigen Zustand der einzelnen Halle zu bestätigen. Keine Betretungs- oder FPV-Freigabe belegt. Der Atlaspunkt stammt aus der Fotogalerie und dient der Orientierung; die Hauptkarte behält ihren bisherigen Punkt."
+      },
+      "videos": [
+        {
+          "id": "xGcimQJncEM",
+          "title": "Dieser Lost Place ist einfach gigantisch! 😱 FPV im Kraftwerk",
+          "pilotId": "itsjanett-fpv",
+          "publishedAt": "2026-10-03",
+          "match": "visual",
+          "timestampSeconds": 360,
+          "note": "Geprüfte Bilder von 0–40 und 360–400 s stimmen in Leitstand, Fensterstützen, Dachtragwerk und Turbinenfundamenten mit Robert Conrads benannter Aufnahme vom 15.07.2001 überein. Die Beschreibung nennt Tilly, ScratchyFPV und R.S.FPV als Begleitung; die beiden letzten Kanalidentitäten sind ungeklärt. Veröffentlichung am 03.10.2026 um 14:00 Uhr Europe/Berlin, Flugtag unbekannt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VIMUDEAP / Robert Conrad: Turbinenhalle, aufgenommen am 15.07.2001; Galerie mit Orientierungspunkt",
+          "url": "https://vimudeap.info/de/atlas/kraftwerk-vockerode/images/#image-2166",
+          "type": "photo",
+          "date": "2001-07-15"
+        },
+        {
+          "title": "WelterbeRegion Anhalt-Dessau-Wittenberg: Kraftwerk und Besuchersperre, undatierte Angaben",
+          "url": "https://www.kohle-dampf-licht-seen.de/staedte-sehenswuerdigkeiten-landschaften/kraftwerk-vockerode",
+          "type": "official"
+        },
+        {
+          "title": "LEAG: Vermarktung von Flächen am Standort Vockerode, undatiert; keine Bestätigung einer Hallenflugfreigabe",
+          "url": "https://www.leag.de/de/immobilien/standort-vockerode/",
+          "type": "operator"
+        }
+      ]
     }
   ],
   "pilots": [
@@ -3408,7 +3517,7 @@
     {
       "id": "flinki",
       "name": "flinki_fpv",
-      "handle": "UCL8lkO2KmRXZQlT5i4tHARw",
+      "handle": "@flinki_fpv7264",
       "url": "https://www.youtube.com/channel/UCL8lkO2KmRXZQlT5i4tHARw",
       "description": "Von Quax als Begleiter der Charlottenhöhe-Session genannt."
     },
@@ -3733,7 +3842,7 @@
       "handle": "@itsjanett_fpv",
       "url": "https://www.youtube.com/channel/UC4HEvn0On_c7n5Y9KFwg3UQ",
       "region": "Sachsen-Anhalt / Sachsen",
-      "description": "Nennt Sachsen-Anhalt und Sachsen öffentlich als häufige Flugregionen. Dokumentiert gemeinsame Sessions mit Tilly; Chemiewerk- und Eisenwerk-Videos bleiben ortsoffen."
+      "description": "Der am 03.10.2026 veröffentlichte Kraftwerksflug ist visuell Vockerode zugeordnet. Tilly wird ausdrücklich als Begleitung genannt. Weitere Chemiewerk- und Eisenwerk-Videos bleiben ortsoffen; häufig genannte Flugregionen identifizieren keinen einzelnen Spot."
     },
     {
       "id": "tilly-fpv",
@@ -3972,6 +4081,13 @@
       "handle": "@pt0x",
       "url": "https://www.youtube.com/channel/UCsD1c4dfCt__W1Lexljb1wg",
       "description": "Öffentlicher FPV-Kanal. Ein am 05.03.2020 veröffentlichter Flug auf einer Geschäftsreise nach Leipzig zeigt den visuell zugeordneten Ringlokschuppen am ehemaligen Bayerischen Bahnhof. Keine gemeinsame Session oder Beziehung zu anderen Atlas-Kanälen belegt."
+    },
+    {
+      "id": "c-jay79",
+      "name": "xX_c-jay79_Xx",
+      "handle": "@xX_c-jay79_Xx",
+      "url": "https://www.youtube.com/channel/UCJB5SIY6aXqpCZx2fegeF3w",
+      "description": "Öffentlicher FPV-Kanal mit zwei im August 2026 veröffentlichten Flügen an der Knappschaftsheilstätte Sülzhayn. Der Film nennt die Heilstätte; Durchfahrt und Hof sind visuell mit Ortsfotos abgeglichen. Keine belegte Beziehung zu anderen Atlas-Piloten."
     }
   ],
   "edges": [

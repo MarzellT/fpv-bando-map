@@ -25,4 +25,10 @@ Ein neuer individuell zugeordneter Ort: [Ringlokschuppen Bayerischer Bahnhof, Le
 
 Stand dieser Charge: **57 Atlas-Orte, 54 mit Koordinaten, 92 Kanäle, 87 Verbindungen und 104 verschiedene Videos**. Die Hauptkarte enthält **570 Punkte** bei unverändert 549 ursprünglichen Einträgen und 33 geprüften Überschneidungen. Rendsburger Schlachthof und Oktogon werden mit ihren konkreten Beleggrenzen in den [Recherchenotizen](youtube-netz.md) dokumentiert. Zwei neu verknüpfte Filme zur Knappschaftsheilstätte Sülzhayn bleiben bis zum Gebäudevergleich offen.
 
+## 03.10.2026 – Vockerode und Sülzhayn mit Flugbelegen
+
+Zwei bereits vorhandene Kartenorte haben jetzt geprüfte Atlas-Dossiers: [Kraftwerk Vockerode](../atlas/?spot=kraftwerk-vockerode) und [Knappschaftsheilstätte Sülzhayn](../atlas/?spot=knappschaftsheilstaette-suelzhayn). Drei Videos sind individuell zugeordnet; in Vockerode bleibt die von der Tourismusquelle genannte Besuchersperre ausdrücklich sichtbar. Aufnahmezeit und aktuelle Freigaben werden nicht aus Veröffentlichungstagen abgeleitet.
+
+Stand: **59 Atlas-Orte, 56 mit Koordinaten, 93 Kanäle, 87 belegte Verbindungen und 107 verschiedene Videos**. Die Hauptkarte bleibt bei **570 Punkten**: 549 ursprüngliche Einträge, 35 geprüfte Überschneidungen und 21 zusätzliche Atlaspositionen. Ein neuer Kanal, Flinkis bestätigter Handle und zusätzliche Quellen für bestehende Beziehungen; keine neuen Kanten aus unklaren Namen. Details stehen in den [Recherchenotizen](youtube-netz.md).
+
 [Atlas öffnen](../atlas/) · [Pilotennetz](../netzwerk/) · [Auswahl vom 03.10.2026](../auswahl/) · [Hauptkarte](../)
